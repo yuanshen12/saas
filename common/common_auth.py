@@ -7,29 +7,6 @@ pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files/Tesseract-OCR/tesserac
 
 
 class Auth():
-    def __init__(self, driver):
-        self.driver = driver
-
-    def get_auth(self):
-        self.driver.save_screenshot('../img/img_01.png')
-        left_img = self.driver.find_element_by_class_name('el-input-group__append').location
-        left = left_img['x']
-        top = left_img['y']
-        image = self.driver.find_element_by_class_name('el-input-group__append')
-        width = image.size['width']
-        height = image.size['height']
-        right = left + width
-        down = top + height
-
-        openjietu = Image.open('../img/img_01.png')
-        img = openjietu.crop((left, top, right, down))
-        img.save('../img/img_02.png')
-
-        img = img.convert('RGBA')  # 转换模式：L | RGB
-        img = img.convert('L')  # 转换模式：L | RGB
-        img = ImageEnhance.Contrast(img)  # 增强对比度
-        img = img.enhance(2.0)  # 增加饱和度
-        img.save('../img/img_03.png')
 
     # 获取图片中像素点数量最多的像素
     def get_threshold(self, image):
@@ -145,10 +122,9 @@ class Auth():
         # print('Total count: %d, correct: %d.'%(total_count, correct_count))
 
         # 单张图片识别
-        self.get_auth()
         return self.OCR_lmj(image_path)
 
 
 if __name__ == '__main__':
-    auth = Auth().auth_all('../img_auth/img_03.png')
+    auth = Auth().auth_all('../img/img_03.png')
     print(auth)
