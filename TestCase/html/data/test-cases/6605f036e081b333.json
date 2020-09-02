@@ -1,0 +1,71 @@
+{
+  "uid" : "6605f036e081b333",
+  "name" : "test_ehlo",
+  "fullName" : "test_module#test_ehlo",
+  "historyId" : "21fc84eb8589dc9178cc5e13d3ac3bce",
+  "time" : {
+    "start" : 1599027479883,
+    "stop" : 1599027479883,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert <Response [200]> == 250",
+  "statusTrace" : "smtp_connection = <Response [200]>\n\n    def test_ehlo(smtp_connection):\n        response = smtp_connection\n>       assert response == 250\nE       assert <Response [200]> == 250\n\ntest_module.py:7: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "smtp_connection",
+    "time" : {
+      "start" : 1599027479865,
+      "stop" : 1599027479882,
+      "duration" : 17
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_module"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "6076-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_module"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6605f036e081b333.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,31 @@
+[ {
+  "uid" : "fe828237a1bd60bd",
+  "name" : "test_ehlo",
+  "time" : {
+    "start" : 1599027479687,
+    "stop" : 1599027479687,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4931d2dc31e470a7",
+  "name" : "test_noop",
+  "time" : {
+    "start" : 1599027479918,
+    "stop" : 1599027479918,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6605f036e081b333",
+  "name" : "test_ehlo",
+  "time" : {
+    "start" : 1599027479883,
+    "stop" : 1599027479883,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

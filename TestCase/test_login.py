@@ -1,13 +1,12 @@
+# ./test_smtpsimple.py
 import pytest
 
 
-def test_01():
-    name = 9
-    return name
+def test_ehlo(smtp_connection):
+    response = smtp_connection
+    assert response == 250
+    assert 0
 
-def test_02():
-    name = 4
-    assert name == test_01()
 
 if __name__ == '__main__':
-    pytest.main('')
+    pytest.main(['-s', 'test_login.py'])
