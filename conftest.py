@@ -3,7 +3,7 @@ from PIL import Image, ImageEnhance
 from selenium import webdriver
 
 
-@pytest.fixture
+@pytest.fixture(scope='session')
 def login():
     chromedriver = '../software/chromedriver.exe'
     driver = webdriver.Chrome(chromedriver)
@@ -12,7 +12,7 @@ def login():
     driver.implicitly_wait(20)
     driver.find_element_by_class_name("el-input__inner").click()
     driver.find_elements_by_class_name("el-select-dropdown__item")[0].click()
-    driver.find_elements_by_class_name("login-btn")[0].click()
+    driver.find_elements_by_class_name("test_login-btn")[0].click()
     driver.save_screenshot('../img/img_01.png')
     left_img = driver.find_element_by_class_name('el-input-group__append').location
     left = left_img['x']
@@ -30,4 +30,6 @@ def login():
     img = ImageEnhance.Contrast(img)
     img = img.enhance(2.0)
     img.save('../img/img_03.png')
-    return driver
+    yield driver
+
+    driver.quit()
