@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "system_test",
+    "children" : [ {
+      "name" : "test_01",
+      "uid" : "151f397bced220ba",
+      "parentUid" : "81d87d29183592dd0406bcb134ea9920",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599732993335,
+        "stop" : 1599732998152,
+        "duration" : 4817
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_02[data0]",
+      "uid" : "cdb42e651c31a326",
+      "parentUid" : "81d87d29183592dd0406bcb134ea9920",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599732998164,
+        "stop" : 1599733000777,
+        "duration" : 2613
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '正常用例', 'add_name': '自动化测试项目'}" ]
+    }, {
+      "name" : "test_03[data0]",
+      "uid" : "ee767182ddb4b704",
+      "parentUid" : "81d87d29183592dd0406bcb134ea9920",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599733000790,
+        "stop" : 1599733003511,
+        "duration" : 2721
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '正常用例', 'alter_name': '修改测试项目'}" ]
+    }, {
+      "name" : "test_04",
+      "uid" : "d085502ab10b5870",
+      "parentUid" : "81d87d29183592dd0406bcb134ea9920",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599733003522,
+        "stop" : 1599733003719,
+        "duration" : 197
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "81d87d29183592dd0406bcb134ea9920"
+  } ],
+  "name" : "packages"
+}

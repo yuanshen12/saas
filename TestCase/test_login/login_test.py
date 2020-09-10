@@ -26,7 +26,6 @@ class TestLogin():
         except:
             raise
 
-    @pytest.mark.smoke
     @pytest.mark.parametrize("data", LD.success_data)
     def test_03(self, start_module, data):
         self.driver = start_module
@@ -39,4 +38,4 @@ class TestLogin():
 
 
 if __name__ == '__main__':
-    pytest.main(['-s', 'login_test.py', '-m=smoke'])
+    pytest.main(['-s', 'login_test.py'])

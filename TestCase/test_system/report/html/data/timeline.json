@@ -1,0 +1,233 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "DESKTOP-BQG3M1K",
+    "children" : [ {
+      "name" : "21020-MainThread",
+      "children" : [ {
+        "name" : "test_01",
+        "uid" : "b28b864aa276888f",
+        "parentUid" : "5992ac38623349040c997206349db213",
+        "status" : "broken",
+        "time" : {
+          "start" : 1599732204434,
+          "stop" : 1599732204434,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_04",
+        "uid" : "7c682e7c1ba3ba7e",
+        "parentUid" : "5992ac38623349040c997206349db213",
+        "status" : "broken",
+        "time" : {
+          "start" : 1599732237262,
+          "stop" : 1599732237262,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_03[data0]",
+        "uid" : "406cf35ddef5eed",
+        "parentUid" : "5992ac38623349040c997206349db213",
+        "status" : "broken",
+        "time" : {
+          "start" : 1599732237199,
+          "stop" : 1599732237199,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '正常用例', 'alter_name': '修改测试项目'}" ]
+      }, {
+        "name" : "test_02[data0]",
+        "uid" : "5a0d1ebf5f7ca4f7",
+        "parentUid" : "5992ac38623349040c997206349db213",
+        "status" : "broken",
+        "time" : {
+          "start" : 1599732237137,
+          "stop" : 1599732237137,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '正常用例', 'add_name': '自动化测试项目'}" ]
+      } ],
+      "uid" : "5992ac38623349040c997206349db213"
+    }, {
+      "name" : "10344-MainThread",
+      "children" : [ {
+        "name" : "test_04",
+        "uid" : "d085502ab10b5870",
+        "parentUid" : "586f82e3c518cb04a68554984de144d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599733003522,
+          "stop" : 1599733003719,
+          "duration" : 197
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_03[data0]",
+        "uid" : "ee767182ddb4b704",
+        "parentUid" : "586f82e3c518cb04a68554984de144d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599733000790,
+          "stop" : 1599733003511,
+          "duration" : 2721
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '正常用例', 'alter_name': '修改测试项目'}" ]
+      }, {
+        "name" : "test_01",
+        "uid" : "151f397bced220ba",
+        "parentUid" : "586f82e3c518cb04a68554984de144d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599732993335,
+          "stop" : 1599732998152,
+          "duration" : 4817
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_02[data0]",
+        "uid" : "cdb42e651c31a326",
+        "parentUid" : "586f82e3c518cb04a68554984de144d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599732998164,
+          "stop" : 1599733000777,
+          "duration" : 2613
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '正常用例', 'add_name': '自动化测试项目'}" ]
+      } ],
+      "uid" : "586f82e3c518cb04a68554984de144d2"
+    }, {
+      "name" : "6288-MainThread",
+      "children" : [ {
+        "name" : "test_03[data0]",
+        "uid" : "a107a77384e86b4d",
+        "parentUid" : "f0ddb916185b8b4e962d454cf5bf1a41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599732474071,
+          "stop" : 1599732476728,
+          "duration" : 2657
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '正常用例', 'alter_name': '修改测试项目'}" ]
+      }, {
+        "name" : "test_04",
+        "uid" : "20411108adcde4c5",
+        "parentUid" : "f0ddb916185b8b4e962d454cf5bf1a41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599732476739,
+          "stop" : 1599732476955,
+          "duration" : 216
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_01",
+        "uid" : "4ff74c26495aba4",
+        "parentUid" : "f0ddb916185b8b4e962d454cf5bf1a41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599732466847,
+          "stop" : 1599732471563,
+          "duration" : 4716
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_02[data0]",
+        "uid" : "d470bb348829dacf",
+        "parentUid" : "f0ddb916185b8b4e962d454cf5bf1a41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599732471581,
+          "stop" : 1599732474059,
+          "duration" : 2478
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '正常用例', 'add_name': '自动化测试项目'}" ]
+      } ],
+      "uid" : "f0ddb916185b8b4e962d454cf5bf1a41"
+    }, {
+      "name" : "19212-MainThread",
+      "children" : [ {
+        "name" : "test_03[data0]",
+        "uid" : "aefc6e574fc7b761",
+        "parentUid" : "87a47cc48999b1bcc1df647757e1f186",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599732310671,
+          "stop" : 1599732313257,
+          "duration" : 2586
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '正常用例', 'alter_name': '修改测试项目'}" ]
+      }, {
+        "name" : "test_02[data0]",
+        "uid" : "4a0ec418908b72f4",
+        "parentUid" : "87a47cc48999b1bcc1df647757e1f186",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599732308145,
+          "stop" : 1599732310662,
+          "duration" : 2517
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '正常用例', 'add_name': '自动化测试项目'}" ]
+      }, {
+        "name" : "test_01",
+        "uid" : "a9686508653ed711",
+        "parentUid" : "87a47cc48999b1bcc1df647757e1f186",
+        "status" : "broken",
+        "time" : {
+          "start" : 1599732305692,
+          "stop" : 1599732307887,
+          "duration" : 2195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_04",
+        "uid" : "de88f94be3c8220f",
+        "parentUid" : "87a47cc48999b1bcc1df647757e1f186",
+        "status" : "passed",
+        "time" : {
+          "start" : 1599732313268,
+          "stop" : 1599732313435,
+          "duration" : 167
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "87a47cc48999b1bcc1df647757e1f186"
+    } ],
+    "uid" : "2030efe23983f1e0c62d11621b99372c"
+  } ],
+  "name" : "timeline"
+}

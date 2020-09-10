@@ -14,6 +14,7 @@ class LoginLocators():
     input_loc = (By.CLASS_NAME, "el-input__inner")
     login_loc = (By.CLASS_NAME, "login_btn")
     login_error = (By.CLASS_NAME, "el-form-item__error")
+    login_error_pd = (By.CLASS_NAME, "mermaidTooltip")
     login_success = (By.CLASS_NAME, "welcome_name")
 
     def get_login_click(self):
@@ -38,7 +39,7 @@ class LoginLocators():
         return error_text
 
     def get_error_password(self):
-        error_text = self.driver.find_elements(*self.login_error)[1].text
+        error_text = self.driver.find_element(*self.login_error_pd).text
         return error_text
 
     def get_error_auth(self):
