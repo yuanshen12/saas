@@ -4,7 +4,7 @@ import os
 from TestDatas.GobalDatas import gobal_datas as GD
 from Locators.LoginLocators.login_locators import LoginLocators as loc
 from TestDatas.LoginDatas.login_datas import success_login as LD
-from common.common_auth import Auth
+from Common.common_auth import Auth
 
 
 driver = None

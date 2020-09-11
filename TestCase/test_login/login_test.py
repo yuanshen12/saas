@@ -1,5 +1,5 @@
 import pytest
-from common.common_auth import Auth
+from Common.common_auth import Auth
 from TestDatas.LoginDatas import login_datas as LD
 from Locators.LoginLocators.login_locators import LoginLocators as loc
 

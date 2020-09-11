@@ -1,11 +1,8 @@
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
+from Common.plugs.basepage import BasePage
 
 
-class LoginLocators():
-
-    def __init__(self, driver):
-        self.driver = driver
+class LoginLocators(BasePage):
 
     choose_service = (By.CLASS_NAME, "el-input__inner")
     choose_156 = (By.CLASS_NAME, "el-select-dropdown__item")
@@ -17,35 +14,26 @@ class LoginLocators():
     login_error_pd = (By.CLASS_NAME, "mermaidTooltip")
     login_success = (By.CLASS_NAME, "welcome_name")
 
+    # 选择156测试环境
     def get_login_click(self):
-        self.driver.find_element(*self.choose_service).click()
-        self.driver.find_elements(*self.choose_156)[0].click()
-        self.driver.find_elements(*self.login_click)[0].click()
+        self.click_element(self.choose_service)
+        self.click_element(self.choose_156, num=0)
+        self.click_element(self.login_click, num=0)
 
     def get_login(self, username, password, auth):
-        element_username = self.driver.find_elements(*self.input_loc)[1]
-        element_password = self.driver.find_elements(*self.input_loc)[2]
-        element_auth = self.driver.find_elements(*self.input_loc)[3]
-        element_username.send_keys(Keys.CONTROL, "a")
-        element_username.send_keys(username)
-        element_password.send_keys(Keys.CONTROL, "a")
-        element_password.send_keys(password)
-        element_auth.send_keys(Keys.CONTROL, "a")
-        element_auth.send_keys(auth)
-        self.driver.find_element(*self.login_loc).click()
+        self.input_element(self.input_loc, username, keys_control=1, num=1)
+        self.input_element(self.input_loc, password, keys_control=1, num=2)
+        self.input_element(self.input_loc, auth, keys_control=1, num=3)
+        self.click_element(self.login_loc)
 
     def get_error_username(self):
-        error_text = self.driver.find_element(*self.login_error).text
-        return error_text
+        return self.get_element_text(self.login_error)
 
     def get_error_password(self):
-        error_text = self.driver.find_element(*self.login_error_pd).text
-        return error_text
+        return self.get_element_text(self.login_error_pd)
 
     def get_error_auth(self):
-        error_text = self.driver.find_elements(*self.login_error)[2].text
-        return error_text
+        return self.get_element_text(self.login_error, num=2)
 
     def get_login_success(self):
-        login_text = self.driver.find_element(*self.login_success).text
-        return login_text
+        return self.get_element_text(self.login_success)

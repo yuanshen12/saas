@@ -1,0 +1,79 @@
+{
+  "806f752d6ba3fcd72f43d64941273457" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "61aaa00a612f1645",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599810102098,
+        "stop" : 1599810102308,
+        "duration" : 210
+      }
+    } ]
+  },
+  "cdd7a2b50dca990b0b92d78a2cd97dbc" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8cda2bff7b6ad804",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '修改测试项目' == '自动化测试项目'\n  - 自动化测试项目\n  + 修改测试项目",
+      "time" : {
+        "start" : 1599810096666,
+        "stop" : 1599810099240,
+        "duration" : 2574
+      }
+    } ]
+  },
+  "72a506475a7625e550b1462382dc07c5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d7c8d7673c24898b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599810099404,
+        "stop" : 1599810102085,
+        "duration" : 2681
+      }
+    } ]
+  },
+  "e36a22c3a4a49936a7457ae79862fa39" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab4ef1fd6eb62798",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599810091662,
+        "stop" : 1599810096637,
+        "duration" : 4975
+      }
+    } ]
+  }
+}

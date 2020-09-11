@@ -1,9 +1,9 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-import time
+from Common.plugs.basepage import BasePage
 
 
-class SubscribeLocators():
+class SubscribeLocators(BasePage):
     click_subscribe = (By.CLASS_NAME, "el-menu-item")
     click_message = (By.CLASS_NAME, "el-button--text")
     click_choose = (By.CLASS_NAME, "el-radio__inner")
@@ -15,39 +15,40 @@ class SubscribeLocators():
 
     click_ensure = (By.CLASS_NAME, "el-button--small")
 
-    def __init__(self, driver):
-        self.driver = driver
-
     # 开启资金账户
     def get_subscribe(self, choose):
         '''
         :param choose: fend_start开启资金，fend_stop关闭资金
         :return:
         '''
-        time.sleep(2)
-        self.driver.find_elements(*self.click_subscribe)[7].click()
-        self.driver.find_elements(*self.click_message)[0].click()
+        self.click_element(self.click_subscribe, num=7)
+        self.click_element(self.click_message, num=0)
         try:
             if choose == "fend_start":
-                self.driver.find_elements(*self.click_choose)[0].click()
-                self.driver.find_elements(*self.click_save)[1].click()
+                self.click_element(self.click_choose, num=0)
+                self.click_element(self.click_save, num=1)
             elif choose == "fend_stop":
-                self.driver.find_elements(*self.click_choose)[1].click()
-                self.driver.find_elements(*self.click_save)[1].click()
+                self.click_element(self.click_choose, num=1)
+                self.click_element(self.click_save, num=1)
         except:
             return False
         else:
-            time.sleep(1)
             return True
 
     # 增加项目组
     def get_add_sub(self, add_name):
-        self.driver.find_elements(*self.click_add)[0].click()
-        self.driver.find_elements(*self.input_name)[2].send_keys(add_name)
-        self.driver.find_element(*self.click_save).click()
-        time.sleep(2)
-        success_text = self.driver.find_elements(*self.success_name)[4].text
-        return success_text
+        self.click_element(self.click_add, num=0)
+        print(*self.input_name, add_name)
+        # self.driver.find_elements(*self.input_name)[2].send_keys(add_name)
+
+        self.input_element(self.input_name, add_name, keys_control=0, num=2)
+        self.click_element(self.click_save)
+        add_text = self.get_element_text(self.success_name, num=4)
+        # self.driver.find_elements(*self.click_add)[0].click()
+        # self.driver.find_elements(*self.input_name)[2].send_keys(add_name)
+        # self.driver.find_element(*self.click_save).click()
+        # success_text = self.driver.find_elements(*self.success_name)[4].text
+        return add_text
 
     # 项目组详情
     def get_details(self, add_name):
@@ -56,7 +57,6 @@ class SubscribeLocators():
         element_cope.send_keys(Keys.CONTROL, 'a')
         element_cope.send_keys(add_name)
         self.driver.find_element(*self.click_save).click()
-        time.sleep(2)
         success_text = self.driver.find_elements(*self.success_name)[4].text
         return success_text
 

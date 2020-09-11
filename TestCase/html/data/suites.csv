@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Wed Sep 02 14:17:59 CST 2020","Wed Sep 02 14:17:59 CST 2020","0","","test_login","","","","test_ehlo",""
-"failed","Wed Sep 02 14:17:59 CST 2020","Wed Sep 02 14:17:59 CST 2020","0","","test_module","","","","test_ehlo",""
-"passed","Wed Sep 02 14:17:59 CST 2020","Wed Sep 02 14:17:59 CST 2020","0","","test_module","","","","test_noop",""
