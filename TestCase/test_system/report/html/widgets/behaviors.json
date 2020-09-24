@@ -1,4 +1,81 @@
 {
-  "total" : 4,
-  "items" : [ ]
+  "total" : 10,
+  "items" : [ {
+    "uid" : "31d066285dc594a9396c63c753f9ac00",
+    "name" : "实验室管理开启账户资金",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "0869641ac1b1da992a8af7a18ba2eccc",
+    "name" : "实验室管理新增项目组",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "518afe2031992e42d7906299a89649b3",
+    "name" : "实验室管理修改项目组",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "68f308f05cd2c4635a97217d72b762fe",
+    "name" : "实验室管理删除项目组",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "3a0097d189bd05dcace6ee72a79dc7b1",
+    "name" : "角色管理新增角色",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "1bf62ddabcda7ebdefbd2cad30414d24",
+    "name" : "角色管理修改角色权限",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "1461b0169503b375f280f5f2a70676f9",
+    "name" : "角色管理删除角色",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
 }

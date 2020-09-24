@@ -34,6 +34,7 @@ def project_session_login():
     driver = webdriver.Chrome(chromedriver)
     driver.get(GD.saas_lab_url)
     driver.maximize_window()
+    driver.implicitly_wait(20)
     loc(driver).get_login_click()
     auth = Auth(driver).auth_all('../img/img_03.png')
     loc(driver).get_login(LD["username"], LD["password"], auth)

@@ -1,0 +1,122 @@
+{
+  "uid" : "3f777e0210c10944",
+  "name" : "test_05[data0]",
+  "fullName" : "system_test.TestSystem#test_05",
+  "historyId" : "d4669ee0a695646fd3b3990fc111890b",
+  "time" : {
+    "start" : 1600830380518,
+    "stop" : 1600830383280,
+    "duration" : 2762
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '学生' == '测试角色'\n  - 测试角色\n  + 学生",
+  "statusTrace" : "self = <TestCase.test_system.system_test.TestSystem object at 0x09B75E38>, start_module = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"a98e93ec4ccaafd933aa3d4d49fb2f0e\")>, data = {'add_name': '测试角色', 'name': '正常用例'}\n\n    @allure.story(\"角色管理新增角色\")\n    @pytest.mark.smoke\n    @pytest.mark.parametrize(\"data\", LD.add_role_name)\n    def test_05(self, start_module, data):\n        self.driver = start_module\n        loc_add = loc_role(self.driver).add_role(data[\"add_name\"])\n>       assert loc_add == data[\"add_name\"]\nE       AssertionError: assert '学生' == '测试角色'\nE         - 测试角色\nE         + 学生\n\nsystem_test.py:45: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start_module",
+    "time" : {
+      "start" : 1600830373012,
+      "stop" : 1600830374329,
+      "duration" : 1317
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "project_session_login",
+    "time" : {
+      "start" : 1600830360694,
+      "stop" : 1600830373012,
+      "duration" : 12318
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_module::0",
+    "time" : {
+      "start" : 1600830386284,
+      "stop" : 1600830389614,
+      "duration" : 3330
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "project_session_login::0",
+    "time" : {
+      "start" : 1600830389616,
+      "stop" : 1600830397629,
+      "duration" : 8013
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "角色管理新增角色"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "system_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "20300-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "system_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'name': '正常用例', 'add_name': '测试角色'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "3f777e0210c10944.json",
+  "parameterValues" : [ "{'name': '正常用例', 'add_name': '测试角色'}" ]
+}

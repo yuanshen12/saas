@@ -7,7 +7,6 @@ driver = None
 def start_module(project_session_login):
     global driver
     driver = project_session_login
-    driver.implicitly_wait(20)
     loc(driver).get_system()
 
     yield driver

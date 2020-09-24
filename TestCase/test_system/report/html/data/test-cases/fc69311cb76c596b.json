@@ -1,0 +1,120 @@
+{
+  "uid" : "fc69311cb76c596b",
+  "name" : "test_02[data0]",
+  "fullName" : "system_test.TestSystem#test_02",
+  "historyId" : "113d876f58bcc326ec0b3187d110f26a",
+  "time" : {
+    "start" : 1600828519766,
+    "stop" : 1600828520628,
+    "duration" : 862
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "project_session_login",
+    "time" : {
+      "start" : 1600828503029,
+      "stop" : 1600828515758,
+      "duration" : 12729
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_module",
+    "time" : {
+      "start" : 1600828515758,
+      "stop" : 1600828517466,
+      "duration" : 1708
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "project_session_login::0",
+    "time" : {
+      "start" : 1600828531917,
+      "stop" : 1600828539926,
+      "duration" : 8009
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_module::0",
+    "time" : {
+      "start" : 1600828529638,
+      "stop" : 1600828531915,
+      "duration" : 2277
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "实验室管理新增项目组"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "system_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "23636-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "system_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'name': '正常用例', 'add_name': '自动化测试项目'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "fc69311cb76c596b.json",
+  "parameterValues" : [ "{'name': '正常用例', 'add_name': '自动化测试项目'}" ]
+}

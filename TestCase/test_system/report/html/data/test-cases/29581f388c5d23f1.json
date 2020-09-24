@@ -1,0 +1,119 @@
+{
+  "uid" : "29581f388c5d23f1",
+  "name" : "test_06",
+  "fullName" : "system_test.TestSystem#test_06",
+  "historyId" : "233e140291f9d9100eebb9f09140f3e6",
+  "time" : {
+    "start" : 1600828527118,
+    "stop" : 1600828528806,
+    "duration" : 1688
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0 > 10\n +  where 0 = len('')",
+  "statusTrace" : "self = <TestCase.test_system.system_test.TestSystem object at 0x096C59D0>, start_module = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"31853c3639143ce88d0bb6fe16755a99\")>\n\n    @allure.story(\"角色管理修改角色权限\")\n    @pytest.mark.smoke\n    def test_06(self, start_module):\n        self.driver = start_module\n        loc_alter = loc_role(self.driver).alter_role()\n>       assert len(loc_alter) > 10\nE       AssertionError: assert 0 > 10\nE        +  where 0 = len('')\n\nsystem_test.py:52: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "project_session_login",
+    "time" : {
+      "start" : 1600828503029,
+      "stop" : 1600828515758,
+      "duration" : 12729
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_module",
+    "time" : {
+      "start" : 1600828515758,
+      "stop" : 1600828517466,
+      "duration" : 1708
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "project_session_login::0",
+    "time" : {
+      "start" : 1600828531917,
+      "stop" : 1600828539926,
+      "duration" : 8009
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_module::0",
+    "time" : {
+      "start" : 1600828529638,
+      "stop" : 1600828531915,
+      "duration" : 2277
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "角色管理修改角色权限"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "system_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "23636-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "system_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "29581f388c5d23f1.json",
+  "parameterValues" : [ ]
+}

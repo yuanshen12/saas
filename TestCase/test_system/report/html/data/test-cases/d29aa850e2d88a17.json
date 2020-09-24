@@ -1,0 +1,122 @@
+{
+  "uid" : "d29aa850e2d88a17",
+  "name" : "test_02[data0]",
+  "fullName" : "system_test.TestSystem#test_02",
+  "historyId" : "113d876f58bcc326ec0b3187d110f26a",
+  "time" : {
+    "start" : 1600831236319,
+    "stop" : 1600831237124,
+    "duration" : 805
+  },
+  "status" : "broken",
+  "statusMessage" : "IndexError: list index out of range",
+  "statusTrace" : "self = <TestCase.test_system.system_test.TestSystem object at 0x0A538088>, start_module = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"50264f6c694da1aa470f03883b02cf09\")>, data = {'add_name': '自动化测试项目', 'name': '正常用例'}\n\n    @allure.story(\"实验室管理新增项目组\")\n    @pytest.mark.smoke\n    @pytest.mark.parametrize(\"data\", LD.add_name)\n    def test_02(self, start_module, data):\n        self.driver = start_module\n>       loc_add = loc(self.driver).get_add_sub(data[\"add_name\"])\n\nsystem_test.py:21: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\..\\Locators\\SystemLocators\\subscribe_locators.py:43: in get_add_sub\n    add_text = self.get_element_text(self.success_name, num=4)\n..\\..\\Common\\plugs\\basepage.py:62: in get_element_text\n    return self.get_element(EC.element_to_be_clickable, locator, num).text\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Locators.SystemLocators.subscribe_locators.SubscribeLocators object at 0x0A538670>, ec = <class 'selenium.webdriver.support.expected_conditions.element_to_be_clickable'>, locator = ('class name', 'line-height'), num = 4\n\n    def get_element(self, ec, locator, num=None):\n        try:\n            if num is None:\n                self.wait_vs(ec, locator)\n                return self.driver.find_element(*locator)\n            else:\n                self.wait_vs(ec, locator)\n>               return self.driver.find_elements(*locator)[num]\nE               IndexError: list index out of range\n\n..\\..\\Common\\plugs\\basepage.py:24: IndexError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start_module",
+    "time" : {
+      "start" : 1600831232388,
+      "stop" : 1600831233934,
+      "duration" : 1546
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "project_session_login",
+    "time" : {
+      "start" : 1600831219393,
+      "stop" : 1600831232388,
+      "duration" : 12995
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_module::0",
+    "time" : {
+      "start" : 1600831246072,
+      "stop" : 1600831248310,
+      "duration" : 2238
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "project_session_login::0",
+    "time" : {
+      "start" : 1600831248312,
+      "stop" : 1600831256325,
+      "duration" : 8013
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "实验室管理新增项目组"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "system_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "20848-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "system_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'name': '正常用例', 'add_name': '自动化测试项目'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "d29aa850e2d88a17.json",
+  "parameterValues" : [ "{'name': '正常用例', 'add_name': '自动化测试项目'}" ]
+}

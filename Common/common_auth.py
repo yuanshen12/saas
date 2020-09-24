@@ -1,3 +1,7 @@
+import os
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 import pytesseract
 from PIL import Image, ImageEnhance
 from collections import defaultdict
@@ -54,8 +58,8 @@ class Auth():
         # 获取灰度转二值的映射table
         table = []
         for i in range(256):
-            rate = 0.85 # 在threshold的适当范围内进行处理
-            if threshold*(1-rate)<= i <= threshold*(1+rate):
+            rate = 0.85  # 在threshold的适当范围内进行处理
+            if threshold*(1-rate) <= i <= threshold*(1+rate):
                 table.append(1)
             else:
                 table.append(0)
@@ -75,7 +79,7 @@ class Auth():
                 # 取该点的邻域为以该点为中心的九宫格
                 for m in range(i-1, i+2):
                     for n in range(j-1, j+2):
-                        if image.getpixel((m, n)) != 1: # 1为白色,0位黑色
+                        if image.getpixel((m, n)) != 1:  # 1为白色,0位黑色
                             pixel_set.append(image.getpixel((m, n)))
 
                 # 如果该位置的九宫内的黑色数量小于等于4，则判断为噪声
@@ -86,7 +90,7 @@ class Auth():
         for pos in change_pos:
             image.putpixel(pos, 1)
 
-        return image # 返回修改后的图片
+        return image  # 返回修改后的图片
 
     # 识别图片中的数字加字母
     # 传入参数为图片路径，返回结果为：识别结果
@@ -105,7 +109,7 @@ class Auth():
         # 去掉图片中的噪声（孤立点）
         # out = cut_noise(out)
 
-        #保存图片
+        # 保存图片
         out.save('../img/img_gray.jpg')
 
         # 仅识别图片中的数字
@@ -122,10 +126,11 @@ class Auth():
 
         # 识别指定文件目录下的图片
         # 图片存放目录figures
-        # dir = '../img_auth/'
+        # dir = '../img/auth_img/'
         #
         # correct_count = 0  # 图片总数
         # total_count = 0    # 识别正确的图片数量
+        # self.auth_img()
         #
         # # 遍历figures下的png,jpg文件
         # for file in os.listdir(dir):
@@ -134,14 +139,14 @@ class Auth():
         #         image_path = '%s/%s'%(dir, file)  # 图片路径
         #
         #         answer = file.split('.')[0]  # 图片名称，即图片中的正确文字
-        #         recognizition = OCR_lmj(image_path)  # 图片识别的文字结果
+        #         recognizition = self.OCR_lmj(image_path)  # 图片识别的文字结果
         #
-        #         # print((answer, recognizition))
+        #         print((answer, recognizition))
         #         if recognizition == answer: # 如果识别结果正确，则total_count加1
         #             correct_count += 1
         #
         #         total_count += 1
-
+        #
         # print('Total count: %d, correct: %d.'%(total_count, correct_count))
 
         # 单张图片识别

@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 from Common.plugs.basepage import BasePage
+import time
 
 
 class SubscribeLocators(BasePage):
@@ -38,35 +38,28 @@ class SubscribeLocators(BasePage):
     # 增加项目组
     def get_add_sub(self, add_name):
         self.click_element(self.click_add, num=0)
-        print(*self.input_name, add_name)
-        # self.driver.find_elements(*self.input_name)[2].send_keys(add_name)
-
         self.input_element(self.input_name, add_name, keys_control=0, num=2)
         self.click_element(self.click_save)
         add_text = self.get_element_text(self.success_name, num=4)
-        # self.driver.find_elements(*self.click_add)[0].click()
-        # self.driver.find_elements(*self.input_name)[2].send_keys(add_name)
-        # self.driver.find_element(*self.click_save).click()
-        # success_text = self.driver.find_elements(*self.success_name)[4].text
         return add_text
 
     # 项目组详情
     def get_details(self, add_name):
-        self.driver.find_elements(*self.click_add)[4].click()
-        element_cope = self.driver.find_elements(*self.input_name)[2]
-        element_cope.send_keys(Keys.CONTROL, 'a')
-        element_cope.send_keys(add_name)
-        self.driver.find_element(*self.click_save).click()
-        success_text = self.driver.find_elements(*self.success_name)[4].text
+        self.click_element(self.click_add, num=4)
+        self.input_element(self.input_name, add_name, keys_control=1, num=2)
+        self.click_element(self.click_save)
+        time.sleep(1)
+        success_text = self.get_element_text(self.success_name, num=4)
         return success_text
 
     def get_del(self):
         try:
-            self.driver.find_elements(*self.click_add)[5].click()
-            self.driver.find_elements(*self.click_ensure)[1].click()
+            self.click_element(self.click_add, num=5)
+            self.click_element(self.click_ensure, num=1)
         except:
             return False
         else:
+            time.sleep(2)
             return True
 
 

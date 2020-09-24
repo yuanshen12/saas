@@ -1,0 +1,137 @@
+{
+  "uid" : "da276246b1dd48db",
+  "name" : "test_07",
+  "fullName" : "system_test.TestSystem#test_07",
+  "historyId" : "4f6efbd0600847942fc1aae7483bc398",
+  "time" : {
+    "start" : 1600830601994,
+    "stop" : 1600830603196,
+    "duration" : 1202
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False is True",
+  "statusTrace" : "self = <TestCase.test_system.system_test.TestSystem object at 0x0A278F10>, start_module = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"be08c2bbbd748709bc90406d0fc5fe98\")>\n\n    @allure.story(\"角色管理删除角色\")\n    @pytest.mark.smoke\n    def test_07(self, start_module):\n        self.driver = start_module\n        loc_del = loc_role(self.driver).del_role()\n>       assert loc_del is True\nE       assert False is True\n\nsystem_test.py:59: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "project_session_login",
+    "time" : {
+      "start" : 1600830578510,
+      "stop" : 1600830589990,
+      "duration" : 11480
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_module",
+    "time" : {
+      "start" : 1600830589990,
+      "stop" : 1600830591425,
+      "duration" : 1435
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False is True",
+    "statusTrace" : "self = <TestCase.test_system.system_test.TestSystem object at 0x0A278F10>, start_module = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"be08c2bbbd748709bc90406d0fc5fe98\")>\n\n    @allure.story(\"角色管理删除角色\")\n    @pytest.mark.smoke\n    def test_07(self, start_module):\n        self.driver = start_module\n        loc_del = loc_role(self.driver).del_role()\n>       assert loc_del is True\nE       assert False is True\n\nsystem_test.py:59: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9acd66408c5c23e2",
+      "name" : "log",
+      "source" : "9acd66408c5c23e2.txt",
+      "type" : "text/plain",
+      "size" : 1202
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "project_session_login::0",
+    "time" : {
+      "start" : 1600830605455,
+      "stop" : 1600830613472,
+      "duration" : 8017
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_module::0",
+    "time" : {
+      "start" : 1600830603202,
+      "stop" : 1600830605453,
+      "duration" : 2251
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "角色管理删除角色"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "system_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "21304-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "system_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "da276246b1dd48db.json",
+  "parameterValues" : [ ]
+}
