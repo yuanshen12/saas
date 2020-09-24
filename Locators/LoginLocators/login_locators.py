@@ -10,7 +10,6 @@ class LoginLocators(BasePage):
 
     input_loc = (By.CLASS_NAME, "el-input__inner")
     login_loc = (By.CLASS_NAME, "login_btn")
-    click_subscribe = (By.CLASS_NAME, "card_wrap_icon")
 
     login_error = (By.CLASS_NAME, "el-form-item__error")
     login_error_pd = (By.CLASS_NAME, "mermaidTooltip")
@@ -33,7 +32,6 @@ class LoginLocators(BasePage):
         self.input_element(self.input_loc, password, keys_control=1, num=2)
         self.input_element(self.input_loc, auth, keys_control=1, num=3)
         self.click_element(self.login_loc)
-        self.click_element(self.click_subscribe)
 
     def get_error_username(self):
         return self.get_element_text(self.login_error)

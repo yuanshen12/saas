@@ -1,8 +1,9 @@
 from selenium.webdriver.common.by import By
 from Common.plugs.basepage import BasePage
+from time import sleep
 
 
-class LoginLocators(BasePage):
+class CommonLocators(BasePage):
 
     choose_service = (By.CLASS_NAME, "el-input__inner")
     choose_test = (By.CLASS_NAME, "el-select-dropdown__item")
@@ -35,9 +36,8 @@ class LoginLocators(BasePage):
         self.click_element(self.login_loc)
         self.click_element(self.click_subscribe)
 
-    def get_system(self): 
+    def get_system(self):
         """
         :return: 进入系统设置
         """
-        self.click_element(self.click_subscribe)
         self.click_element(self.click_system, num=12)

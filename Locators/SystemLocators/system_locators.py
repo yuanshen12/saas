@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 from Common.plugs.basepage import BasePage
+from time import sleep
 
 
 class SystemLocators(BasePage):

@@ -60,5 +60,5 @@ class TestSystem():
 
 
 if __name__ == '__main__':
-    pytest.main(["-s", "test_system.py"])
+    pytest.main(["-s", "system_test.py"])
 
