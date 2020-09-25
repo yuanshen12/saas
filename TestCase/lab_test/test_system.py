@@ -1,6 +1,8 @@
 import pytest, allure
 from Locators.LabLocators.subscribe import Subscribe as loc
 from Locators.LabLocators.role import Role as loc_role
+from Locators.LabLocators.reagent import Reagent as loc_reagent
+from Locators.LabLocators.supplier import Supplier as loc_supplier
 from TestCase.lab_test import lab_datas as LD
 
 
@@ -57,6 +59,69 @@ class TestSystem():
         self.driver = session_login
         loc_del = loc_role(self.driver).del_role()
         assert loc_del is True
+
+    @allure.story("新增耗材")
+    @pytest.mark.smoke
+    @pytest.mark.parametrize("data", LD.add_reagent_name)
+    def test_08(self, session_login, data):
+        self.driver = session_login
+        reagent = loc_reagent(self.driver).add_reagent(data["add_name"])
+        assert reagent is True
+
+    @allure.story("搜索耗材")
+    @pytest.mark.smoke
+    @pytest.mark.parametrize("data", LD.add_reagent_name)
+    def test_09(self, session_login, data):
+        self.driver = session_login
+        search = loc_reagent(self.driver).search_name(data["add_name"])
+        assert search == data["add_name"]
+
+    @allure.story("修改耗材")
+    @pytest.mark.smoke
+    @pytest.mark.parametrize("data", LD.add_reagent_cas)
+    def test_10(self, session_login, data):
+        self.driver = session_login
+        add_go = loc_reagent(self.driver).alter_reagent(data["add_cas"])
+        assert add_go is True
+
+    @allure.story("删除耗材")
+    @pytest.mark.smoke
+    @pytest.mark.skip(reason="这是一个BUG！！")
+    def test_11(self, session_login):
+        self.driver = session_login
+        del_ensure = loc_reagent(self.driver).del_reagent()
+        assert del_ensure is True
+
+    @allure.story("新增供应商")
+    @pytest.mark.smoke
+    @pytest.mark.parametrize("data", LD.add_supplier_name)
+    def test_12(self, session_login, data):
+        self.driver = session_login
+        supplier_text = loc_supplier(self.driver).add_supplier(data["add_name"])
+        assert supplier_text == data["add_name"]
+
+    @allure.story("搜索供应商")
+    @pytest.mark.smoke
+    @pytest.mark.parametrize("data", LD.add_supplier_name)
+    def test_13(self, session_login, data):
+        self.driver = session_login
+        search = loc_supplier(self.driver).search_supplier(data["add_name"])
+        assert search == data["add_name"]
+
+    @allure.story("修改供应商")
+    @pytest.mark.smoke
+    @pytest.mark.parametrize("data", LD.alter_name)
+    def test_14(self, session_login, data):
+        self.driver = session_login
+        search = loc_supplier(self.driver).alter_supplier(data["alter_name"])
+        assert search == data["alter_name"]
+
+    @allure.story("删除供应商")
+    @pytest.mark.smoke
+    def test_15(self, session_login):
+        self.driver = session_login
+        del_su = loc_supplier(self.driver).del_supplier()
+        assert del_su is True
 
 
 if __name__ == '__main__':
