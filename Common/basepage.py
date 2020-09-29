@@ -36,6 +36,7 @@ class BasePage:
 
     def click_element(self, locator, num=None):
         """
+        :param locate: 定位方式
         :param locator: 定位信息
         :param num: 定位元素的复数
         :return:

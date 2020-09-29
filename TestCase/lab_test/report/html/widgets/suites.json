@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "8fd5f4009669e34e5b6e3072130dcc52",
+    "name" : "test_01",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 22,
+      "unknown" : 0,
+      "total" : 24
+    }
+  }, {
+    "uid" : "006eeac163d435f640dbc5ec2ecbb98c",
+    "name" : "test_02",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  } ]
+}

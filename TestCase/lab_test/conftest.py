@@ -21,7 +21,6 @@ def session_login():
     loc(driver).get_login_click()
     auth = Auth(driver).auth_all('../img/img_03.png')
     loc(driver).get_login(LD.login_data["username"], LD.login_data["password"], auth)
-    loc(driver).get_system()
 
     yield driver
     driver.quit()

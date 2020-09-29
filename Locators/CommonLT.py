@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from Common.plugs.basepage import BasePage
+from Common.basepage import BasePage
 from time import sleep
 
 
@@ -35,9 +35,3 @@ class CommonLocators(BasePage):
         self.input_element(self.input_loc, auth, keys_control=1, num=3)
         self.click_element(self.login_loc)
         self.click_element(self.click_subscribe)
-
-    def get_system(self):
-        """
-        :return: 进入系统设置
-        """
-        self.click_element(self.click_system, num=12)
