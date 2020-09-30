@@ -2,9 +2,9 @@ import pytest, allure
 from Locators.LabLocators.reagent.subscribe import Subscribe as loc
 from Locators.LabLocators.reagent.purchase import Purchase as loc_pc
 from Locators.LabLocators.reagent.accept import Accept as loc_ap
-
+from Locators.LabLocators.reagent.repertory import Repertory as loc_sp
+from Locators.LabLocators.reagent.receive import Receive as loc_rc
 from TestCase.lab_test import lab_datas as LD
-
 
 class TestReagent():
 
@@ -97,6 +97,67 @@ class TestReagent():
         self.driver = session_login
         pc = loc_ap(self.driver).add_ap()
         assert pc is True
+
+    @pytest.mark.smoke
+    @allure.story("库存")
+    @pytest.mark.parametrize("data", LD.add_rk_name)
+    def test_13(self, session_login, data):
+        self.driver = session_login
+        rt = loc_sp(self.driver).add_rt(data['add_name'], data['add_sum'])
+        assert rt is True
+
+    @pytest.mark.smoke
+    @allure.story("库存")
+    @pytest.mark.parametrize("data", LD.add_rk_name)
+    def test_14(self, session_login, data):
+        self.driver = session_login
+        sp = loc_sp(self.driver).search_sp(data['add_name'])
+        assert sp == data['add_name']
+
+    @pytest.mark.smoke
+    @allure.story("库存")
+    @pytest.mark.parametrize("data", LD.add_rk_name)
+    def test_15(self, session_login, data):
+        self.driver = session_login
+        ck = loc_sp(self.driver).add_ck()
+        assert ck is True
+
+    @pytest.mark.smoke
+    @allure.story("库存")
+    @pytest.mark.parametrize("data", LD.add_bs_ly)
+    def test_16(self, session_login, data):
+        self.driver = session_login
+        bs = loc_sp(self.driver).add_bs(data['add_name'])
+        assert bs is True
+
+    @pytest.mark.smoke
+    @allure.story("库存")
+    def test_17(self, session_login):
+        self.driver = session_login
+        sh = loc_sp(self.driver).add_sh()
+        assert sh is True
+
+    @pytest.mark.smoke
+    @allure.story("领用")
+    @pytest.mark.parametrize("data", LD.add_rk_name)
+    def test_18(self, session_login, data):
+        self.driver = session_login
+        rt = loc_rc(self.driver).add_ly(data['add_name'])
+        assert rt is True
+
+    @pytest.mark.smoke
+    @allure.story("领用")
+    def test_19(self, session_login):
+        self.driver = session_login
+        sh = loc_rc(self.driver).add_sh()
+        assert sh is True
+
+    @pytest.mark.smoke
+    @allure.story("领用")
+    def test_20(self, session_login):
+        self.driver = session_login
+        ck = loc_rc(self.driver).add_ck()
+        assert ck is True
 
 
 if __name__ == '__main__':

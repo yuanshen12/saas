@@ -1,0 +1,124 @@
+{
+  "uid" : "2abca317ece122c4",
+  "name" : "test_14[data0]",
+  "fullName" : "test_02.TestReagent#test_14",
+  "historyId" : "181bc9b3084b04b6c169d76986172c6c",
+  "time" : {
+    "start" : 1601458203766,
+    "stop" : 1601458205263,
+    "duration" : 1497
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1601458074839,
+      "stop" : 1601458087210,
+      "duration" : 12371
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1601458227369,
+      "stop" : 1601458229686,
+      "duration" : 2317
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "库存"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_02"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReagent"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "21108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add_name': '入库测试', 'add_sum': '2'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2f9ff2daacf2d7fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457876612,
+        "stop" : 1601457877399,
+        "duration" : 787
+      }
+    }, {
+      "uid" : "571f91a6efdec20c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457546236,
+        "stop" : 1601457547827,
+        "duration" : 1591
+      }
+    }, {
+      "uid" : "cfac84cbc1532ea9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457330304,
+        "stop" : 1601457331100,
+        "duration" : 796
+      }
+    }, {
+      "uid" : "4861b7b5fd38ef10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601449310610,
+        "stop" : 1601449312211,
+        "duration" : 1601
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "2abca317ece122c4.json",
+  "parameterValues" : [ "{'add_name': '入库测试', 'add_sum': '2'}" ]
+}

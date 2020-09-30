@@ -1,0 +1,180 @@
+{
+  "uid" : "2c81c2f25610011f",
+  "name" : "test_14[data0]",
+  "fullName" : "test_01.TestSystem#test_14",
+  "historyId" : "9e7123f31afdff1683a88df4e30d5a08",
+  "time" : {
+    "start" : 1601458119043,
+    "stop" : 1601458120960,
+    "duration" : 1917
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1601458074839,
+      "stop" : 1601458087210,
+      "duration" : 12371
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1601458227369,
+      "stop" : 1601458229686,
+      "duration" : 2317
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "供应商信息"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_01"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "21108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'alter_name': '修改测试项目'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "44d21f47bb9ee68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457800541,
+        "stop" : 1601457802458,
+        "duration" : 1917
+      }
+    }, {
+      "uid" : "3d4183782f070e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457460728,
+        "stop" : 1601457462198,
+        "duration" : 1470
+      }
+    }, {
+      "uid" : "6c10ed21ec56f884",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457244955,
+        "stop" : 1601457246980,
+        "duration" : 2025
+      }
+    }, {
+      "uid" : "fcd6a29ee2063a98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601449227460,
+        "stop" : 1601449229420,
+        "duration" : 1960
+      }
+    }, {
+      "uid" : "e7d9bc9442617d7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601428978029,
+        "stop" : 1601428979993,
+        "duration" : 1964
+      }
+    }, {
+      "uid" : "b0f98abc16425fc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601373742660,
+        "stop" : 1601373744579,
+        "duration" : 1919
+      }
+    }, {
+      "uid" : "c966c71e55bc69f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601369270060,
+        "stop" : 1601369272064,
+        "duration" : 2004
+      }
+    }, {
+      "uid" : "cdcbab1518b734b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601368983109,
+        "stop" : 1601368985037,
+        "duration" : 1928
+      }
+    }, {
+      "uid" : "cadacb746e826dc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601368778232,
+        "stop" : 1601368780199,
+        "duration" : 1967
+      }
+    }, {
+      "uid" : "c6cbaa813ae55130",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601257378627,
+        "stop" : 1601257380676,
+        "duration" : 2049
+      }
+    }, {
+      "uid" : "ff0a88230eec6f85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601256924159,
+        "stop" : 1601256926129,
+        "duration" : 1970
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "2c81c2f25610011f.json",
+  "parameterValues" : [ "{'alter_name': '修改测试项目'}" ]
+}

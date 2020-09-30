@@ -1,0 +1,180 @@
+{
+  "uid" : "6c683b9bfe13e0d",
+  "name" : "test_09[data0]",
+  "fullName" : "test_01.TestSystem#test_09",
+  "historyId" : "dfb8e8b826aa23a32caecbdabf1bbccb",
+  "time" : {
+    "start" : 1601458106904,
+    "stop" : 1601458108733,
+    "duration" : 1829
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1601458074839,
+      "stop" : 1601458087210,
+      "duration" : 12371
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1601458227369,
+      "stop" : 1601458229686,
+      "duration" : 2317
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "试剂耗材信息"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_01"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "21108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add_name': '测试试剂01'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a5435ddf683179ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457788054,
+        "stop" : 1601457789786,
+        "duration" : 1732
+      }
+    }, {
+      "uid" : "4cb73f783fa49cf7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457448578,
+        "stop" : 1601457450380,
+        "duration" : 1802
+      }
+    }, {
+      "uid" : "3891d8c199380a4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457232496,
+        "stop" : 1601457234250,
+        "duration" : 1754
+      }
+    }, {
+      "uid" : "814918593cb5c5b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601449215001,
+        "stop" : 1601449217000,
+        "duration" : 1999
+      }
+    }, {
+      "uid" : "65b2546eb76361e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601428964430,
+        "stop" : 1601428967521,
+        "duration" : 3091
+      }
+    }, {
+      "uid" : "f20f70c719264ca0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601373729286,
+        "stop" : 1601373732438,
+        "duration" : 3152
+      }
+    }, {
+      "uid" : "713bb9c1b692432f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601369258108,
+        "stop" : 1601369259823,
+        "duration" : 1715
+      }
+    }, {
+      "uid" : "9c037b4a9884ca82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601368971457,
+        "stop" : 1601368972867,
+        "duration" : 1410
+      }
+    }, {
+      "uid" : "6963d726932fd9d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601368767409,
+        "stop" : 1601368768064,
+        "duration" : 655
+      }
+    }, {
+      "uid" : "f1470bb771e76174",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601257366610,
+        "stop" : 1601257368391,
+        "duration" : 1781
+      }
+    }, {
+      "uid" : "dc3606cd068b478d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601256912620,
+        "stop" : 1601256914205,
+        "duration" : 1585
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "6c683b9bfe13e0d.json",
+  "parameterValues" : [ "{'add_name': '测试试剂01'}" ]
+}

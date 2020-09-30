@@ -1,0 +1,177 @@
+{
+  "uid" : "5f9300677c3a575f",
+  "name" : "test_06",
+  "fullName" : "test_01.TestSystem#test_06",
+  "historyId" : "564c5794f275d1c54e6f4cdda7a5a498",
+  "time" : {
+    "start" : 1601458100583,
+    "stop" : 1601458103925,
+    "duration" : 3342
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1601458074839,
+      "stop" : 1601458087210,
+      "duration" : 12371
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1601458227369,
+      "stop" : 1601458229686,
+      "duration" : 2317
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "角色管理"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_01"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "21108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fae5f48cab8d9a17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457781249,
+        "stop" : 1601457784590,
+        "duration" : 3341
+      }
+    }, {
+      "uid" : "733bbdeb5d9a0a58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457440199,
+        "stop" : 1601457443509,
+        "duration" : 3310
+      }
+    }, {
+      "uid" : "dc13d173fd9e4605",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457226062,
+        "stop" : 1601457229505,
+        "duration" : 3443
+      }
+    }, {
+      "uid" : "a45fc53ff1f50753",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601449206208,
+        "stop" : 1601449209606,
+        "duration" : 3398
+      }
+    }, {
+      "uid" : "70f4023ad80a1d85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601428956273,
+        "stop" : 1601428959579,
+        "duration" : 3306
+      }
+    }, {
+      "uid" : "9f60dc33788b5273",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601373721248,
+        "stop" : 1601373724617,
+        "duration" : 3369
+      }
+    }, {
+      "uid" : "6046bf69a327ed15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601369250165,
+        "stop" : 1601369253560,
+        "duration" : 3395
+      }
+    }, {
+      "uid" : "c9d943959fec4cdc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601368965176,
+        "stop" : 1601368968519,
+        "duration" : 3343
+      }
+    }, {
+      "uid" : "b9404e542f414028",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601368761103,
+        "stop" : 1601368764469,
+        "duration" : 3366
+      }
+    }, {
+      "uid" : "cd65dd5b55f544eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601257357886,
+        "stop" : 1601257361383,
+        "duration" : 3497
+      }
+    }, {
+      "uid" : "ed35727a6c4bc8d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601256904369,
+        "stop" : 1601256907755,
+        "duration" : 3386
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "5f9300677c3a575f.json",
+  "parameterValues" : [ ]
+}

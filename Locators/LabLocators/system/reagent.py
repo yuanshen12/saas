@@ -32,6 +32,7 @@ class Reagent(BasePage):
         try:
             self.click_element(self.click_add_reagent)
             self.input_element(self.input_add_name, add_name, num=5)
+            sleep(1)
             self.click_element(self.click_add_type)
             self.click_element(self.click_type_ensure)
             self.click_element(self.click_save, num=0)

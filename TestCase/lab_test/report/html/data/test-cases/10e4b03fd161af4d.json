@@ -1,0 +1,166 @@
+{
+  "uid" : "10e4b03fd161af4d",
+  "name" : "test_12",
+  "fullName" : "test_02.TestReagent#test_12",
+  "historyId" : "ca9e84f681992f61d30aed8954ba2dbd",
+  "time" : {
+    "start" : 1601458191076,
+    "stop" : 1601458197348,
+    "duration" : 6272
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1601458074839,
+      "stop" : 1601458087210,
+      "duration" : 12371
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1601458227369,
+      "stop" : 1601458229686,
+      "duration" : 2317
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "验收入库"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_02"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReagent"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "21108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9f135b2686b47ac9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457864027,
+        "stop" : 1601457870331,
+        "duration" : 6304
+      }
+    }, {
+      "uid" : "32a1001446724897",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457533630,
+        "stop" : 1601457539901,
+        "duration" : 6271
+      }
+    }, {
+      "uid" : "569395d1013d27bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457317847,
+        "stop" : 1601457324046,
+        "duration" : 6199
+      }
+    }, {
+      "uid" : "81c5d235423c46ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601449298069,
+        "stop" : 1601449304298,
+        "duration" : 6229
+      }
+    }, {
+      "uid" : "815125a9b65aeb7e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1601429044592,
+        "stop" : 1601429045823,
+        "duration" : 1231
+      }
+    }, {
+      "uid" : "3aed81250e68c124",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1601373812488,
+        "stop" : 1601373813696,
+        "duration" : 1208
+      }
+    }, {
+      "uid" : "7ad26c0be8f3a0c0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1601369339898,
+        "stop" : 1601369341115,
+        "duration" : 1217
+      }
+    }, {
+      "uid" : "37447e5c5342fe47",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1601369053468,
+        "stop" : 1601369054670,
+        "duration" : 1202
+      }
+    }, {
+      "uid" : "b64151551d8b62bf",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1601368845985,
+        "stop" : 1601368847236,
+        "duration" : 1251
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "10e4b03fd161af4d.json",
+  "parameterValues" : [ ]
+}

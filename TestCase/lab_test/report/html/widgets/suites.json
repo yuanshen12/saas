@@ -4,10 +4,10 @@
     "uid" : "8fd5f4009669e34e5b6e3072130dcc52",
     "name" : "test_01",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 2,
-      "passed" : 22,
+      "passed" : 21,
       "unknown" : 0,
       "total" : 24
     }
@@ -17,10 +17,10 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 5,
+      "skipped" : 1,
+      "passed" : 24,
       "unknown" : 0,
-      "total" : 5
+      "total" : 25
     }
   } ]
 }

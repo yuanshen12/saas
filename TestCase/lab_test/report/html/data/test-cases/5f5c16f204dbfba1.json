@@ -1,0 +1,161 @@
+{
+  "uid" : "5f5c16f204dbfba1",
+  "name" : "test_3",
+  "fullName" : "test_02.TestReagent#test_3",
+  "historyId" : "cbd0f2c50768fc049908dedfdaaac47e",
+  "time" : {
+    "start" : 1601458156191,
+    "stop" : 1601458157067,
+    "duration" : 876
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1601458074839,
+      "stop" : 1601458087210,
+      "duration" : 12371
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1601458227369,
+      "stop" : 1601458229686,
+      "duration" : 2317
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "申购流程"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_02"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReagent"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "21108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "51a4321aa837622",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457829258,
+        "stop" : 1601457830212,
+        "duration" : 954
+      }
+    }, {
+      "uid" : "dfaadd4cea60f9b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457498784,
+        "stop" : 1601457499724,
+        "duration" : 940
+      }
+    }, {
+      "uid" : "a7bbf17f5e6ff643",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457282638,
+        "stop" : 1601457283595,
+        "duration" : 957
+      }
+    }, {
+      "uid" : "b86cea227a02f7ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601449263389,
+        "stop" : 1601449264318,
+        "duration" : 929
+      }
+    }, {
+      "uid" : "e69eaa9bbf0e3734",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601429012111,
+        "stop" : 1601429013048,
+        "duration" : 937
+      }
+    }, {
+      "uid" : "9cf3873fb4184af5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601373780165,
+        "stop" : 1601373780980,
+        "duration" : 815
+      }
+    }, {
+      "uid" : "f90044329de26081",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601369307179,
+        "stop" : 1601369308036,
+        "duration" : 857
+      }
+    }, {
+      "uid" : "cbc17276743cf131",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601369019805,
+        "stop" : 1601369020654,
+        "duration" : 849
+      }
+    }, {
+      "uid" : "c6c783966a02193c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601368813513,
+        "stop" : 1601368814353,
+        "duration" : 840
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "5f5c16f204dbfba1.json",
+  "parameterValues" : [ ]
+}

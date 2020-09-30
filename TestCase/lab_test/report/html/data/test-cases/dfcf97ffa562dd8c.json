@@ -1,0 +1,92 @@
+{
+  "uid" : "dfcf97ffa562dd8c",
+  "name" : "test_08[data0]",
+  "fullName" : "test_01.TestSystem#test_08",
+  "historyId" : "012391517f9c85b30a60115d289c92b5",
+  "time" : {
+    "start" : 1601457229789,
+    "stop" : 1601457232098,
+    "duration" : 2309
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False is True",
+  "statusTrace" : "self = <TestCase.lab_test.test_01.TestSystem object at 0x099469A0>, session_login = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"e78c8c5aa2f1a10eb840f27428b8670a\")>, data = {'add_name': '测试试剂01'}\n\n    @allure.story(\"试剂耗材信息\")\n    @pytest.mark.smoke\n    @pytest.mark.parametrize(\"data\", LD.add_reagent_name)\n    def test_08(self, session_login, data):\n        self.driver = session_login\n        reagent = loc_reagent(self.driver).add_reagent(data[\"add_name\"])\n>       assert reagent is True\nE       assert False is True\n\ntest_01.py:72: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1601457200347,
+      "stop" : 1601457212562,
+      "duration" : 12215
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1601457341636,
+      "stop" : 1601457343993,
+      "duration" : 2357
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "试剂耗材信息"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_01"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "13412-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add_name': '测试试剂01'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "dfcf97ffa562dd8c.json",
+  "parameterValues" : [ "{'add_name': '测试试剂01'}" ]
+}

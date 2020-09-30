@@ -1,0 +1,177 @@
+{
+  "uid" : "2f4a4261ff969caa",
+  "name" : "test_07",
+  "fullName" : "test_01.TestSystem#test_07",
+  "historyId" : "cb0e749d718c1b7a469c606ecf4f46d6",
+  "time" : {
+    "start" : 1601458103929,
+    "stop" : 1601458104200,
+    "duration" : 271
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1601458074839,
+      "stop" : 1601458087210,
+      "duration" : 12371
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1601458227369,
+      "stop" : 1601458229686,
+      "duration" : 2317
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "角色管理"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_01"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "21108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8ca5ae875578079e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457784593,
+        "stop" : 1601457785362,
+        "duration" : 769
+      }
+    }, {
+      "uid" : "ed69a5670f893a5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457443512,
+        "stop" : 1601457443786,
+        "duration" : 274
+      }
+    }, {
+      "uid" : "3a44fdd32587a9b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457229509,
+        "stop" : 1601457229785,
+        "duration" : 276
+      }
+    }, {
+      "uid" : "d8d0e1f3923027e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601449209609,
+        "stop" : 1601449210390,
+        "duration" : 781
+      }
+    }, {
+      "uid" : "55fb3a978cd96053",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601428959583,
+        "stop" : 1601428959884,
+        "duration" : 301
+      }
+    }, {
+      "uid" : "5361a351d13c0b67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601373724621,
+        "stop" : 1601373724930,
+        "duration" : 309
+      }
+    }, {
+      "uid" : "be95cb272f1ec2f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601369253564,
+        "stop" : 1601369253834,
+        "duration" : 270
+      }
+    }, {
+      "uid" : "bca1c219eb46bb60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601368968522,
+        "stop" : 1601368968784,
+        "duration" : 262
+      }
+    }, {
+      "uid" : "69a16865bbe9356f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601368764472,
+        "stop" : 1601368764760,
+        "duration" : 288
+      }
+    }, {
+      "uid" : "34240448d3f8aa65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601257361386,
+        "stop" : 1601257361687,
+        "duration" : 301
+      }
+    }, {
+      "uid" : "d2d628872ad19fb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601256907759,
+        "stop" : 1601256908070,
+        "duration" : 311
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "2f4a4261ff969caa.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,164 @@
+{
+  "uid" : "a510cc8cb3367a50",
+  "name" : "test_6[data0]",
+  "fullName" : "test_02.TestReagent#test_6",
+  "historyId" : "0f412f62646d1fe9043387523d0b5978",
+  "time" : {
+    "start" : 1601458161153,
+    "stop" : 1601458178759,
+    "duration" : 17606
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1601458074839,
+      "stop" : 1601458087210,
+      "duration" : 12371
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1601458227369,
+      "stop" : 1601458229686,
+      "duration" : 2317
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "采购流程"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_02"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReagent"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "21108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'s_name': '测试商家', 'm_name': '采购商品', 'n_num': '1'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ce38caeb2b2d1d13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457834208,
+        "stop" : 1601457852304,
+        "duration" : 18096
+      }
+    }, {
+      "uid" : "661a944fa4f61d0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457503694,
+        "stop" : 1601457522112,
+        "duration" : 18418
+      }
+    }, {
+      "uid" : "4790582aac8448e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457287692,
+        "stop" : 1601457306307,
+        "duration" : 18615
+      }
+    }, {
+      "uid" : "6f2b50e2f1e92664",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601449268278,
+        "stop" : 1601449286508,
+        "duration" : 18230
+      }
+    }, {
+      "uid" : "98bd302f4af35697",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601429016961,
+        "stop" : 1601429034106,
+        "duration" : 17145
+      }
+    }, {
+      "uid" : "6907972a0223532d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601373785003,
+        "stop" : 1601373802187,
+        "duration" : 17184
+      }
+    }, {
+      "uid" : "c24867d51385afc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601369312171,
+        "stop" : 1601369329174,
+        "duration" : 17003
+      }
+    }, {
+      "uid" : "6b46e98c01c831f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601369024713,
+        "stop" : 1601369042842,
+        "duration" : 18129
+      }
+    }, {
+      "uid" : "4beb316dadbbf665",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601368818855,
+        "stop" : 1601368835597,
+        "duration" : 16742
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "a510cc8cb3367a50.json",
+  "parameterValues" : [ "{'s_name': '测试商家', 'm_name': '采购商品', 'n_num': '1'}" ]
+}

@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert False is True",
+      "children" : [ {
+        "name" : "test_08[data0]",
+        "uid" : "2a653e5e277e951b",
+        "parentUid" : "b753cc2371eaf4f8dcc68f5839b988a8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1601458104204,
+          "stop" : 1601458106498,
+          "duration" : 2294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'add_name': '测试试剂01'}" ]
+      } ],
+      "uid" : "b753cc2371eaf4f8dcc68f5839b988a8"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }
