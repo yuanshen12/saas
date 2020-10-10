@@ -1,0 +1,258 @@
+{
+  "uid" : "4d9d056a309ff06b",
+  "name" : "test_4",
+  "fullName" : "test_02.TestReagent#test_4",
+  "historyId" : "d5a37d4f07117e3cc8c704d823b7538c",
+  "time" : {
+    "start" : 1602300395628,
+    "stop" : 1602300396899,
+    "duration" : 1271
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1602300311206,
+      "stop" : 1602300324416,
+      "duration" : 13210
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1602300480060,
+      "stop" : 1602300482435,
+      "duration" : 2375
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "申购流程"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_02"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReagent"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "12928-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e18025a1255ffdf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602299679130,
+        "stop" : 1602299680375,
+        "duration" : 1245
+      }
+    }, {
+      "uid" : "f05279729bf32cbf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602299389582,
+        "stop" : 1602299390867,
+        "duration" : 1285
+      }
+    }, {
+      "uid" : "baccf1d528fe43a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602299026189,
+        "stop" : 1602299027528,
+        "duration" : 1339
+      }
+    }, {
+      "uid" : "6b2b2ac45dca7bcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602298799834,
+        "stop" : 1602298801131,
+        "duration" : 1297
+      }
+    }, {
+      "uid" : "550fd8debcd2cd12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602297033659,
+        "stop" : 1602297034973,
+        "duration" : 1314
+      }
+    }, {
+      "uid" : "f0eeac5a4d63ba23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602296598574,
+        "stop" : 1602296599877,
+        "duration" : 1303
+      }
+    }, {
+      "uid" : "9040ecc439d8ec89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602291002411,
+        "stop" : 1602291003693,
+        "duration" : 1282
+      }
+    }, {
+      "uid" : "f1b91ee7fad065c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602289964163,
+        "stop" : 1602289965447,
+        "duration" : 1284
+      }
+    }, {
+      "uid" : "e4ee26b10966c255",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601458963271,
+        "stop" : 1601458964567,
+        "duration" : 1296
+      }
+    }, {
+      "uid" : "c7983baab055cb90",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0075D343+3134275]\n\tOrdinal0 [0x0064A131+2007345]\n\tOrdinal0 [0x004EAEC8+569032]\n\tOrdinal0 [0x0046C9B7+51639]\n\tOrdinal0 [0x00490DFC+200188]\n\tOrdinal0 [0x00490C1D+199709]\n\tOrdinal0 [0x0048EB0B+191243]\n\tOrdinal0 [0x00472E77+77431]\n\tOrdinal0 [0x00473E3E+81470]\n\tOrdinal0 [0x00473DC9+81353]\n\tOrdinal0 [0x00660C99+2100377]\n\tGetHandleVerifier [0x008CB71A+1396954]\n\tGetHandleVerifier [0x008CB399+1396057]\n\tGetHandleVerifier [0x008D70E6+1444518]\n\tGetHandleVerifier [0x008CBCA8+1398376]\n\tOrdinal0 [0x00657F11+2064145]\n\tOrdinal0 [0x006622AB+2106027]\n\tOrdinal0 [0x006623D1+2106321]\n\tOrdinal0 [0x00674984+2181508]\n\tBaseThreadInitThunk [0x772B6359+25]\n\tRtlGetAppContainerNamedObjectPath [0x778A7C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x778A7BF4+180]",
+      "time" : {
+        "start" : 1601458813121,
+        "stop" : 1601458813121,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c49f03d69595be9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601458437102,
+        "stop" : 1601458438502,
+        "duration" : 1400
+      }
+    }, {
+      "uid" : "dcb3afd0ddd13041",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601458157071,
+        "stop" : 1601458158402,
+        "duration" : 1331
+      }
+    }, {
+      "uid" : "abf10716e48f6e0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457830217,
+        "stop" : 1601457831494,
+        "duration" : 1277
+      }
+    }, {
+      "uid" : "7c458433675cfb30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457499727,
+        "stop" : 1601457500972,
+        "duration" : 1245
+      }
+    }, {
+      "uid" : "b5e6c52ce0f19302",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457283601,
+        "stop" : 1601457284967,
+        "duration" : 1366
+      }
+    }, {
+      "uid" : "9eb02deebab215cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601449264322,
+        "stop" : 1601449265590,
+        "duration" : 1268
+      }
+    }, {
+      "uid" : "ff55417bc58ecbea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601429013052,
+        "stop" : 1601429014260,
+        "duration" : 1208
+      }
+    }, {
+      "uid" : "f2d2d9d07045efb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601373780983,
+        "stop" : 1601373782250,
+        "duration" : 1267
+      }
+    }, {
+      "uid" : "32bfdc8f9bbcc649",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601369308040,
+        "stop" : 1601369309372,
+        "duration" : 1332
+      }
+    }, {
+      "uid" : "e43db151b9bf9126",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601369020657,
+        "stop" : 1601369021875,
+        "duration" : 1218
+      }
+    }, {
+      "uid" : "38c2e27936d95926",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601368814357,
+        "stop" : 1601368815608,
+        "duration" : 1251
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "4d9d056a309ff06b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,89 @@
+{
+  "uid" : "eae175123ac3d1b7",
+  "name" : "test_22",
+  "fullName" : "test_02.TestReagent#test_22",
+  "historyId" : "bd531e1baec13d0caf19cf77af64d140",
+  "time" : {
+    "start" : 1602299457142,
+    "stop" : 1602299477764,
+    "duration" : 20622
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False is True",
+  "statusTrace" : "self = <TestCase.lab_test.test_02.TestReagent object at 0x00B0DB20>\nsession_login = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"03cd35b07da8246cfb75665100b7d4bb\")>\n\n    @pytest.mark.smoke\n    @allure.story(\"借用出库\")\n    def test_22(self, session_login):\n        self.driver = session_login\n        gh = loc_br(self.driver).get_give()\n>       assert gh is True\nE       assert False is True\n\ntest_02.py:177: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1602299301646,
+      "stop" : 1602299314812,
+      "duration" : 13166
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1602299484080,
+      "stop" : 1602299486451,
+      "duration" : 2371
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "借用出库"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_02"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReagent"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "17532-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "eae175123ac3d1b7.json",
+  "parameterValues" : [ ]
+}

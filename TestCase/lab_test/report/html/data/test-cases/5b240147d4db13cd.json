@@ -1,0 +1,277 @@
+{
+  "uid" : "5b240147d4db13cd",
+  "name" : "test_21[data0]",
+  "fullName" : "test_01.TestSystem#test_21",
+  "historyId" : "e098a9e605fefb440b93a7048046c72c",
+  "time" : {
+    "start" : 1602300367470,
+    "stop" : 1602300369172,
+    "duration" : 1702
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1602300311206,
+      "stop" : 1602300324416,
+      "duration" : 13210
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1602300480060,
+      "stop" : 1602300482435,
+      "duration" : 2375
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "仓库信息"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_01"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "12928-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'alter_name': '楼层位置'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9d6ce5f08ab42798",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602299658542,
+        "stop" : 1602299660252,
+        "duration" : 1710
+      }
+    }, {
+      "uid" : "11961f0874fa83db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602299361164,
+        "stop" : 1602299362945,
+        "duration" : 1781
+      }
+    }, {
+      "uid" : "39fc1648d4e67e73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602298996583,
+        "stop" : 1602298998409,
+        "duration" : 1826
+      }
+    }, {
+      "uid" : "36c2f3ddea3414b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602298772674,
+        "stop" : 1602298774457,
+        "duration" : 1783
+      }
+    }, {
+      "uid" : "b114ab644aa03048",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602297006037,
+        "stop" : 1602297007766,
+        "duration" : 1729
+      }
+    }, {
+      "uid" : "b24202bc24bd25bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602296571775,
+        "stop" : 1602296572897,
+        "duration" : 1122
+      }
+    }, {
+      "uid" : "962dd857af226d4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602290974475,
+        "stop" : 1602290976223,
+        "duration" : 1748
+      }
+    }, {
+      "uid" : "9b3dc1e8261423e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602289936857,
+        "stop" : 1602289938645,
+        "duration" : 1788
+      }
+    }, {
+      "uid" : "3f93b9cf09f2f9c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601458935648,
+        "stop" : 1601458937332,
+        "duration" : 1684
+      }
+    }, {
+      "uid" : "5d77d5da854ffc40",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0075D343+3134275]\n\tOrdinal0 [0x0064A131+2007345]\n\tOrdinal0 [0x004EAEC8+569032]\n\tOrdinal0 [0x0046C9B7+51639]\n\tOrdinal0 [0x00490DFC+200188]\n\tOrdinal0 [0x00490C1D+199709]\n\tOrdinal0 [0x0048EB0B+191243]\n\tOrdinal0 [0x00472E77+77431]\n\tOrdinal0 [0x00473E3E+81470]\n\tOrdinal0 [0x00473DC9+81353]\n\tOrdinal0 [0x00660C99+2100377]\n\tGetHandleVerifier [0x008CB71A+1396954]\n\tGetHandleVerifier [0x008CB399+1396057]\n\tGetHandleVerifier [0x008D70E6+1444518]\n\tGetHandleVerifier [0x008CBCA8+1398376]\n\tOrdinal0 [0x00657F11+2064145]\n\tOrdinal0 [0x006622AB+2106027]\n\tOrdinal0 [0x006623D1+2106321]\n\tOrdinal0 [0x00674984+2181508]\n\tBaseThreadInitThunk [0x772B6359+25]\n\tRtlGetAppContainerNamedObjectPath [0x778A7C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x778A7BF4+180]",
+      "time" : {
+        "start" : 1601458812597,
+        "stop" : 1601458812597,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e19a4579dd425dc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601458405111,
+        "stop" : 1601458406937,
+        "duration" : 1826
+      }
+    }, {
+      "uid" : "17a7495d785a979a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601458129047,
+        "stop" : 1601458130793,
+        "duration" : 1746
+      }
+    }, {
+      "uid" : "517fa91fcbe65602",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457809672,
+        "stop" : 1601457811703,
+        "duration" : 2031
+      }
+    }, {
+      "uid" : "d7022e24b3bee574",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457471416,
+        "stop" : 1601457473111,
+        "duration" : 1695
+      }
+    }, {
+      "uid" : "447f57739b1b2390",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457255930,
+        "stop" : 1601457257638,
+        "duration" : 1708
+      }
+    }, {
+      "uid" : "e3652c17db2b7c44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601449236107,
+        "stop" : 1601449237830,
+        "duration" : 1723
+      }
+    }, {
+      "uid" : "cbbd8352b9e2e88b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601428986787,
+        "stop" : 1601428988492,
+        "duration" : 1705
+      }
+    }, {
+      "uid" : "ebf89e1e1c4f37ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601373753748,
+        "stop" : 1601373755474,
+        "duration" : 1726
+      }
+    }, {
+      "uid" : "6417b97cf0dab6aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601369280298,
+        "stop" : 1601369282070,
+        "duration" : 1772
+      }
+    }, {
+      "uid" : "f5aca1d1c32a8cae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601368993241,
+        "stop" : 1601368994939,
+        "duration" : 1698
+      }
+    }, {
+      "uid" : "de12ab6596e00cc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601368787082,
+        "stop" : 1601368788796,
+        "duration" : 1714
+      }
+    }, {
+      "uid" : "17bdb95416834d59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601257389235,
+        "stop" : 1601257391036,
+        "duration" : 1801
+      }
+    }, {
+      "uid" : "d704a919e02875ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601256933102,
+        "stop" : 1601256934797,
+        "duration" : 1695
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "5b240147d4db13cd.json",
+  "parameterValues" : [ "{'alter_name': '楼层位置'}" ]
+}

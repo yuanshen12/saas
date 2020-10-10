@@ -1,0 +1,221 @@
+{
+  "uid" : "9b027ca2b8779506",
+  "name" : "test_15[data0]",
+  "fullName" : "test_02.TestReagent#test_15",
+  "historyId" : "67cb65901fac821a6c8f8915fe38455e",
+  "time" : {
+    "start" : 1602300444633,
+    "stop" : 1602300447490,
+    "duration" : 2857
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1602300311206,
+      "stop" : 1602300324416,
+      "duration" : 13210
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1602300480060,
+      "stop" : 1602300482435,
+      "duration" : 2375
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "库存"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_02"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReagent"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "12928-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add_name': '入库测试', 'add_sum': '5'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eac1d1ac42b77227",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602299726223,
+        "stop" : 1602299729133,
+        "duration" : 2910
+      }
+    }, {
+      "uid" : "3bd4467100110ee9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602299436817,
+        "stop" : 1602299439640,
+        "duration" : 2823
+      }
+    }, {
+      "uid" : "7189f6e94b7609b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602299075024,
+        "stop" : 1602299077899,
+        "duration" : 2875
+      }
+    }, {
+      "uid" : "c20bddb64736ede8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602298848147,
+        "stop" : 1602298851013,
+        "duration" : 2866
+      }
+    }, {
+      "uid" : "698d95937c4cfb0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602297081194,
+        "stop" : 1602297084025,
+        "duration" : 2831
+      }
+    }, {
+      "uid" : "275f30fda68f21ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602296646283,
+        "stop" : 1602296649038,
+        "duration" : 2755
+      }
+    }, {
+      "uid" : "870281020013f8ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602291051272,
+        "stop" : 1602291054103,
+        "duration" : 2831
+      }
+    }, {
+      "uid" : "e1f1497439faaa74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602290010855,
+        "stop" : 1602290013706,
+        "duration" : 2851
+      }
+    }, {
+      "uid" : "af825b8fb91e7811",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601459010512,
+        "stop" : 1601459013367,
+        "duration" : 2855
+      }
+    }, {
+      "uid" : "bf4ae3ed0a7c1af2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0075D343+3134275]\n\tOrdinal0 [0x0064A131+2007345]\n\tOrdinal0 [0x004EAEC8+569032]\n\tOrdinal0 [0x0046C9B7+51639]\n\tOrdinal0 [0x00490DFC+200188]\n\tOrdinal0 [0x00490C1D+199709]\n\tOrdinal0 [0x0048EB0B+191243]\n\tOrdinal0 [0x00472E77+77431]\n\tOrdinal0 [0x00473E3E+81470]\n\tOrdinal0 [0x00473DC9+81353]\n\tOrdinal0 [0x00660C99+2100377]\n\tGetHandleVerifier [0x008CB71A+1396954]\n\tGetHandleVerifier [0x008CB399+1396057]\n\tGetHandleVerifier [0x008D70E6+1444518]\n\tGetHandleVerifier [0x008CBCA8+1398376]\n\tOrdinal0 [0x00657F11+2064145]\n\tOrdinal0 [0x006622AB+2106027]\n\tOrdinal0 [0x006623D1+2106321]\n\tOrdinal0 [0x00674984+2181508]\n\tBaseThreadInitThunk [0x772B6359+25]\n\tRtlGetAppContainerNamedObjectPath [0x778A7C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x778A7BF4+180]",
+      "time" : {
+        "start" : 1601458813845,
+        "stop" : 1601458813845,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e3acc61cc43f3f05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601458484417,
+        "stop" : 1601458487226,
+        "duration" : 2809
+      }
+    }, {
+      "uid" : "b0d224e17ff724d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601458205267,
+        "stop" : 1601458208137,
+        "duration" : 2870
+      }
+    }, {
+      "uid" : "a55aca969b921720",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457877404,
+        "stop" : 1601457880220,
+        "duration" : 2816
+      }
+    }, {
+      "uid" : "efc4076df936edbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457547832,
+        "stop" : 1601457550682,
+        "duration" : 2850
+      }
+    }, {
+      "uid" : "d7295fe95a6c114c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457331104,
+        "stop" : 1601457333922,
+        "duration" : 2818
+      }
+    }, {
+      "uid" : "1fef8e687827539",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601449312216,
+        "stop" : 1601449315030,
+        "duration" : 2814
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "9b027ca2b8779506.json",
+  "parameterValues" : [ "{'add_name': '入库测试', 'add_sum': '5'}" ]
+}

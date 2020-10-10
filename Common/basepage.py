@@ -80,3 +80,7 @@ class BasePage:
         except:
             raise
 
+    def get_element_rf(self):
+        self.driver.refresh()
+
+

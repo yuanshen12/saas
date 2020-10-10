@@ -31,6 +31,8 @@ add_su_name = [{"add_name": "申购测试", "add_sum": "1"}]
 # 试剂耗材 > 采购 > 采购信息
 add_pc_name = [{"s_name": "测试商家", "m_name": "采购商品", "n_num": "1"}]
 # 试剂耗材 > 库存 > 入库商品名称
-add_rk_name = [{"add_name": "入库测试", 'add_sum': '2'}]
+add_rk_name = [{"add_name": "入库测试", 'add_sum': '5'}]
 # 试剂耗材 > 库存 > 报损理由
 add_bs_ly = [{"add_name": "是"}]
+# 试剂耗材 > 借用 > 借用出库
+add_br_name = [{"add_name": "张三", "add_sys": "A实验室", "add_sp": "入库测试"}]

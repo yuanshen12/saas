@@ -1,0 +1,92 @@
+{
+  "uid" : "8a4b5f783423b4a6",
+  "name" : "test_11",
+  "fullName" : "test_01.TestSystem#test_11",
+  "historyId" : "cc8f3150ce6b81a995079898f5479377",
+  "time" : {
+    "start" : 1602296556799,
+    "stop" : 1602296556799,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 这是一个BUG！！",
+  "statusTrace" : "('D:\\\\seleniumweb\\\\saas\\\\TestCase\\\\lab_test\\\\test_01.py', 90, 'Skipped: 这是一个BUG！！')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1602296512953,
+      "stop" : 1602296525658,
+      "duration" : 12705
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1602296680787,
+      "stop" : 1602296683102,
+      "duration" : 2315
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "试剂耗材信息"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='这是一个BUG！！')"
+  }, {
+    "name" : "suite",
+    "value" : "test_01"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "4824-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke", "@pytest.mark.skip(reason='这是一个BUG！！')" ]
+  },
+  "source" : "8a4b5f783423b4a6.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,301 @@
+{
+  "uid" : "1676dfa211688b2e",
+  "name" : "test_16[data0]",
+  "fullName" : "test_01.TestSystem#test_16",
+  "historyId" : "440dc2977f3f07b6c3fd0e49f1adb845",
+  "time" : {
+    "start" : 1602300359896,
+    "stop" : 1602300359896,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 这是个问题！！",
+  "statusTrace" : "('D:\\\\seleniumweb\\\\saas\\\\TestCase\\\\lab_test\\\\test_01.py', 129, 'Skipped: 这是个问题！！')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1602300311206,
+      "stop" : 1602300324416,
+      "duration" : 13210
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1602300480060,
+      "stop" : 1602300482435,
+      "duration" : 2375
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip('这是个问题！！')"
+  }, {
+    "name" : "suite",
+    "value" : "test_01"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "12928-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add_name': '测试房间'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "26719a72eeba8ea2",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1602299650862,
+        "stop" : 1602299650862,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2ed57b096e4b5746",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1602299353547,
+        "stop" : 1602299353547,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5e6d59f29a3acc65",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1602298988111,
+        "stop" : 1602298988111,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bbe0a9862c47f660",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1602298766696,
+        "stop" : 1602298766696,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "435fd5b7b1757ef8",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1602296998176,
+        "stop" : 1602296998176,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3cfff26be2db466e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1602296563988,
+        "stop" : 1602296563988,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e35dfcff54691b58",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1602290966621,
+        "stop" : 1602290966621,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1dd4ea45413240da",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1602289929235,
+        "stop" : 1602289929235,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8d6a6e71436e150d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1601458927775,
+        "stop" : 1601458927775,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cfd48d481bc451a8",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1601458812314,
+        "stop" : 1601458812314,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f59ec8acc470cecb",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1601458397188,
+        "stop" : 1601458397188,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "603d307debc7ae82",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1601458121570,
+        "stop" : 1601458121570,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "14ff0985c21157a7",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1601457803089,
+        "stop" : 1601457803089,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "14e82124e3fc641d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1601457463563,
+        "stop" : 1601457463563,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6483d8c41946784d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1601457248115,
+        "stop" : 1601457248115,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "71fe7e4b9ed9c8f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1601449230060,
+        "stop" : 1601449230060,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "31aa110a0ff3328f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1601428980683,
+        "stop" : 1601428980683,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2178a306612c8b30",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1601373745704,
+        "stop" : 1601373745704,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d63275e23d08ff85",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1601369272709,
+        "stop" : 1601369272709,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f0f274b636066e73",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1601368985723,
+        "stop" : 1601368985723,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "32242cee39943607",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1601368781371,
+        "stop" : 1601368781371,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9ce107829870e054",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1601257381312,
+        "stop" : 1601257381312,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "73d53e931a0d447b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1601256927245,
+        "stop" : 1601256927245,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke", "@pytest.mark.skip('这是个问题！！')" ]
+  },
+  "source" : "1676dfa211688b2e.json",
+  "parameterValues" : [ "{'add_name': '测试房间'}" ]
+}

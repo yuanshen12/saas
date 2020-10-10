@@ -1,5 +1,5 @@
 {
-  "total" : 13,
+  "total" : 15,
   "items" : [ {
     "uid" : "c5bded15dc4ab3e70158f0f30cefcc21",
     "name" : "试剂耗材信息",
@@ -78,6 +78,17 @@
       "total" : 4
     }
   }, {
+    "uid" : "0cfbb02f066aac2f5d81446b12e7a20e",
+    "name" : "盘点",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
     "uid" : "cec8a4b0a47bf19e40e312b53a0be942",
     "name" : "角色管理",
     "statistic" : {
@@ -98,17 +109,6 @@
       "passed" : 3,
       "unknown" : 0,
       "total" : 3
-    }
-  }, {
-    "uid" : "39b08fea3e733cd2a605ada395aa95ce",
-    "name" : "房间信息",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
     }
   } ]
 }

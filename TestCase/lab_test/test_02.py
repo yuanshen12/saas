@@ -4,6 +4,8 @@ from Locators.LabLocators.reagent.purchase import Purchase as loc_pc
 from Locators.LabLocators.reagent.accept import Accept as loc_ap
 from Locators.LabLocators.reagent.repertory import Repertory as loc_sp
 from Locators.LabLocators.reagent.receive import Receive as loc_rc
+from Locators.LabLocators.reagent.borrow import Borrow as loc_br
+from Locators.LabLocators.reagent.check import Check as loc_ck
 from TestCase.lab_test import lab_datas as LD
 
 class TestReagent():
@@ -157,6 +159,49 @@ class TestReagent():
     def test_20(self, session_login):
         self.driver = session_login
         ck = loc_rc(self.driver).add_ck()
+        assert ck is True
+
+    @pytest.mark.smoke
+    @allure.story("借用出库")
+    @pytest.mark.parametrize("data", LD.add_br_name)
+    def test_21(self, session_login, data):
+        self.driver = session_login
+        br = loc_br(self.driver).get_borrow(data['add_name'], data['add_sys'], data['add_sp'])
+        assert br is True
+
+    @pytest.mark.smoke
+    @allure.story("借用出库")
+    def test_22(self, session_login):
+        self.driver = session_login
+        gh = loc_br(self.driver).get_give()
+        assert gh is True
+
+    @pytest.mark.smoke
+    @allure.story("盘点")
+    def test_23(self, session_login):
+        self.driver = session_login
+        ck = loc_ck(self.driver).add_ck()
+        assert ck is True
+
+    @pytest.mark.smoke
+    @allure.story("盘点")
+    def test_24(self, session_login):
+        self.driver = session_login
+        ck = loc_ck(self.driver).add_tj()
+        assert ck is True
+
+    @pytest.mark.smoke
+    @allure.story("盘点")
+    def test_25(self, session_login):
+        self.driver = session_login
+        ck = loc_ck(self.driver).add_sh()
+        assert ck is True
+
+    @pytest.mark.smoke
+    @allure.story("盘点")
+    def test_26(self, session_login):
+        self.driver = session_login
+        ck = loc_ck(self.driver).add_cl()
         assert ck is True
 
 

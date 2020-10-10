@@ -1,0 +1,221 @@
+{
+  "uid" : "d23278569d584969",
+  "name" : "test_16[data0]",
+  "fullName" : "test_02.TestReagent#test_16",
+  "historyId" : "974630520293f15a9ed87914cc14cae7",
+  "time" : {
+    "start" : 1602300447498,
+    "stop" : 1602300451043,
+    "duration" : 3545
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1602300311206,
+      "stop" : 1602300324416,
+      "duration" : 13210
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1602300480060,
+      "stop" : 1602300482435,
+      "duration" : 2375
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "库存"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_02"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReagent"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "12928-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add_name': '是'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a59247475c7af3dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602299729139,
+        "stop" : 1602299732710,
+        "duration" : 3571
+      }
+    }, {
+      "uid" : "27c891cdd9d62700",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602299439656,
+        "stop" : 1602299443177,
+        "duration" : 3521
+      }
+    }, {
+      "uid" : "af9780b090c30c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602299077904,
+        "stop" : 1602299081335,
+        "duration" : 3431
+      }
+    }, {
+      "uid" : "e7a15f9245eb33f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602298851021,
+        "stop" : 1602298854558,
+        "duration" : 3537
+      }
+    }, {
+      "uid" : "95ce93a926d921e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602297084031,
+        "stop" : 1602297087539,
+        "duration" : 3508
+      }
+    }, {
+      "uid" : "7c28b85e1d301680",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602296649057,
+        "stop" : 1602296652670,
+        "duration" : 3613
+      }
+    }, {
+      "uid" : "61b1de5006a171e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602291054108,
+        "stop" : 1602291057743,
+        "duration" : 3635
+      }
+    }, {
+      "uid" : "fb2cdde85511cab3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602290013720,
+        "stop" : 1602290017223,
+        "duration" : 3503
+      }
+    }, {
+      "uid" : "7f6eb27fa0897e11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601459013379,
+        "stop" : 1601459016950,
+        "duration" : 3571
+      }
+    }, {
+      "uid" : "45b22c997e34e0c1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0075D343+3134275]\n\tOrdinal0 [0x0064A131+2007345]\n\tOrdinal0 [0x004EAEC8+569032]\n\tOrdinal0 [0x0046C9B7+51639]\n\tOrdinal0 [0x00490DFC+200188]\n\tOrdinal0 [0x00490C1D+199709]\n\tOrdinal0 [0x0048EB0B+191243]\n\tOrdinal0 [0x00472E77+77431]\n\tOrdinal0 [0x00473E3E+81470]\n\tOrdinal0 [0x00473DC9+81353]\n\tOrdinal0 [0x00660C99+2100377]\n\tGetHandleVerifier [0x008CB71A+1396954]\n\tGetHandleVerifier [0x008CB399+1396057]\n\tGetHandleVerifier [0x008D70E6+1444518]\n\tGetHandleVerifier [0x008CBCA8+1398376]\n\tOrdinal0 [0x00657F11+2064145]\n\tOrdinal0 [0x006622AB+2106027]\n\tOrdinal0 [0x006623D1+2106321]\n\tOrdinal0 [0x00674984+2181508]\n\tBaseThreadInitThunk [0x772B6359+25]\n\tRtlGetAppContainerNamedObjectPath [0x778A7C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x778A7BF4+180]",
+      "time" : {
+        "start" : 1601458813913,
+        "stop" : 1601458813913,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c2e9442fef0bf8be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601458487231,
+        "stop" : 1601458490826,
+        "duration" : 3595
+      }
+    }, {
+      "uid" : "dc00e735dfba05cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601458208142,
+        "stop" : 1601458211664,
+        "duration" : 3522
+      }
+    }, {
+      "uid" : "d8c3f567a02a9e48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457880225,
+        "stop" : 1601457883799,
+        "duration" : 3574
+      }
+    }, {
+      "uid" : "595d86c8a1b938c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457550687,
+        "stop" : 1601457554205,
+        "duration" : 3518
+      }
+    }, {
+      "uid" : "701203fef4671a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601457333929,
+        "stop" : 1601457337498,
+        "duration" : 3569
+      }
+    }, {
+      "uid" : "4b7cd80d540df307",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601449315035,
+        "stop" : 1601449318622,
+        "duration" : 3587
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "d23278569d584969.json",
+  "parameterValues" : [ "{'add_name': '是'}" ]
+}
