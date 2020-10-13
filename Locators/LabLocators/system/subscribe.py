@@ -18,6 +18,9 @@ class Subscribe(BasePage):
 
     click_ensure = (By.CLASS_NAME, "el-button--small")
 
+    click_x = (By.CLASS_NAME, 'el-radio__inner')
+    click_y = (By.CLASS_NAME, 'el-checkbox__inner')
+
     def get_subscribe(self, choose):
         """
         :param choose: fend_start开启资金，fend_stop关闭资金
@@ -33,6 +36,55 @@ class Subscribe(BasePage):
             elif choose == "fend_stop":
                 self.click_element(self.click_choose, num=1)
                 self.click_element(self.click_save, num=1)
+        except:
+            return False
+        else:
+            return True
+
+    def get_gr(self, add_num):
+        """
+        :param add_num: 个人资金
+        :return: 修改个人资金
+        """
+        sleep(2)
+        try:
+            self.click_element(self.click_message, num=0)
+            self.input_element(self.input_name, add_num, num=12)
+            self.click_element(self.click_save, num=1)
+        except:
+            return False
+        else:
+            return True
+
+    def get_sq(self):
+        """
+        :return: 是否需要申请
+        """
+        try:
+            self.click_element(self.click_message, num=0)
+            self.click_element(self.click_x, num=2)
+            self.click_element(self.click_x, num=4)
+            self.click_element(self.click_save, num=1)
+        except:
+            return False
+        else:
+            return True
+
+    def get_y(self, num):
+        """
+        :param num:
+        :return: 选择业务
+        """
+        try:
+            self.click_element(self.click_message, num=0)
+            if num == 2:
+                self.click_element(self.click_y, num=2)
+            elif num == 1:
+                self.click_element(self.click_y, num=2)
+                self.click_element(self.click_y, num=1)
+            elif num == 0:
+                self.click_element(self.click_y, num=1)
+            self.click_element(self.click_save, num=1)
         except:
             return False
         else:

@@ -1,0 +1,87 @@
+{
+  "uid" : "483d7f2fe4f1cd27",
+  "name" : "test_4",
+  "fullName" : "test_10.TestReagent#test_4",
+  "historyId" : "243738ac96cd84f5ee5585e7ee793b91",
+  "time" : {
+    "start" : 1602565186088,
+    "stop" : 1602565187451,
+    "duration" : 1363
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1602565052055,
+      "stop" : 1602565064721,
+      "duration" : 12666
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1602565286586,
+      "stop" : 1602565288893,
+      "duration" : 2307
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "申购流程"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_10"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReagent"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "10812-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_10"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "483d7f2fe4f1cd27.json",
+  "parameterValues" : [ ]
+}

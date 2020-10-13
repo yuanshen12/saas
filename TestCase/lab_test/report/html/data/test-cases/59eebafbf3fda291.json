@@ -1,0 +1,139 @@
+{
+  "uid" : "59eebafbf3fda291",
+  "name" : "test_23[data0]",
+  "fullName" : "test_06.TestSystem#test_23",
+  "historyId" : "25a101ade6a15ab176bbf931d37b166b",
+  "time" : {
+    "start" : 1602570046759,
+    "stop" : 1602570046759,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 这是个问题！！",
+  "statusTrace" : "('D:\\\\seleniumweb\\\\saas\\\\TestCase\\\\lab_test\\\\test_06.py', 8, 'Skipped: 这是个问题！！')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1602569948023,
+      "stop" : 1602569960981,
+      "duration" : 12958
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1602570197857,
+      "stop" : 1602570200146,
+      "duration" : 2289
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip('这是个问题！！')"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_06"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "11944-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_06"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add_name': '测试房间'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "94f909f6666c0b0c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1602569704343,
+        "stop" : 1602569704343,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2178fc23eb408925",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1602569154400,
+        "stop" : 1602569154400,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d30fb37c3bf476ae",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1602565149688,
+        "stop" : 1602565149688,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3588e2272546dd09",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1602564864240,
+        "stop" : 1602564864240,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "453ea66e07a8eb87",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1602564338183,
+        "stop" : 1602564338183,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke", "@pytest.mark.skip('这是个问题！！')" ]
+  },
+  "source" : "59eebafbf3fda291.json",
+  "parameterValues" : [ "{'add_name': '测试房间'}" ]
+}

@@ -1,0 +1,132 @@
+{
+  "uid" : "7eb4b260b13cf2c7",
+  "name" : "test_2[data0]",
+  "fullName" : "test_10.TestReagent#test_2",
+  "historyId" : "0c7db919fd10405f04d051a65ee49c16",
+  "time" : {
+    "start" : 1602570088780,
+    "stop" : 1602570091953,
+    "duration" : 3173
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1602569948023,
+      "stop" : 1602569960981,
+      "duration" : 12958
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1602570197857,
+      "stop" : 1602570200146,
+      "duration" : 2289
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "申购流程"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_10"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReagent"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "11944-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_10"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add_name': '申购测试', 'add_sum': '1'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2d78a58473a36bb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602569730777,
+        "stop" : 1602569733962,
+        "duration" : 3185
+      }
+    }, {
+      "uid" : "eebe5d67c0688293",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602569187188,
+        "stop" : 1602569190365,
+        "duration" : 3177
+      }
+    }, {
+      "uid" : "84ff6809818fca3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602565181891,
+        "stop" : 1602565185025,
+        "duration" : 3134
+      }
+    }, {
+      "uid" : "63fcefb5f3bef07f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602564897480,
+        "stop" : 1602564900619,
+        "duration" : 3139
+      }
+    }, {
+      "uid" : "9b0b509f8010772d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602564370360,
+        "stop" : 1602564373496,
+        "duration" : 3136
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "7eb4b260b13cf2c7.json",
+  "parameterValues" : [ "{'add_name': '申购测试', 'add_sum': '1'}" ]
+}

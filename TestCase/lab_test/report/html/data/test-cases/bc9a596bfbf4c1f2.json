@@ -1,0 +1,132 @@
+{
+  "uid" : "bc9a596bfbf4c1f2",
+  "name" : "test_26[data0]",
+  "fullName" : "test_07.TestSystem#test_26",
+  "historyId" : "55810965d68601f4b745b109f0b42eaf",
+  "time" : {
+    "start" : 1602570053045,
+    "stop" : 1602570054249,
+    "duration" : 1204
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1602569948023,
+      "stop" : 1602569960981,
+      "duration" : 12958
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1602570197857,
+      "stop" : 1602570200146,
+      "duration" : 2289
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "仓库信息"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_07"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "11944-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_07"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add_name': '测试仓库'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "171e1e7be36ad13e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602569710612,
+        "stop" : 1602569711821,
+        "duration" : 1209
+      }
+    }, {
+      "uid" : "daa7f4d6d923fcb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602569160711,
+        "stop" : 1602569161883,
+        "duration" : 1172
+      }
+    }, {
+      "uid" : "d247c0624ccd8a65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602565155993,
+        "stop" : 1602565157172,
+        "duration" : 1179
+      }
+    }, {
+      "uid" : "d57a3d45fc47b924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602564870644,
+        "stop" : 1602564871756,
+        "duration" : 1112
+      }
+    }, {
+      "uid" : "b0d536d35db9481a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602564343927,
+        "stop" : 1602564345450,
+        "duration" : 1523
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "bc9a596bfbf4c1f2.json",
+  "parameterValues" : [ "{'add_name': '测试仓库'}" ]
+}

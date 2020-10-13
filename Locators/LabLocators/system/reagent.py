@@ -27,7 +27,7 @@ class Reagent(BasePage):
         :param add_name:
         :return: 新增耗材试剂
         """
-        sleep(2)
+        self.click_element(self.click_reagent, num=12)
         self.click_element(self.click_reagent, num=9)
         try:
             self.click_element(self.click_add_reagent)
@@ -36,6 +36,7 @@ class Reagent(BasePage):
             self.click_element(self.click_add_type)
             self.click_element(self.click_type_ensure)
             self.click_element(self.click_save, num=0)
+            sleep(2)
         except:
             return False
         else:
@@ -46,11 +47,14 @@ class Reagent(BasePage):
         :param add_name:
         :return: 搜索耗材试剂
         """
-        self.click_element(self.input_search_reagent)
-        self.input_element(self.input_search_reagent, add_name)
-        self.click_element(self.click_search_ensure)
-        search = self.get_element_text(self.text_search)
-        return search
+        try:
+            self.click_element(self.input_search_reagent)
+            self.input_element(self.input_search_reagent, add_name)
+            self.click_element(self.click_search_ensure)
+        except:
+            return False
+        else:
+            return True
 
     def alter_reagent(self, add_name):
         """
@@ -61,7 +65,71 @@ class Reagent(BasePage):
             self.click_element(self.click_normal)
             self.input_element(self.input_add_name, add_name, num=10)
             self.click_element(self.click_save, num=0)
-            sleep(5)
+            sleep(2)
+        except:
+            return False
+        else:
+            return True
+
+    def get_a(self):
+        """
+        :return: 不填写新增试剂
+        """
+        try:
+            self.click_element(self.click_add_reagent)
+            self.click_element(self.click_save, num=0)
+            sleep(2)
+        except:
+            return False
+        else:
+            return True
+
+    def get_b(self, add_name, add_num):
+        """
+        :param add_name:
+        :param add_num:
+        :return: 新增耗材单价
+        """
+        try:
+            self.input_element(self.input_add_name, add_name, num=5)
+            sleep(1)
+            self.click_element(self.click_add_type)
+            self.click_element(self.click_type_ensure)
+            self.input_element(self.input_add_name, add_num, num=14)
+            self.click_element(self.click_save, num=0)
+            sleep(2)
+        except:
+            return False
+        else:
+            return True
+
+    def get_c(self, add_num):
+        """
+        :param add_num:
+        :return: 库存上限
+        """
+        try:
+            self.click_element(self.click_search_ensure)
+            self.click_element(self.click_normal)
+            self.input_element(self.input_add_name, add_num, num=15)
+            self.click_element(self.click_save)
+            sleep(2)
+        except:
+            return False
+        else:
+            return True
+
+    def get_d(self, add_num):
+        """
+        :param add_num:
+        :return: 库存下限
+        """
+        try:
+            self.click_element(self.click_search_ensure)
+            self.click_element(self.click_normal)
+            self.input_element(self.input_add_name, add_num, num=17)
+            self.click_element(self.click_save)
+            sleep(2)
         except:
             return False
         else:
@@ -73,9 +141,10 @@ class Reagent(BasePage):
         """
         try:
             self.click_element(self.click_search_ensure)
-            self.click_element(self.click_record, num=2)
+            self.click_element(self.click_record, num=0)
             self.click_element(self.click_del)
             self.click_element(self.click_del_ensure)
+            sleep(2)
         except:
             return False
         else:

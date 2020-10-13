@@ -15,7 +15,7 @@ class Receive(BasePage):
     click_jl = (By.CLASS_NAME, 'el-table__row')
     click_sh = (By.CLASS_NAME, 'btn_sh')
     click_ck = (By.CLASS_NAME, 'btn_ck')
-    click_qr = (By.CLASS_NAME, 'el-button--mini')
+    click_qr = (By.XPATH, '/html/body/div[3]/div/div[2]/div[2]/button')
 
     def add_ly(self, add_name):
         """
@@ -58,11 +58,12 @@ class Receive(BasePage):
         :return: 领用出库流程
         """
         try:
+            self.get_element_rf()
             self.click_element(self.click_ck)
             self.click_element(self.click_jl, num=-1)
             self.click_element(self.click_sava, num=1)
-            sleep(1)
-            self.click_element(self.click_qr, num=-1)
+            sleep(2)
+            self.click_element(self.click_qr)
             sleep(2)
         except:
             return False

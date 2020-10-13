@@ -25,6 +25,7 @@ class Warehouse(BasePage):
         :return: 新增仓库
         """
         self.click_element(self.click_home, num=12)
+        self.click_element(self.click_home, num=12)
         try:
             self.click_element(self.click_add_wh, num=0)
             self.input_element(self.input_name, add_name, num=5)

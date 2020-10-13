@@ -13,9 +13,11 @@ class Check(BasePage):
         """
         :return: 审核流程，选择是
         """
+        self.click_element(self.click_check, num=12)
         self.click_element(self.click_check, num=14)
         try:
             for x in range(7):
+                sleep(1)
                 self.click_element(self.click_choose, num=x)
                 self.click_element(self.click_no, num=1)
                 self.click_element(self.save_home)
@@ -31,6 +33,7 @@ class Check(BasePage):
         self.click_element(self.click_check, num=14)
         try:
             for x in range(7):
+                sleep(1)
                 self.click_element(self.click_choose, num=x)
                 self.click_element(self.click_no, num=0)
                 self.click_element(self.save_home)

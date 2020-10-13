@@ -26,6 +26,11 @@ class Repertory(BasePage):
     click_qx = (By.XPATH, '//*[@id="app"]/div[2]/div[2]/form/div/div[2]/div/div[2]/form[2]/div/div[1]/div[2]/table/thead/tr/th[1]')
     click_qd = (By.CLASS_NAME, 'wl-public-btn-close')
 
+    click_xz = (By.CLASS_NAME, 'btn_xq')
+    click_gv = (By.XPATH, '//*[@id="app"]/div[2]/div[2]/form/div/div[2]/div/div/div[2]/div[4]/div[1]/form[1]/div[18]/div/div[2]/div/div/div[1]')
+    click_yes = (By.XPATH, '/html/body/div[3]/div[1]/div[1]/ul/li[1]')
+    click_time = (By.CLASS_NAME, 'el-input-number__increase')
+
     def add_rt(self, add_name, add_num):
         """
         :param add_name: 商品名称
@@ -103,6 +108,26 @@ class Repertory(BasePage):
             self.click_element(self.click_sava, num=1)
             self.click_element(self.click_sava, num=2)
             self.click_element(self.click_qd)
+            sleep(2)
+        except:
+            return False
+        else:
+            return True
+
+    def add_xg(self, add_name):
+        """
+        :param add_name: 入库商品名称
+        :return: 商品设置归还
+        """
+        try:
+            self.get_element_rf()
+            self.input_element(self.input_name, add_name, num=5)
+            self.click_element(self.click_search)
+            self.click_element(self.click_xz)
+            self.click_element(self.click_gv)
+            self.click_element(self.click_yes)
+            self.click_element(self.click_time, num=5)
+            self.click_element(self.click_sava)
             sleep(2)
         except:
             return False

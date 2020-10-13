@@ -4,6 +4,12 @@ import os
 from TestCase.lab_test import lab_datas as LD
 from Locators.CommonLT import CommonLocators as loc
 from Common.common_auth import Auth
+import sys,os
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+print(BASE_DIR)
+sys.path.append(BASE_DIR)
+print(sys.path)
 
 driver = None
 PATH = lambda p: os.path.abspath(os.path.join(os.path.dirname(__file__), p))

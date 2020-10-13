@@ -23,6 +23,7 @@ class Home(BasePage):
         :param home_name:
         :return: 添加房间
         """
+        self.click_element(self.click_home, num=12)
         self.click_element(self.click_home, num=11)
         try:
             self.click_element(self.click_add_home)
@@ -40,8 +41,9 @@ class Home(BasePage):
         :param search_name:
         :return: 搜索房间
         """
-        sleep(1)
+        self.click_element(self.click_home, num=12)
         self.click_element(self.click_home, num=11)
+        sleep(2)
         self.click_element(self.input_search_reagent)
         self.input_element(self.input_search_reagent, search_name)
         self.click_element(self.click_search_ensure)

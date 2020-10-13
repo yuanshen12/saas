@@ -32,6 +32,7 @@ class Borrow(BasePage):
             self.input_element(self.input_name, add_sp, num=12)
             self.click_element(self.click_qd)
             self.click_element(self.click_sava)
+            sleep(2)
         except:
             return False
         else:
@@ -45,6 +46,7 @@ class Borrow(BasePage):
             self.click_element(self.click_xz, num=0)
             self.click_element(self.click_gh)
             self.click_element(self.click_sava)
+            sleep(2)
         except:
             return False
         else:

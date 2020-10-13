@@ -26,6 +26,7 @@ class Supplier(BasePage):
         :param add_name:
         :return: 新增供应商
         """
+        self.click_element(self.click_supplier, num=12)
         self.click_element(self.click_supplier, num=10)
         sleep(1)
         self.click_element(self.click_add_supplier)

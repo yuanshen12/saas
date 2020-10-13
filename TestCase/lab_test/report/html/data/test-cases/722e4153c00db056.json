@@ -1,0 +1,129 @@
+{
+  "uid" : "722e4153c00db056",
+  "name" : "test_25",
+  "fullName" : "test_10.TestReagent#test_25",
+  "historyId" : "a0a63a59e8851453913635eb83380038",
+  "time" : {
+    "start" : 1602570192165,
+    "stop" : 1602570194498,
+    "duration" : 2333
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1602569948023,
+      "stop" : 1602569960981,
+      "duration" : 12958
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1602570197857,
+      "stop" : 1602570200146,
+      "duration" : 2289
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "盘点"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_10"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReagent"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "11944-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_10"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "aa7576de4d92788b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602569834928,
+        "stop" : 1602569837213,
+        "duration" : 2285
+      }
+    }, {
+      "uid" : "b3e2258af182423c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602569290287,
+        "stop" : 1602569292565,
+        "duration" : 2278
+      }
+    }, {
+      "uid" : "aee8af66585d0130",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602565281150,
+        "stop" : 1602565283367,
+        "duration" : 2217
+      }
+    }, {
+      "uid" : "eb3f74ef2d71ed32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602565000798,
+        "stop" : 1602565003072,
+        "duration" : 2274
+      }
+    }, {
+      "uid" : "9e585fcae113e7bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602564473130,
+        "stop" : 1602564475403,
+        "duration" : 2273
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "722e4153c00db056.json",
+  "parameterValues" : [ ]
+}

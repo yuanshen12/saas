@@ -2,25 +2,25 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Product defects",
+    "name" : "Test defects",
     "children" : [ {
-      "name" : "AssertionError: assert False is True",
+      "name" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: chrome=85.0.4183.83)",
       "children" : [ {
-        "name" : "test_08[data0]",
-        "uid" : "22e4046c76ef8639",
-        "parentUid" : "b753cc2371eaf4f8dcc68f5839b988a8",
-        "status" : "failed",
+        "name" : "test_07",
+        "uid" : "b081a9b8a605ee4a",
+        "parentUid" : "fa9dc20ba34fd6d93f0891735b074a69",
+        "status" : "broken",
         "time" : {
-          "start" : 1602300341712,
-          "stop" : 1602300343964,
-          "duration" : 2252
+          "start" : 1602569977507,
+          "stop" : 1602569978283,
+          "duration" : 776
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'add_name': '测试试剂01'}" ]
+        "parameters" : [ ]
       } ],
-      "uid" : "b753cc2371eaf4f8dcc68f5839b988a8"
+      "uid" : "fa9dc20ba34fd6d93f0891735b074a69"
     } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }
