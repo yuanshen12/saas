@@ -1,0 +1,90 @@
+{
+  "uid" : "9dfc073c44848975",
+  "name" : "test_16[data0]",
+  "fullName" : "test_03.TestSystem#test_16",
+  "historyId" : "df2d9d6cabc8c61fffcf46bcdcc2b32d",
+  "time" : {
+    "start" : 1602839740490,
+    "stop" : 1602839742811,
+    "duration" : 2321
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "dealer_session_login",
+    "time" : {
+      "start" : 1602839662674,
+      "stop" : 1602839675267,
+      "duration" : 12593
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "dealer_session_login::0",
+    "time" : {
+      "start" : 1602839947154,
+      "stop" : 1602839949452,
+      "duration" : 2298
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "角色管理"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_03"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "9676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_03"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add': '测试', 'add_1': '测试01', 'add_2': '测试02', 'add_3': '测试03'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "9dfc073c44848975.json",
+  "parameterValues" : [ "{'add': '测试', 'add_1': '测试01', 'add_2': '测试02', 'add_3': '测试03'}" ]
+}

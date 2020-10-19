@@ -1,0 +1,92 @@
+{
+  "uid" : "676289870e3e893b",
+  "name" : "test_28[data0]",
+  "fullName" : "test_04.TestSystem#test_28",
+  "historyId" : "b784cf21d1c697990760dc282c641d2a",
+  "time" : {
+    "start" : 1602752438818,
+    "stop" : 1602752458999,
+    "duration" : 20181
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False is True",
+  "statusTrace" : "self = <TestCase1.test_04.TestSystem object at 0x087FA370>\ndealer_session_login = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"64e0f7cf137e036cdf75f7deecc12d14\")>\ndata = {'add_1': '一级', 'add_bq': '标签', 'add_name': '测试商品', 'add_num': '10', ...}\n\n    @pytest.mark.smoke\n    @allure.story(\"商品基础信息\")\n    @pytest.mark.parametrize(\"data\", LD.sp)\n    def test_28(self, dealer_session_login, data):\n        self.driver = dealer_session_login\n        commodity = loc(self.driver).get_z(data['add_name'])\n>       assert commodity is True\nE       assert False is True\n\ntest_04.py:91: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "dealer_session_login",
+    "time" : {
+      "start" : 1602752419314,
+      "stop" : 1602752430941,
+      "duration" : 11627
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "dealer_session_login::0",
+    "time" : {
+      "start" : 1602752459707,
+      "stop" : 1602752461881,
+      "duration" : 2174
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "商品基础信息"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_04"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "23328-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_04"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add_name': '测试商品', 'add_num': '10', 'add_nums': '50', 'add_1': '一级', 'add_bq': '标签'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "676289870e3e893b.json",
+  "parameterValues" : [ "{'add_name': '测试商品', 'add_num': '10', 'add_nums': '50', 'add_1': '一级', 'add_bq': '标签'}" ]
+}

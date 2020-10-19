@@ -1,0 +1,163 @@
+{
+  "uid" : "7f9523959e4c2f51",
+  "name" : "test_11[data0]",
+  "fullName" : "test_10.TestReagent#test_11",
+  "historyId" : "e5a57bfd5a2970e0386a69be16209af6",
+  "time" : {
+    "start" : 1602743967676,
+    "stop" : 1602743967676,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 这是个问题！！",
+  "statusTrace" : "('D:\\\\seleniumweb\\\\saas\\\\TestCase\\\\test_10.py', 88, 'Skipped: 这是个问题！！')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1602743789662,
+      "stop" : 1602743802491,
+      "duration" : 12829
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1602744037719,
+      "stop" : 1602744039942,
+      "duration" : 2223
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "采购流程"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip('这是个问题！！')"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_10"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReagent"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "11292-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_10"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add_name': '申购测试', 'add_sum': '1'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ef6c69ac3a95af11",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1602743541133,
+        "stop" : 1602743541133,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "457ddd3d0cf10d78",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1602743141447,
+        "stop" : 1602743141447,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3b5f43f8980773d9",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1602726031097,
+        "stop" : 1602726031097,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "38072c54ed3a25aa",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1602725097103,
+        "stop" : 1602725097103,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "64a0d4cfe92a0b26",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1602724688972,
+        "stop" : 1602724688972,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6c73f6f9e7fb892e",
+        "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/6c73f6f9e7fb892e",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: 这是个问题！！",
+        "time" : {
+          "start" : 1602743141447,
+          "stop" : 1602743141447,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "smoke", "@pytest.mark.skip('这是个问题！！')" ]
+  },
+  "source" : "7f9523959e4c2f51.json",
+  "parameterValues" : [ "{'add_name': '申购测试', 'add_sum': '1'}" ]
+}

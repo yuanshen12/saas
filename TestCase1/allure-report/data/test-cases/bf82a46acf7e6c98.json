@@ -1,0 +1,187 @@
+{
+  "uid" : "bf82a46acf7e6c98",
+  "name" : "test_53[data0]",
+  "fullName" : "test_08.TestSystem#test_53",
+  "historyId" : "3c00fa0cc14a3173b25cd2592276f780",
+  "time" : {
+    "start" : 1602842425948,
+    "stop" : 1602842428383,
+    "duration" : 2435
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "dealer_session_login",
+    "time" : {
+      "start" : 1602842211176,
+      "stop" : 1602842224038,
+      "duration" : 12862
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "dealer_session_login::0",
+    "time" : {
+      "start" : 1602842520352,
+      "stop" : 1602842522699,
+      "duration" : 2347
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "采购"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_08"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "17780-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_08"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add_name': '测试供应商', 'add_mc': '测试商品', 'add_sl': '2'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "15b4d76240ba2c3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602841684341,
+        "stop" : 1602841686739,
+        "duration" : 2398
+      }
+    }, {
+      "uid" : "22592dba73b430c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602841237829,
+        "stop" : 1602841240164,
+        "duration" : 2335
+      }
+    }, {
+      "uid" : "aaf464580f0ab81a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602840914149,
+        "stop" : 1602840914149,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "15462b662fc14057",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602840633913,
+        "stop" : 1602840636358,
+        "duration" : 2445
+      }
+    }, {
+      "uid" : "55d482505f5816a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602839858511,
+        "stop" : 1602839860850,
+        "duration" : 2339
+      }
+    }, {
+      "uid" : "f320a49daa346d5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602839088892,
+        "stop" : 1602839091222,
+        "duration" : 2330
+      }
+    }, {
+      "uid" : "51a03d99a8b34703",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602828268780,
+        "stop" : 1602828271178,
+        "duration" : 2398
+      }
+    }, {
+      "uid" : "3753242656cca4a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602823742389,
+        "stop" : 1602823744772,
+        "duration" : 2383
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "e3d12be5f0b9fe9c",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/27/allure/#testresult/e3d12be5f0b9fe9c",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1602840914149,
+          "stop" : 1602840914149,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e54d59f202787011",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/26/allure/#testresult/e54d59f202787011",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602828268780,
+          "stop" : 1602828271178,
+          "duration" : 2398
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "bf82a46acf7e6c98.json",
+  "parameterValues" : [ "{'add_name': '测试供应商', 'add_mc': '测试商品', 'add_sl': '2'}" ]
+}

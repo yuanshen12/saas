@@ -1,0 +1,154 @@
+{
+  "uid" : "1c0e134f4abbd9cb",
+  "name" : "test_21[data0]",
+  "fullName" : "test_05.TestSystem#test_21",
+  "historyId" : "c00fb615da006f57599ce730d79a7fa5",
+  "time" : {
+    "start" : 1602743883285,
+    "stop" : 1602743885445,
+    "duration" : 2160
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1602743789662,
+      "stop" : 1602743802491,
+      "duration" : 12829
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1602744037719,
+      "stop" : 1602744039942,
+      "duration" : 2223
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "供应商信息"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_05"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "11292-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_05"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'alter_name': '修改测试项目'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1f3082ec52052b50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743480214,
+        "stop" : 1602743482255,
+        "duration" : 2041
+      }
+    }, {
+      "uid" : "ba9e0f46dadae112",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743060198,
+        "stop" : 1602743062374,
+        "duration" : 2176
+      }
+    }, {
+      "uid" : "ec81f7e2c01319fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602725947857,
+        "stop" : 1602725950337,
+        "duration" : 2480
+      }
+    }, {
+      "uid" : "e531d9a9323d1fc9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00F6D343+3134275]\n\tOrdinal0 [0x00E5A131+2007345]\n\tOrdinal0 [0x00CFAEC8+569032]\n\tOrdinal0 [0x00C8A72F+108335]\n\tOrdinal0 [0x00CA9DB0+236976]\n\tOrdinal0 [0x00C9EC90+191632]\n\tOrdinal0 [0x00CA8773+231283]\n\tOrdinal0 [0x00C9EB0B+191243]\n\tOrdinal0 [0x00C82E77+77431]\n\tOrdinal0 [0x00C83E3E+81470]\n\tOrdinal0 [0x00C83DC9+81353]\n\tOrdinal0 [0x00E70C99+2100377]\n\tGetHandleVerifier [0x010DB71A+1396954]\n\tGetHandleVerifier [0x010DB399+1396057]\n\tGetHandleVerifier [0x010E70E6+1444518]\n\tGetHandleVerifier [0x010DBCA8+1398376]\n\tOrdinal0 [0x00E67F11+2064145]\n\tOrdinal0 [0x00E722AB+2106027]\n\tOrdinal0 [0x00E723D1+2106321]\n\tOrdinal0 [0x00E84984+2181508]\n\tBaseThreadInitThunk [0x74C26359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77487C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77487BF4+180]",
+      "time" : {
+        "start" : 1602724929553,
+        "stop" : 1602724950086,
+        "duration" : 20533
+      }
+    }, {
+      "uid" : "132703633aef8d24",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home",
+      "time" : {
+        "start" : 1602724687158,
+        "stop" : 1602724687158,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "644ec7ce56bce848",
+        "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/644ec7ce56bce848",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602743060198,
+          "stop" : 1602743062374,
+          "duration" : 2176
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "1c0e134f4abbd9cb.json",
+  "parameterValues" : [ "{'alter_name': '修改测试项目'}" ]
+}

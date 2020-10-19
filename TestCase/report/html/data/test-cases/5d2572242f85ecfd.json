@@ -1,0 +1,159 @@
+{
+  "uid" : "5d2572242f85ecfd",
+  "name" : "test_07",
+  "fullName" : "test_02.TestSystem#test_07",
+  "historyId" : "4f3d9092f82f556d8bd4e8332f6e365a",
+  "time" : {
+    "start" : 1602743818603,
+    "stop" : 1602743820775,
+    "duration" : 2172
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1602743789662,
+      "stop" : 1602743802491,
+      "duration" : 12829
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1602744037719,
+      "stop" : 1602744039942,
+      "duration" : 2223
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "实验室管理"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_02"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "11292-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "697b53b28b1da6a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743415833,
+        "stop" : 1602743417888,
+        "duration" : 2055
+      }
+    }, {
+      "uid" : "2537c6fbbcc89247",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602742995613,
+        "stop" : 1602742997512,
+        "duration" : 1899
+      }
+    }, {
+      "uid" : "4986381e6460376f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602725882018,
+        "stop" : 1602725884468,
+        "duration" : 2450
+      }
+    }, {
+      "uid" : "db8eb101419c903a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602724843712,
+        "stop" : 1602724846021,
+        "duration" : 2309
+      }
+    }, {
+      "uid" : "52cea12740c97825",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-216ef566=\"\" role=\"menuitem\" tabindex=\"-1\" class=\"el-menu-item\" style=\"color: rgb(151, 151, 151); border-bottom-color: transparent;\">...</li> is not clickable at point (1158, 72). Other element would receive the click: <div class=\"wl-panel-mask\"></div>\n  (Session info: chrome=85.0.4183.102)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00F6D343+3134275]\n\tOrdinal0 [0x00E5A131+2007345]\n\tOrdinal0 [0x00CFAEC8+569032]\n\tOrdinal0 [0x00C8DE78+122488]\n\tOrdinal0 [0x00C8D022+118818]\n\tOrdinal0 [0x00C8BBDA+113626]\n\tOrdinal0 [0x00C8B29E+111262]\n\tOrdinal0 [0x00C84B36+84790]\n\tOrdinal0 [0x00C9EC5D+191581]\n\tOrdinal0 [0x00C84986+84358]\n\tOrdinal0 [0x00C9ED31+191793]\n\tOrdinal0 [0x00CA8773+231283]\n\tOrdinal0 [0x00C9EB0B+191243]\n\tOrdinal0 [0x00C82E77+77431]\n\tOrdinal0 [0x00C83E3E+81470]\n\tOrdinal0 [0x00C83DC9+81353]\n\tOrdinal0 [0x00E70C99+2100377]\n\tGetHandleVerifier [0x010DB71A+1396954]\n\tGetHandleVerifier [0x010DB399+1396057]\n\tGetHandleVerifier [0x010E70E6+1444518]\n\tGetHandleVerifier [0x010DBCA8+1398376]\n\tOrdinal0 [0x00E67F11+2064145]\n\tOrdinal0 [0x00E722AB+2106027]\n\tOrdinal0 [0x00E723D1+2106321]\n\tOrdinal0 [0x00E84984+2181508]\n\tBaseThreadInitThunk [0x74C26359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77487C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77487BF4+180]",
+      "time" : {
+        "start" : 1602724777261,
+        "stop" : 1602724778350,
+        "duration" : 1089
+      }
+    }, {
+      "uid" : "cceb16852d07d1e0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home",
+      "time" : {
+        "start" : 1602724684985,
+        "stop" : 1602724684985,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "206b77ab1d6d4a7",
+        "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/206b77ab1d6d4a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602742995613,
+          "stop" : 1602742997512,
+          "duration" : 1899
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "5d2572242f85ecfd.json",
+  "parameterValues" : [ ]
+}

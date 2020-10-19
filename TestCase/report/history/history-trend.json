@@ -1,0 +1,109 @@
+[ {
+  "buildOrder" : 13,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/13/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 51,
+    "broken" : 35,
+    "skipped" : 4,
+    "passed" : 21,
+    "unknown" : 0,
+    "total" : 111
+  }
+}, {
+  "buildOrder" : 10,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/10/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 21,
+    "broken" : 18,
+    "skipped" : 3,
+    "passed" : 64,
+    "unknown" : 0,
+    "total" : 106
+  }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/9/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 10,
+    "broken" : 10,
+    "skipped" : 2,
+    "passed" : 56,
+    "unknown" : 0,
+    "total" : 78
+  }
+}, {
+  "buildOrder" : 8,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/8/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 10,
+    "broken" : 10,
+    "skipped" : 2,
+    "passed" : 52,
+    "unknown" : 0,
+    "total" : 74
+  }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/7/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 10,
+    "broken" : 11,
+    "skipped" : 2,
+    "passed" : 51,
+    "unknown" : 0,
+    "total" : 74
+  }
+}, {
+  "buildOrder" : 6,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/6/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 10,
+    "broken" : 10,
+    "skipped" : 2,
+    "passed" : 48,
+    "unknown" : 0,
+    "total" : 70
+  }
+}, {
+  "buildOrder" : 5,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/5/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 10,
+    "broken" : 10,
+    "skipped" : 2,
+    "passed" : 48,
+    "unknown" : 0,
+    "total" : 70
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 11,
+    "broken" : 10,
+    "skipped" : 2,
+    "passed" : 47,
+    "unknown" : 0,
+    "total" : 70
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 11,
+    "broken" : 4,
+    "skipped" : 2,
+    "passed" : 53,
+    "unknown" : 0,
+    "total" : 70
+  }
+} ]

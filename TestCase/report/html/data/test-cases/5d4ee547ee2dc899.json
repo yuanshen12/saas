@@ -1,0 +1,162 @@
+{
+  "uid" : "5d4ee547ee2dc899",
+  "name" : "test_16[data0]",
+  "fullName" : "test_03.TestSystem#test_16",
+  "historyId" : "df2d9d6cabc8c61fffcf46bcdcc2b32d",
+  "time" : {
+    "start" : 1602743834251,
+    "stop" : 1602743839512,
+    "duration" : 5261
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1602743789662,
+      "stop" : 1602743802491,
+      "duration" : 12829
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1602744037719,
+      "stop" : 1602744039942,
+      "duration" : 2223
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "角色管理"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_03"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "11292-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_03"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add': '角色', 'add_1': '角色01', 'add_2': '角色02', 'add_3': '角色03', 'add_4': '角色04'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2c9314c300580aa2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743431211,
+        "stop" : 1602743436187,
+        "duration" : 4976
+      }
+    }, {
+      "uid" : "3111637e9159abb4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743010758,
+        "stop" : 1602743015961,
+        "duration" : 5203
+      }
+    }, {
+      "uid" : "eeb576dd1db9f156",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602725897875,
+        "stop" : 1602725903271,
+        "duration" : 5396
+      }
+    }, {
+      "uid" : "e5903a4a32e3f058",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602724860093,
+        "stop" : 1602724865441,
+        "duration" : 5348
+      }
+    }, {
+      "uid" : "26491b746d91b6ce",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-216ef566=\"\" role=\"menuitem\" tabindex=\"-1\" class=\"el-menu-item\" style=\"color: rgb(151, 151, 151); border-bottom-color: transparent;\">...</li> is not clickable at point (1158, 72). Other element would receive the click: <div class=\"wl-panel-mask\"></div>\n  (Session info: chrome=85.0.4183.102)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00F6D343+3134275]\n\tOrdinal0 [0x00E5A131+2007345]\n\tOrdinal0 [0x00CFAEC8+569032]\n\tOrdinal0 [0x00C8DE78+122488]\n\tOrdinal0 [0x00C8D022+118818]\n\tOrdinal0 [0x00C8BBDA+113626]\n\tOrdinal0 [0x00C8B29E+111262]\n\tOrdinal0 [0x00C84B36+84790]\n\tOrdinal0 [0x00C9EC5D+191581]\n\tOrdinal0 [0x00C84986+84358]\n\tOrdinal0 [0x00C9ED31+191793]\n\tOrdinal0 [0x00CA8773+231283]\n\tOrdinal0 [0x00C9EB0B+191243]\n\tOrdinal0 [0x00C82E77+77431]\n\tOrdinal0 [0x00C83E3E+81470]\n\tOrdinal0 [0x00C83DC9+81353]\n\tOrdinal0 [0x00E70C99+2100377]\n\tGetHandleVerifier [0x010DB71A+1396954]\n\tGetHandleVerifier [0x010DB399+1396057]\n\tGetHandleVerifier [0x010E70E6+1444518]\n\tGetHandleVerifier [0x010DBCA8+1398376]\n\tOrdinal0 [0x00E67F11+2064145]\n\tOrdinal0 [0x00E722AB+2106027]\n\tOrdinal0 [0x00E723D1+2106321]\n\tOrdinal0 [0x00E84984+2181508]\n\tBaseThreadInitThunk [0x74C26359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77487C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77487BF4+180]",
+      "time" : {
+        "start" : 1602724787142,
+        "stop" : 1602724788219,
+        "duration" : 1077
+      }
+    }, {
+      "uid" : "107a326b91a050a8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home",
+      "time" : {
+        "start" : 1602724685803,
+        "stop" : 1602724685803,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c946b38b09eb70ff",
+        "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/c946b38b09eb70ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602743010758,
+          "stop" : 1602743015961,
+          "duration" : 5203
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "5d4ee547ee2dc899.json",
+  "parameterValues" : [ "{'add': '角色', 'add_1': '角色01', 'add_2': '角色02', 'add_3': '角色03', 'add_4': '角色04'}" ]
+}

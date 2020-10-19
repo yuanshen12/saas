@@ -1,0 +1,318 @@
+{
+  "uid" : "f202ec8a3f1c9751",
+  "name" : "test_39",
+  "fullName" : "test_07.TestSystem#test_39",
+  "historyId" : "63621a6639fbc2383e3dd313d3b44de2",
+  "time" : {
+    "start" : 1602842362267,
+    "stop" : 1602842366617,
+    "duration" : 4350
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "dealer_session_login",
+    "time" : {
+      "start" : 1602842211176,
+      "stop" : 1602842224038,
+      "duration" : 12862
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "dealer_session_login::0",
+    "time" : {
+      "start" : 1602842520352,
+      "stop" : 1602842522699,
+      "duration" : 2347
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "申购"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_07"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "17780-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_07"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7175385e386c306e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602841618498,
+        "stop" : 1602841623084,
+        "duration" : 4586
+      }
+    }, {
+      "uid" : "eca13fbd520dfbf5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602841182400,
+        "stop" : 1602841183509,
+        "duration" : 1109
+      }
+    }, {
+      "uid" : "d2845634e5539604",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602840913627,
+        "stop" : 1602840913627,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a12d3c53391c4634",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602840568017,
+        "stop" : 1602840572702,
+        "duration" : 4685
+      }
+    }, {
+      "uid" : "98792ff3059c79ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602839806670,
+        "stop" : 1602839811101,
+        "duration" : 4431
+      }
+    }, {
+      "uid" : "2f3a41afbd28ef24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602839036775,
+        "stop" : 1602839041235,
+        "duration" : 4460
+      }
+    }, {
+      "uid" : "280d828f98e534f7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602828213417,
+        "stop" : 1602828214519,
+        "duration" : 1102
+      }
+    }, {
+      "uid" : "18aa12e648534b77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602823682761,
+        "stop" : 1602823687201,
+        "duration" : 4440
+      }
+    }, {
+      "uid" : "f5a92bface883db8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602814439288,
+        "stop" : 1602814443470,
+        "duration" : 4182
+      }
+    }, {
+      "uid" : "29bb4b2780378e4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602813955128,
+        "stop" : 1602813959279,
+        "duration" : 4151
+      }
+    }, {
+      "uid" : "17ba2e32dc29972b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602813612586,
+        "stop" : 1602813613715,
+        "duration" : 1129
+      }
+    }, {
+      "uid" : "dd15022cfa2ab418",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602813375596,
+        "stop" : 1602813376699,
+        "duration" : 1103
+      }
+    }, {
+      "uid" : "c67242f72a774d43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602813230451,
+        "stop" : 1602813234384,
+        "duration" : 3933
+      }
+    }, {
+      "uid" : "4db543c201f614a6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602812779761,
+        "stop" : 1602812800917,
+        "duration" : 21156
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 8,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "b06b055d514092f4",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/27/allure/#testresult/b06b055d514092f4",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1602840913627,
+          "stop" : 1602840913627,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4ce35595bf0c9979",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/26/allure/#testresult/4ce35595bf0c9979",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False is True",
+        "time" : {
+          "start" : 1602828213417,
+          "stop" : 1602828214519,
+          "duration" : 1102
+        }
+      }, {
+        "uid" : "d1b1ded423bf4081",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/25/allure/#testresult/d1b1ded423bf4081",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False is True",
+        "time" : {
+          "start" : 1602813612586,
+          "stop" : 1602813613715,
+          "duration" : 1129
+        }
+      }, {
+        "uid" : "521c91d6786dc523",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/24/allure/#testresult/521c91d6786dc523",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False is True",
+        "time" : {
+          "start" : 1602813375596,
+          "stop" : 1602813376699,
+          "duration" : 1103
+        }
+      }, {
+        "uid" : "6f3e9e296db8a5ca",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/22/allure/#testresult/6f3e9e296db8a5ca",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False is True",
+        "time" : {
+          "start" : 1602810164811,
+          "stop" : 1602810165902,
+          "duration" : 1091
+        }
+      }, {
+        "uid" : "378183fd79b373ff",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/21/allure/#testresult/378183fd79b373ff",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False is True",
+        "time" : {
+          "start" : 1602809981879,
+          "stop" : 1602809982967,
+          "duration" : 1088
+        }
+      }, {
+        "uid" : "769a8f30894f7d0c",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/20/allure/#testresult/769a8f30894f7d0c",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False is True",
+        "time" : {
+          "start" : 1602809492371,
+          "stop" : 1602809513019,
+          "duration" : 20648
+        }
+      }, {
+        "uid" : "b105f40570019857",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/19/allure/#testresult/b105f40570019857",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False is True",
+        "time" : {
+          "start" : 1602809492371,
+          "stop" : 1602809513019,
+          "duration" : 20648
+        }
+      }, {
+        "uid" : "6b7650bd485ebfc5",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/18/allure/#testresult/6b7650bd485ebfc5",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1602809169549,
+          "stop" : 1602809169549,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "7d4e0fba6269a2a3",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/17/allure/#testresult/7d4e0fba6269a2a3",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False is True",
+        "time" : {
+          "start" : 1602764921192,
+          "stop" : 1602764941807,
+          "duration" : 20615
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "f202ec8a3f1c9751.json",
+  "parameterValues" : [ ]
+}

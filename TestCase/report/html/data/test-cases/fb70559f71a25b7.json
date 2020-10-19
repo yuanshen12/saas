@@ -1,0 +1,162 @@
+{
+  "uid" : "fb70559f71a25b7",
+  "name" : "test_13[data0]",
+  "fullName" : "test_02.TestSystem#test_13",
+  "historyId" : "73ec68d1cb6834909d0de7ce9ff648bb",
+  "time" : {
+    "start" : 1602743828638,
+    "stop" : 1602743830470,
+    "duration" : 1832
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1602743789662,
+      "stop" : 1602743802491,
+      "duration" : 12829
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1602744037719,
+      "stop" : 1602744039942,
+      "duration" : 2223
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "实验室管理"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_02"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "11292-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add_name': '自动化测试项目', 'add_num': '10'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2b82eef062a16db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743425688,
+        "stop" : 1602743427457,
+        "duration" : 1769
+      }
+    }, {
+      "uid" : "595480198349e4b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743005147,
+        "stop" : 1602743006986,
+        "duration" : 1839
+      }
+    }, {
+      "uid" : "3e4e0496f3ba51d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602725892259,
+        "stop" : 1602725894083,
+        "duration" : 1824
+      }
+    }, {
+      "uid" : "7e41f832d028d919",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602724853756,
+        "stop" : 1602724855745,
+        "duration" : 1989
+      }
+    }, {
+      "uid" : "17521993b885ca0f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"spanIcon \">...</span> is not clickable at point (96, 204). Other element would receive the click: <div class=\"wl-panel-mask\"></div>\n  (Session info: chrome=85.0.4183.102)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00F6D343+3134275]\n\tOrdinal0 [0x00E5A131+2007345]\n\tOrdinal0 [0x00CFAEC8+569032]\n\tOrdinal0 [0x00C8DE78+122488]\n\tOrdinal0 [0x00C8D022+118818]\n\tOrdinal0 [0x00C8BBDA+113626]\n\tOrdinal0 [0x00C8B29E+111262]\n\tOrdinal0 [0x00C84B36+84790]\n\tOrdinal0 [0x00C9EC5D+191581]\n\tOrdinal0 [0x00C84986+84358]\n\tOrdinal0 [0x00C9ED31+191793]\n\tOrdinal0 [0x00CA8773+231283]\n\tOrdinal0 [0x00C9EB0B+191243]\n\tOrdinal0 [0x00C82E77+77431]\n\tOrdinal0 [0x00C83E3E+81470]\n\tOrdinal0 [0x00C83DC9+81353]\n\tOrdinal0 [0x00E70C99+2100377]\n\tGetHandleVerifier [0x010DB71A+1396954]\n\tGetHandleVerifier [0x010DB399+1396057]\n\tGetHandleVerifier [0x010E70E6+1444518]\n\tGetHandleVerifier [0x010DBCA8+1398376]\n\tOrdinal0 [0x00E67F11+2064145]\n\tOrdinal0 [0x00E722AB+2106027]\n\tOrdinal0 [0x00E723D1+2106321]\n\tOrdinal0 [0x00E84984+2181508]\n\tBaseThreadInitThunk [0x74C26359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77487C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77487BF4+180]",
+      "time" : {
+        "start" : 1602724785904,
+        "stop" : 1602724787001,
+        "duration" : 1097
+      }
+    }, {
+      "uid" : "9c10e5b8d0f56e40",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home",
+      "time" : {
+        "start" : 1602724685527,
+        "stop" : 1602724685527,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "1d101f0531d7ec53",
+        "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/1d101f0531d7ec53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602743005147,
+          "stop" : 1602743006986,
+          "duration" : 1839
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "fb70559f71a25b7.json",
+  "parameterValues" : [ "{'add_name': '自动化测试项目', 'add_num': '10'}" ]
+}

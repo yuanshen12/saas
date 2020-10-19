@@ -1,0 +1,92 @@
+{
+  "uid" : "f427c283364afc0c",
+  "name" : "test_14[data0]",
+  "fullName" : "test_10.TestReagent#test_14",
+  "historyId" : "8527855a907515676449bf78a60843dd",
+  "time" : {
+    "start" : 1602743143729,
+    "stop" : 1602743154276,
+    "duration" : 10547
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <TestCase.test_10.TestReagent object at 0x015B2C58>\nsession_login = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"dd852ce45f1253e25fe16975f428c98e\")>\ndata = {'add_name': '入库测试', 'add_sum': '5'}\n\n    @pytest.mark.smoke\n    @allure.story(\"库存\")\n    @pytest.mark.parametrize(\"data\", LD.add_rk_name)\n    def test_14(self, session_login, data):\n        self.driver = session_login\n>       sp = loc_sp(self.driver).search_sp(data['add_name'])\n\ntest_10.py:117: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Locators\\LabLocators\\reagent\\repertory.py:62: in search_sp\n    self.click_element(self.click_search)\n..\\Common\\basepage.py:46: in click_element\n    self.get_element(EC.element_to_be_clickable, locator).click()\n..\\Common\\basepage.py:29: in get_element\n    self.wait_vs(ec, locator)\n..\\Common\\basepage.py:18: in wait_vs\n    WebDriverWait(self.driver, timeout=10, poll_frequency=0.5).until(ec(locator))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"dd852ce45f1253e25fe16975f428c98e\")>\nmethod = <selenium.webdriver.support.expected_conditions.element_to_be_clickable object at 0x015B2E80>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n..\\..\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1602742968033,
+      "stop" : 1602742979681,
+      "duration" : 11648
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1602743215711,
+      "stop" : 1602743217900,
+      "duration" : 2189
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "库存"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_10"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReagent"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "16732-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_10"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add_name': '入库测试', 'add_sum': '5'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "f427c283364afc0c.json",
+  "parameterValues" : [ "{'add_name': '入库测试', 'add_sum': '5'}" ]
+}

@@ -1,0 +1,192 @@
+{
+  "uid" : "cfa19cbd776c5c98",
+  "name" : "test_52[data0]",
+  "fullName" : "test_08.TestSystem#test_52",
+  "historyId" : "ceef6b30cc4d5b7a8204c73658d395a5",
+  "time" : {
+    "start" : 1602842411378,
+    "stop" : 1602842425940,
+    "duration" : 14562
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "dealer_session_login",
+    "time" : {
+      "start" : 1602842211176,
+      "stop" : 1602842224038,
+      "duration" : 12862
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "dealer_session_login::0",
+    "time" : {
+      "start" : 1602842520352,
+      "stop" : 1602842522699,
+      "duration" : 2347
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "采购"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_08"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "17780-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_08"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add_name': '测试供应商', 'add_mc': '测试商品', 'add_sl': '2'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ad0a6821b82bed61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602841668977,
+        "stop" : 1602841684332,
+        "duration" : 15355
+      }
+    }, {
+      "uid" : "e82dcda2981b18fa",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602841215518,
+        "stop" : 1602841237809,
+        "duration" : 22291
+      }
+    }, {
+      "uid" : "3761db857e59701e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602840914116,
+        "stop" : 1602840914116,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "79d4b6c17e04aec5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602840618219,
+        "stop" : 1602840633904,
+        "duration" : 15685
+      }
+    }, {
+      "uid" : "79c5a51bdb75fe34",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602839855188,
+        "stop" : 1602839858116,
+        "duration" : 2928
+      }
+    }, {
+      "uid" : "5f258398a3021da5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602839085712,
+        "stop" : 1602839088532,
+        "duration" : 2820
+      }
+    }, {
+      "uid" : "c3922797104c4e6d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602828246604,
+        "stop" : 1602828268761,
+        "duration" : 22157
+      }
+    }, {
+      "uid" : "4b7fcb8c2cb8b578",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602823730729,
+        "stop" : 1602823742381,
+        "duration" : 11652
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "6ebe1ff9c48e0194",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/27/allure/#testresult/6ebe1ff9c48e0194",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1602840914116,
+          "stop" : 1602840914116,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "258835fde7a1b686",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/26/allure/#testresult/258835fde7a1b686",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False is True",
+        "time" : {
+          "start" : 1602828246604,
+          "stop" : 1602828268761,
+          "duration" : 22157
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "cfa19cbd776c5c98.json",
+  "parameterValues" : [ "{'add_name': '测试供应商', 'add_mc': '测试商品', 'add_sl': '2'}" ]
+}

@@ -1,0 +1,162 @@
+{
+  "uid" : "dca363271c0f94eb",
+  "name" : "test_56[data0]",
+  "fullName" : "test_09.TestSystem#test_56",
+  "historyId" : "be959af2e3c67b4dd2af606fb136941b",
+  "time" : {
+    "start" : 1602842437790,
+    "stop" : 1602842440074,
+    "duration" : 2284
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "dealer_session_login",
+    "time" : {
+      "start" : 1602842211176,
+      "stop" : 1602842224038,
+      "duration" : 12862
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "dealer_session_login::0",
+    "time" : {
+      "start" : 1602842520352,
+      "stop" : 1602842522699,
+      "duration" : 2347
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "供应商信息"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_09"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "17780-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_09"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add_name': '新供应商'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ca15cfc579f84261",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602841696035,
+        "stop" : 1602841698319,
+        "duration" : 2284
+      }
+    }, {
+      "uid" : "ab3cedf3f65d25a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602841249208,
+        "stop" : 1602841251468,
+        "duration" : 2260
+      }
+    }, {
+      "uid" : "f05980e3a358422f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602840914269,
+        "stop" : 1602840914269,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3765554d653a50be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602840645859,
+        "stop" : 1602840648168,
+        "duration" : 2309
+      }
+    }, {
+      "uid" : "8ed37f5494f909a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602839870553,
+        "stop" : 1602839872865,
+        "duration" : 2312
+      }
+    }, {
+      "uid" : "abad8c78a895ab1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602839100747,
+        "stop" : 1602839103032,
+        "duration" : 2285
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a2cf93c86b6b1301",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/27/allure/#testresult/a2cf93c86b6b1301",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1602840914269,
+          "stop" : 1602840914269,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "dca363271c0f94eb.json",
+  "parameterValues" : [ "{'add_name': '新供应商'}" ]
+}

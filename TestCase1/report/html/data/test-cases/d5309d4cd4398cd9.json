@@ -1,0 +1,354 @@
+{
+  "uid" : "d5309d4cd4398cd9",
+  "name" : "test_09[data0]",
+  "fullName" : "test_02.TestSystem#test_09",
+  "historyId" : "1f9266fec50bd67e71a1dc72463cb1ec",
+  "time" : {
+    "start" : 1602813817922,
+    "stop" : 1602813819053,
+    "duration" : 1131
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False is True",
+  "statusTrace" : "self = <TestCase1.test_02.TestSystem object at 0x09D36D90>\ndealer_session_login = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"cf7e36b4ec5b666027a20d616f40f73f\")>, data = {'add_b': '这是备注', 'add_name': '测试部'}\n\n    @pytest.mark.smoke\n    @allure.story(\"组织架构\")\n    @pytest.mark.parametrize(\"data\", LD.ts)\n    def test_09(self, dealer_session_login, data):\n        self.driver = dealer_session_login\n        tissue = loc(self.driver).get_d(data[\"add_b\"])\n>       assert tissue is True\nE       assert False is True\n\ntest_02.py:36: AssertionError",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ {
+    "name" : "dealer_session_login",
+    "time" : {
+      "start" : 1602813777942,
+      "stop" : 1602813790232,
+      "duration" : 12290
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "dealer_session_login::0",
+    "time" : {
+      "start" : 1602813989406,
+      "stop" : 1602813991678,
+      "duration" : 2272
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "组织架构"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_02"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "7772-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add_name': '测试部', 'add_b': '这是备注'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ba6f37fe7cf0cd5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602813145453,
+        "stop" : 1602813148007,
+        "duration" : 2554
+      }
+    }, {
+      "uid" : "cb1c67eb4203b149",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602812624478,
+        "stop" : 1602812627035,
+        "duration" : 2557
+      }
+    }, {
+      "uid" : "ece18dba3e67d4fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602754010946,
+        "stop" : 1602754013474,
+        "duration" : 2528
+      }
+    }, {
+      "uid" : "88dfe2ab3d3a795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602749838497,
+        "stop" : 1602749841053,
+        "duration" : 2556
+      }
+    }, {
+      "uid" : "5eaff9d03115f803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602747190339,
+        "stop" : 1602747192953,
+        "duration" : 2614
+      }
+    }, {
+      "uid" : "f03beb3a4c2132bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602746962809,
+        "stop" : 1602746965339,
+        "duration" : 2530
+      }
+    }, {
+      "uid" : "acba18d8f30fdf5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602726330535,
+        "stop" : 1602726333132,
+        "duration" : 2597
+      }
+    }, {
+      "uid" : "f62cd810a520c0f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602723512856,
+        "stop" : 1602723515414,
+        "duration" : 2558
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 22,
+        "unknown" : 0,
+        "total" : 24
+      },
+      "items" : [ {
+        "uid" : "ad1255211908e879",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/24/allure/#testresult/ad1255211908e879",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602813145453,
+          "stop" : 1602813148007,
+          "duration" : 2554
+        }
+      }, {
+        "uid" : "bd4684c392c8c09e",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/22/allure/#testresult/bd4684c392c8c09e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602809334705,
+          "stop" : 1602809337013,
+          "duration" : 2308
+        }
+      }, {
+        "uid" : "7c1a48dff58f9b3a",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/21/allure/#testresult/7c1a48dff58f9b3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602809334705,
+          "stop" : 1602809337013,
+          "duration" : 2308
+        }
+      }, {
+        "uid" : "1a0c3e58bf3536e2",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/20/allure/#testresult/1a0c3e58bf3536e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602809334705,
+          "stop" : 1602809337013,
+          "duration" : 2308
+        }
+      }, {
+        "uid" : "471376dca68c838",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/19/allure/#testresult/471376dca68c838",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602809334705,
+          "stop" : 1602809337013,
+          "duration" : 2308
+        }
+      }, {
+        "uid" : "e71a0104963aec5a",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/18/allure/#testresult/e71a0104963aec5a",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1602809168812,
+          "stop" : 1602809168812,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "7409649d85cd1139",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/17/allure/#testresult/7409649d85cd1139",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602764766722,
+          "stop" : 1602764769336,
+          "duration" : 2614
+        }
+      }, {
+        "uid" : "d98e53fbe3846ee4",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/16/allure/#testresult/d98e53fbe3846ee4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602754010946,
+          "stop" : 1602754013474,
+          "duration" : 2528
+        }
+      }, {
+        "uid" : "23b0ba4070a7e2ab",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/15/allure/#testresult/23b0ba4070a7e2ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602749838497,
+          "stop" : 1602749841053,
+          "duration" : 2556
+        }
+      }, {
+        "uid" : "7928e28f97a9f722",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/14/allure/#testresult/7928e28f97a9f722",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602749838497,
+          "stop" : 1602749841053,
+          "duration" : 2556
+        }
+      }, {
+        "uid" : "bc528af5690754b5",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/13/allure/#testresult/bc528af5690754b5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602749838497,
+          "stop" : 1602749841053,
+          "duration" : 2556
+        }
+      }, {
+        "uid" : "8190fafe6ac91124",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/12/allure/#testresult/8190fafe6ac91124",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602749838497,
+          "stop" : 1602749841053,
+          "duration" : 2556
+        }
+      }, {
+        "uid" : "b3b209cafa46dd01",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/11/allure/#testresult/b3b209cafa46dd01",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602749838497,
+          "stop" : 1602749841053,
+          "duration" : 2556
+        }
+      }, {
+        "uid" : "d96fad9499c56009",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/10/allure/#testresult/d96fad9499c56009",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602749838497,
+          "stop" : 1602749841053,
+          "duration" : 2556
+        }
+      }, {
+        "uid" : "c086215d91ec012f",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/9/allure/#testresult/c086215d91ec012f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602749838497,
+          "stop" : 1602749841053,
+          "duration" : 2556
+        }
+      }, {
+        "uid" : "bda6db2e3b3fcff4",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/8/allure/#testresult/bda6db2e3b3fcff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602749838497,
+          "stop" : 1602749841053,
+          "duration" : 2556
+        }
+      }, {
+        "uid" : "cfea24c6b4f0a31d",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/7/allure/#testresult/cfea24c6b4f0a31d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602749838497,
+          "stop" : 1602749841053,
+          "duration" : 2556
+        }
+      }, {
+        "uid" : "94badc7f6ff43a2c",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/6/allure/#testresult/94badc7f6ff43a2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602749838497,
+          "stop" : 1602749841053,
+          "duration" : 2556
+        }
+      }, {
+        "uid" : "404e31e25df2a768",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/5/allure/#testresult/404e31e25df2a768",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602749838497,
+          "stop" : 1602749841053,
+          "duration" : 2556
+        }
+      }, {
+        "uid" : "1270d3c6a787a3c3",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/4/allure/#testresult/1270d3c6a787a3c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602749838497,
+          "stop" : 1602749841053,
+          "duration" : 2556
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "d5309d4cd4398cd9.json",
+  "parameterValues" : [ "{'add_name': '测试部', 'add_b': '这是备注'}" ]
+}

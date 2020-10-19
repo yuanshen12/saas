@@ -1,0 +1,92 @@
+{
+  "uid" : "505f0a71636e89bf",
+  "name" : "test_19[data0]",
+  "fullName" : "test_10.TestReagent#test_19",
+  "historyId" : "4995dac3f8bf720df7408b7731711e6a",
+  "time" : {
+    "start" : 1602743582660,
+    "stop" : 1602743583751,
+    "duration" : 1091
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False is True",
+  "statusTrace" : "self = <TestCase.test_10.TestReagent object at 0x01004130>\nsession_login = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"c28f73e67b1f7accb9e19ee216e3e691\")>\ndata = {'add_name': '入库测试', 'add_sum': '5'}\n\n    @pytest.mark.smoke\n    @allure.story(\"领用\")\n    @pytest.mark.parametrize(\"data\", LD.add_rk_name)\n    def test_19(self, session_login, data):\n        self.driver = session_login\n        rt = loc_rc(self.driver).add_ly(data['add_name'])\n>       assert rt is True\nE       assert False is True\n\ntest_10.py:157: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1602743388352,
+      "stop" : 1602743400282,
+      "duration" : 11930
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1602743642586,
+      "stop" : 1602743644750,
+      "duration" : 2164
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "领用"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_10"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReagent"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "11804-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_10"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add_name': '入库测试', 'add_sum': '5'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "505f0a71636e89bf.json",
+  "parameterValues" : [ "{'add_name': '入库测试', 'add_sum': '5'}" ]
+}

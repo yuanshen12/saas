@@ -1,0 +1,94 @@
+{
+  "uid" : "26491b746d91b6ce",
+  "name" : "test_16[data0]",
+  "fullName" : "test_03.TestSystem#test_16",
+  "historyId" : "df2d9d6cabc8c61fffcf46bcdcc2b32d",
+  "time" : {
+    "start" : 1602724787142,
+    "stop" : 1602724788219,
+    "duration" : 1077
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-216ef566=\"\" role=\"menuitem\" tabindex=\"-1\" class=\"el-menu-item\" style=\"color: rgb(151, 151, 151); border-bottom-color: transparent;\">...</li> is not clickable at point (1158, 72). Other element would receive the click: <div class=\"wl-panel-mask\"></div>\n  (Session info: chrome=85.0.4183.102)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00F6D343+3134275]\n\tOrdinal0 [0x00E5A131+2007345]\n\tOrdinal0 [0x00CFAEC8+569032]\n\tOrdinal0 [0x00C8DE78+122488]\n\tOrdinal0 [0x00C8D022+118818]\n\tOrdinal0 [0x00C8BBDA+113626]\n\tOrdinal0 [0x00C8B29E+111262]\n\tOrdinal0 [0x00C84B36+84790]\n\tOrdinal0 [0x00C9EC5D+191581]\n\tOrdinal0 [0x00C84986+84358]\n\tOrdinal0 [0x00C9ED31+191793]\n\tOrdinal0 [0x00CA8773+231283]\n\tOrdinal0 [0x00C9EB0B+191243]\n\tOrdinal0 [0x00C82E77+77431]\n\tOrdinal0 [0x00C83E3E+81470]\n\tOrdinal0 [0x00C83DC9+81353]\n\tOrdinal0 [0x00E70C99+2100377]\n\tGetHandleVerifier [0x010DB71A+1396954]\n\tGetHandleVerifier [0x010DB399+1396057]\n\tGetHandleVerifier [0x010E70E6+1444518]\n\tGetHandleVerifier [0x010DBCA8+1398376]\n\tOrdinal0 [0x00E67F11+2064145]\n\tOrdinal0 [0x00E722AB+2106027]\n\tOrdinal0 [0x00E723D1+2106321]\n\tOrdinal0 [0x00E84984+2181508]\n\tBaseThreadInitThunk [0x74C26359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77487C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77487BF4+180]",
+  "statusTrace" : "self = <TestCase.test_03.TestSystem object at 0x099E7C58>\nsession_login = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"bb37e9caee5ce83c74c6b8d4ca1badda\")>\ndata = {'add': '角色', 'add_1': '角色01', 'add_2': '角色02', 'add_3': '角色03', ...}\n\n    @allure.story(\"角色管理\")\n    @pytest.mark.smoke\n    @pytest.mark.parametrize(\"data\", LD.add_role_name)\n    def test_16(self, session_login, data):\n        self.driver = session_login\n>       loc_add = loc_role(self.driver).add_role(data[\"add_1\"])\n\ntest_03.py:13: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n..\\Locators\\LabLocators\\system\\role.py:27: in add_role\n    self.click_element(self.click_role, num=12)\n..\\Common\\basepage.py:48: in click_element\n    self.get_element(EC.element_to_be_clickable, locator, num).click()\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py:95: in click\n    self._execute(Command.CLICK_ELEMENT)\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py:703: in _execute\n    return self._parent.execute(command, params)\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:349: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0963B9A0>\nresponse = {'status': 400, 'value': '{\"value\":{\"error\":\"element click intercepted\",\"message\":\"element click intercepted: Element ...\\n\\\\tRtlGetAppContainerNamedObjectPath [0x77487C24+228]\\\\n\\\\tRtlGetAppContainerNamedObjectPath [0x77487BF4+180]\\\\n\"}}'}\n\n    def check_response(self, response):\n        \"\"\"\n        Checks that a JSON response from the WebDriver does not have an error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get('status', None)\n        if status is None or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get('value', None)\n            if value_json and isinstance(value_json, basestring):\n                import json\n                try:\n                    value = json.loads(value_json)\n                    if len(value.keys()) == 1:\n                        value = value['value']\n                    status = value.get('error', None)\n                    if status is None:\n                        status = value[\"status\"]\n                        message = value[\"value\"]\n                        if not isinstance(message, basestring):\n                            value = message\n                            message = message.get('message')\n                    else:\n                        message = value.get('message', None)\n                except ValueError:\n                    pass\n    \n        if status in ErrorCode.NO_SUCH_ELEMENT:\n            exception_class = NoSuchElementException\n        elif status in ErrorCode.NO_SUCH_FRAME:\n            exception_class = NoSuchFrameException\n        elif status in ErrorCode.NO_SUCH_WINDOW:\n            exception_class = NoSuchWindowException\n        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:\n            exception_class = StaleElementReferenceException\n        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:\n            exception_class = ElementNotVisibleException\n        elif status in ErrorCode.INVALID_ELEMENT_STATE:\n            exception_class = InvalidElementStateException\n        elif status in ErrorCode.INVALID_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:\n            exception_class = InvalidSelectorException\n        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:\n            exception_class = ElementNotSelectableException\n        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:\n            exception_class = ElementNotInteractableException\n        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:\n            exception_class = InvalidCookieDomainException\n        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:\n            exception_class = UnableToSetCookieException\n        elif status in ErrorCode.TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.SCRIPT_TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.UNKNOWN_ERROR:\n            exception_class = WebDriverException\n        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:\n            exception_class = UnexpectedAlertPresentException\n        elif status in ErrorCode.NO_ALERT_OPEN:\n            exception_class = NoAlertPresentException\n        elif status in ErrorCode.IME_NOT_AVAILABLE:\n            exception_class = ImeNotAvailableException\n        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:\n            exception_class = ImeActivationFailedException\n        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:\n            exception_class = MoveTargetOutOfBoundsException\n        elif status in ErrorCode.JAVASCRIPT_ERROR:\n            exception_class = JavascriptException\n        elif status in ErrorCode.SESSION_NOT_CREATED:\n            exception_class = SessionNotCreatedException\n        elif status in ErrorCode.INVALID_ARGUMENT:\n            exception_class = InvalidArgumentException\n        elif status in ErrorCode.NO_SUCH_COOKIE:\n            exception_class = NoSuchCookieException\n        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:\n            exception_class = ScreenshotException\n        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:\n            exception_class = ElementClickInterceptedException\n        elif status in ErrorCode.INSECURE_CERTIFICATE:\n            exception_class = InsecureCertificateException\n        elif status in ErrorCode.INVALID_COORDINATES:\n            exception_class = InvalidCoordinatesException\n        elif status in ErrorCode.INVALID_SESSION_ID:\n            exception_class = InvalidSessionIdException\n        elif status in ErrorCode.UNKNOWN_METHOD:\n            exception_class = UnknownMethodException\n        else:\n            exception_class = WebDriverException\n        if value == '' or value is None:\n            value = response['value']\n        if isinstance(value, basestring):\n            raise exception_class(value)\n        if message == \"\" and 'message' in value:\n            message = value['message']\n    \n        screen = None\n        if 'screen' in value:\n            screen = value['screen']\n    \n        stacktrace = None\n        st_value = value.get('stackTrace') or value.get('stacktrace')\n        if st_value:\n            if isinstance(st_value, basestring):\n                stacktrace = st_value.split('\\n')\n            else:\n                stacktrace = []\n                try:\n                    for frame in st_value:\n                        line = self._value_or_default(frame, 'lineNumber', '')\n                        file = self._value_or_default(frame, 'fileName', '<anonymous>')\n                        if line:\n                            file = \"%s:%s\" % (file, line)\n                        meth = self._value_or_default(frame, 'methodName', '<anonymous>')\n                        if 'className' in frame:\n                            meth = \"%s.%s\" % (frame['className'], meth)\n                        msg = \"    at %s (%s)\"\n                        msg = msg % (meth, file)\n                        stacktrace.append(msg)\n                except TypeError:\n                    pass\n        if exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if 'data' in value:\n                alert_text = value['data'].get('text')\n            elif 'alert' in value:\n                alert_text = value['alert'].get('text')\n            raise exception_class(message, screen, stacktrace, alert_text)\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-216ef566=\"\" role=\"menuitem\" tabindex=\"-1\" class=\"el-menu-item\" style=\"color: rgb(151, 151, 151); border-bottom-color: transparent;\">...</li> is not clickable at point (1158, 72). Other element would receive the click: <div class=\"wl-panel-mask\"></div>\nE         (Session info: chrome=85.0.4183.102)\nE       Stacktrace:\nE       Backtrace:\nE       \tOrdinal0 [0x00F6D343+3134275]\nE       \tOrdinal0 [0x00E5A131+2007345]\nE       \tOrdinal0 [0x00CFAEC8+569032]\nE       \tOrdinal0 [0x00C8DE78+122488]\nE       \tOrdinal0 [0x00C8D022+118818]\nE       \tOrdinal0 [0x00C8BBDA+113626]\nE       \tOrdinal0 [0x00C8B29E+111262]\nE       \tOrdinal0 [0x00C84B36+84790]\nE       \tOrdinal0 [0x00C9EC5D+191581]\nE       \tOrdinal0 [0x00C84986+84358]\nE       \tOrdinal0 [0x00C9ED31+191793]\nE       \tOrdinal0 [0x00CA8773+231283]\nE       \tOrdinal0 [0x00C9EB0B+191243]\nE       \tOrdinal0 [0x00C82E77+77431]\nE       \tOrdinal0 [0x00C83E3E+81470]\nE       \tOrdinal0 [0x00C83DC9+81353]\nE       \tOrdinal0 [0x00E70C99+2100377]\nE       \tGetHandleVerifier [0x010DB71A+1396954]\nE       \tGetHandleVerifier [0x010DB399+1396057]\nE       \tGetHandleVerifier [0x010E70E6+1444518]\nE       \tGetHandleVerifier [0x010DBCA8+1398376]\nE       \tOrdinal0 [0x00E67F11+2064145]\nE       \tOrdinal0 [0x00E722AB+2106027]\nE       \tOrdinal0 [0x00E723D1+2106321]\nE       \tOrdinal0 [0x00E84984+2181508]\nE       \tBaseThreadInitThunk [0x74C26359+25]\nE       \tRtlGetAppContainerNamedObjectPath [0x77487C24+228]\nE       \tRtlGetAppContainerNamedObjectPath [0x77487BF4+180]\n\n..\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py:240: ElementClickInterceptedException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1602724754844,
+      "stop" : 1602724766504,
+      "duration" : 11660
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1602724802987,
+      "stop" : 1602724809121,
+      "duration" : 6134
+    },
+    "status" : "broken",
+    "statusMessage" : "KeyboardInterrupt\n",
+    "statusTrace" : "  File \"d:\\seleniumweb\\saas\\venv\\lib\\site-packages\\allure_commons\\_allure.py\", line 185, in __call__\n    return self._fixture_function(*args, **kwargs)\n  File \"d:\\seleniumweb\\saas\\venv\\lib\\site-packages\\_pytest\\fixtures.py\", line 926, in _teardown_yield_fixture\n    next(it)\n  File \"D:\\seleniumweb\\saas\\TestCase\\conftest.py\", line 32, in session_login\n    driver.quit()\n  File \"d:\\seleniumweb\\saas\\venv\\lib\\site-packages\\selenium\\webdriver\\chromium\\webdriver.py\", line 192, in quit\n    RemoteWebDriver.quit(self)\n  File \"d:\\seleniumweb\\saas\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 788, in quit\n    self.execute(Command.QUIT)\n  File \"d:\\seleniumweb\\saas\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 347, in execute\n    response = self.command_executor.execute(driver_command, params)\n  File \"d:\\seleniumweb\\saas\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py\", line 391, in execute\n    return self._request(command_info[0], url, body=data)\n  File \"d:\\seleniumweb\\saas\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py\", line 414, in _request\n    resp = self._conn.request(method, url, body=body, headers=headers)\n  File \"d:\\seleniumweb\\saas\\venv\\lib\\site-packages\\urllib3\\request.py\", line 75, in request\n    return self.request_encode_url(\n  File \"d:\\seleniumweb\\saas\\venv\\lib\\site-packages\\urllib3\\request.py\", line 97, in request_encode_url\n    return self.urlopen(method, url, **extra_kw)\n  File \"d:\\seleniumweb\\saas\\venv\\lib\\site-packages\\urllib3\\poolmanager.py\", line 336, in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n  File \"d:\\seleniumweb\\saas\\venv\\lib\\site-packages\\urllib3\\connectionpool.py\", line 670, in urlopen\n    httplib_response = self._make_request(\n  File \"d:\\seleniumweb\\saas\\venv\\lib\\site-packages\\urllib3\\connectionpool.py\", line 392, in _make_request\n    conn.request(method, url, **httplib_request_kw)\n  File \"D:\\seleniumweb\\python\\lib\\http\\client.py\", line 1255, in request\n    self._send_request(method, url, body, headers, encode_chunked)\n  File \"D:\\seleniumweb\\python\\lib\\http\\client.py\", line 1301, in _send_request\n    self.endheaders(body, encode_chunked=encode_chunked)\n  File \"D:\\seleniumweb\\python\\lib\\http\\client.py\", line 1250, in endheaders\n    self._send_output(message_body, encode_chunked=encode_chunked)\n  File \"D:\\seleniumweb\\python\\lib\\http\\client.py\", line 1010, in _send_output\n    self.send(msg)\n  File \"D:\\seleniumweb\\python\\lib\\http\\client.py\", line 950, in send\n    self.connect()\n  File \"d:\\seleniumweb\\saas\\venv\\lib\\site-packages\\urllib3\\connection.py\", line 187, in connect\n    conn = self._new_conn()\n  File \"d:\\seleniumweb\\saas\\venv\\lib\\site-packages\\urllib3\\connection.py\", line 159, in _new_conn\n    conn = connection.create_connection(\n  File \"d:\\seleniumweb\\saas\\venv\\lib\\site-packages\\urllib3\\util\\connection.py\", line 74, in create_connection\n    sock.connect(sa)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "角色管理"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_03"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "14188-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_03"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add': '角色', 'add_1': '角色01', 'add_2': '角色02', 'add_3': '角色03', 'add_4': '角色04'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "26491b746d91b6ce.json",
+  "parameterValues" : [ "{'add': '角色', 'add_1': '角色01', 'add_2': '角色02', 'add_3': '角色03', 'add_4': '角色04'}" ]
+}

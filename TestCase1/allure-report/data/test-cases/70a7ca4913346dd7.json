@@ -1,0 +1,162 @@
+{
+  "uid" : "70a7ca4913346dd7",
+  "name" : "test_74",
+  "fullName" : "test_14.TestSystem#test_74",
+  "historyId" : "c616a2419404c00661dfc1ecd49b7fd1",
+  "time" : {
+    "start" : 1602842507701,
+    "stop" : 1602842515637,
+    "duration" : 7936
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "dealer_session_login",
+    "time" : {
+      "start" : 1602842211176,
+      "stop" : 1602842224038,
+      "duration" : 12862
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "dealer_session_login::0",
+    "time" : {
+      "start" : 1602842520352,
+      "stop" : 1602842522699,
+      "duration" : 2347
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "仓库"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_14"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "17780-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_14"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4fbb1ad04bb3239",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li role=\"menuitem\" tabindex=\"-1\" class=\"el-menu-item\" style=\"color: rgb(85, 85, 85); border-bottom-color: transparent;\">...</li> is not clickable at point (669, 33). Other element would receive the click: <div class=\"wl-panel-mask\"></div>\n  (Session info: chrome=85.0.4183.102)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00C1D343+3134275]\n\tOrdinal0 [0x00B0A131+2007345]\n\tOrdinal0 [0x009AAEC8+569032]\n\tOrdinal0 [0x0093DE78+122488]\n\tOrdinal0 [0x0093D022+118818]\n\tOrdinal0 [0x0093BBDA+113626]\n\tOrdinal0 [0x0093B29E+111262]\n\tOrdinal0 [0x00934B36+84790]\n\tOrdinal0 [0x0094EC5D+191581]\n\tOrdinal0 [0x00934986+84358]\n\tOrdinal0 [0x0094ED31+191793]\n\tOrdinal0 [0x00958773+231283]\n\tOrdinal0 [0x0094EB0B+191243]\n\tOrdinal0 [0x00932E77+77431]\n\tOrdinal0 [0x00933E3E+81470]\n\tOrdinal0 [0x00933DC9+81353]\n\tOrdinal0 [0x00B20C99+2100377]\n\tGetHandleVerifier [0x00D8B71A+1396954]\n\tGetHandleVerifier [0x00D8B399+1396057]\n\tGetHandleVerifier [0x00D970E6+1444518]\n\tGetHandleVerifier [0x00D8BCA8+1398376]\n\tOrdinal0 [0x00B17F11+2064145]\n\tOrdinal0 [0x00B222AB+2106027]\n\tOrdinal0 [0x00B223D1+2106321]\n\tOrdinal0 [0x00B34984+2181508]\n\tBaseThreadInitThunk [0x74C26359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77487C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77487BF4+180]",
+      "time" : {
+        "start" : 1602841761509,
+        "stop" : 1602841762591,
+        "duration" : 1082
+      }
+    }, {
+      "uid" : "8ea47549a87bf392",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li role=\"menuitem\" tabindex=\"-1\" class=\"el-menu-item\" style=\"color: rgb(85, 85, 85); border-bottom-color: transparent;\">...</li> is not clickable at point (275, 33). Other element would receive the click: <div class=\"wl-panel-mask\"></div>\n  (Session info: chrome=85.0.4183.102)",
+      "time" : {
+        "start" : 1602841346994,
+        "stop" : 1602841348131,
+        "duration" : 1137
+      }
+    }, {
+      "uid" : "6b3255264481ed7b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602840914811,
+        "stop" : 1602840914811,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a0600ece69155f15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602840711634,
+        "stop" : 1602840717539,
+        "duration" : 5905
+      }
+    }, {
+      "uid" : "953b2b9d991e46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602839936575,
+        "stop" : 1602839942449,
+        "duration" : 5874
+      }
+    }, {
+      "uid" : "8f6bb7c2960bbf46",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li role=\"menuitem\" tabindex=\"-1\" class=\"el-menu-item\" style=\"color: rgb(85, 85, 85); border-bottom-color: transparent;\">...</li> is not clickable at point (669, 33). Other element would receive the click: <div class=\"wl-panel-mask\"></div>\n  (Session info: chrome=85.0.4183.102)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00C1D343+3134275]\n\tOrdinal0 [0x00B0A131+2007345]\n\tOrdinal0 [0x009AAEC8+569032]\n\tOrdinal0 [0x0093DE78+122488]\n\tOrdinal0 [0x0093D022+118818]\n\tOrdinal0 [0x0093BBDA+113626]\n\tOrdinal0 [0x0093B29E+111262]\n\tOrdinal0 [0x00934B36+84790]\n\tOrdinal0 [0x0094EC5D+191581]\n\tOrdinal0 [0x00934986+84358]\n\tOrdinal0 [0x0094ED31+191793]\n\tOrdinal0 [0x00958773+231283]\n\tOrdinal0 [0x0094EB0B+191243]\n\tOrdinal0 [0x00932E77+77431]\n\tOrdinal0 [0x00933E3E+81470]\n\tOrdinal0 [0x00933DC9+81353]\n\tOrdinal0 [0x00B20C99+2100377]\n\tGetHandleVerifier [0x00D8B71A+1396954]\n\tGetHandleVerifier [0x00D8B399+1396057]\n\tGetHandleVerifier [0x00D970E6+1444518]\n\tGetHandleVerifier [0x00D8BCA8+1398376]\n\tOrdinal0 [0x00B17F11+2064145]\n\tOrdinal0 [0x00B222AB+2106027]\n\tOrdinal0 [0x00B223D1+2106321]\n\tOrdinal0 [0x00B34984+2181508]\n\tBaseThreadInitThunk [0x74C26359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77487C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77487BF4+180]",
+      "time" : {
+        "start" : 1602839161248,
+        "stop" : 1602839162333,
+        "duration" : 1085
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c3d514ded3f1713b",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/27/allure/#testresult/c3d514ded3f1713b",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1602840914811,
+          "stop" : 1602840914811,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "70a7ca4913346dd7.json",
+  "parameterValues" : [ ]
+}

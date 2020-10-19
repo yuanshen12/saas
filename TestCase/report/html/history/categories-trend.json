@@ -1,0 +1,14 @@
+[ {
+  "buildOrder" : 4,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 11,
+    "Test defects" : 4
+  }
+} ]

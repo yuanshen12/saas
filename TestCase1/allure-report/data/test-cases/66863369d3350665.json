@@ -1,0 +1,162 @@
+{
+  "uid" : "66863369d3350665",
+  "name" : "test_59[data0]",
+  "fullName" : "test_11.TestSystem#test_59",
+  "historyId" : "e5113b8f54f814bf133f6dfced01867a",
+  "time" : {
+    "start" : 1602842449981,
+    "stop" : 1602842452682,
+    "duration" : 2701
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "dealer_session_login",
+    "time" : {
+      "start" : 1602842211176,
+      "stop" : 1602842224038,
+      "duration" : 12862
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "dealer_session_login::0",
+    "time" : {
+      "start" : 1602842520352,
+      "stop" : 1602842522699,
+      "duration" : 2347
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "验收入库"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_11"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "17780-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_11"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add_num': '1'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "60a6f3298cb4a8c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602841708048,
+        "stop" : 1602841710751,
+        "duration" : 2703
+      }
+    }, {
+      "uid" : "da2d4d3b0628fd79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602841261791,
+        "stop" : 1602841264428,
+        "duration" : 2637
+      }
+    }, {
+      "uid" : "f914167a4ef948b3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602840914370,
+        "stop" : 1602840914370,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4dadf19fa708731f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602840658089,
+        "stop" : 1602840660813,
+        "duration" : 2724
+      }
+    }, {
+      "uid" : "1403fbf546bbe063",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602839882739,
+        "stop" : 1602839885503,
+        "duration" : 2764
+      }
+    }, {
+      "uid" : "7516a1488d38917",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602839112560,
+        "stop" : 1602839115196,
+        "duration" : 2636
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "7195746fea5722d6",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/27/allure/#testresult/7195746fea5722d6",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1602840914370,
+          "stop" : 1602840914370,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "66863369d3350665.json",
+  "parameterValues" : [ "{'add_num': '1'}" ]
+}

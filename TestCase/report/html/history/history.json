@@ -1,0 +1,2051 @@
+{
+  "79d9980f8b3cd20a8febb1737f8a6c0d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "69e6dcb1327bce5e",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/69e6dcb1327bce5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743832099,
+        "stop" : 1602743834246,
+        "duration" : 2147
+      }
+    }, {
+      "uid" : "d59d74209b2f01e0",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/d59d74209b2f01e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743008603,
+        "stop" : 1602743010753,
+        "duration" : 2150
+      }
+    } ]
+  },
+  "c00fb615da006f57599ce730d79a7fa5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "1c0e134f4abbd9cb",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/1c0e134f4abbd9cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743883285,
+        "stop" : 1602743885445,
+        "duration" : 2160
+      }
+    }, {
+      "uid" : "644ec7ce56bce848",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/644ec7ce56bce848",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743060198,
+        "stop" : 1602743062374,
+        "duration" : 2176
+      }
+    } ]
+  },
+  "243738ac96cd84f5ee5585e7ee793b91" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "6adbf13bbe5d8c6d",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/6adbf13bbe5d8c6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743934217,
+        "stop" : 1602743935580,
+        "duration" : 1363
+      }
+    }, {
+      "uid" : "1bc554154561eae8",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/1bc554154561eae8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743108064,
+        "stop" : 1602743109712,
+        "duration" : 1648
+      }
+    } ]
+  },
+  "d67fc00bdea2d2031a4323cd7aaf3886" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "6050a83d6054d27c",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/6050a83d6054d27c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743993467,
+        "stop" : 1602744005018,
+        "duration" : 11551
+      }
+    }, {
+      "uid" : "3541a06c6736db25",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/3541a06c6736db25",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602743166991,
+        "stop" : 1602743181187,
+        "duration" : 14196
+      }
+    } ]
+  },
+  "594c7aba4d4795704290f0aafbce3f2e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "bf5495dc5751c885",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/bf5495dc5751c885",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743964635,
+        "stop" : 1602743967672,
+        "duration" : 3037
+      }
+    }, {
+      "uid" : "d65f0c278c968fb1",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/d65f0c278c968fb1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602743140843,
+        "stop" : 1602743141435,
+        "duration" : 592
+      }
+    } ]
+  },
+  "df2d9d6cabc8c61fffcf46bcdcc2b32d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "5d4ee547ee2dc899",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/5d4ee547ee2dc899",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743834251,
+        "stop" : 1602743839512,
+        "duration" : 5261
+      }
+    }, {
+      "uid" : "c946b38b09eb70ff",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/c946b38b09eb70ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743010758,
+        "stop" : 1602743015961,
+        "duration" : 5203
+      }
+    } ]
+  },
+  "0d3e8d1d29724d91b0a59cae86d3df70" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "fe9695a374b44972",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/fe9695a374b44972",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743960592,
+        "stop" : 1602743961226,
+        "duration" : 634
+      }
+    }, {
+      "uid" : "52447a697c1af2f9",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/52447a697c1af2f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743119265,
+        "stop" : 1602743119821,
+        "duration" : 556
+      }
+    } ]
+  },
+  "5837bd1edfd04796989cb423b5f0557b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a16199e99e821da6",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/a16199e99e821da6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743823613,
+        "stop" : 1602743824846,
+        "duration" : 1233
+      }
+    }, {
+      "uid" : "a2d4cb242a5544f5",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/a2d4cb242a5544f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743000272,
+        "stop" : 1602743001496,
+        "duration" : 1224
+      }
+    } ]
+  },
+  "d57d05a1b4cdb29b6199af349673348b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "9b6f288495de8828",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/9b6f288495de8828",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743827484,
+        "stop" : 1602743828634,
+        "duration" : 1150
+      }
+    }, {
+      "uid" : "7bac8c6f24d57261",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/7bac8c6f24d57261",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743003975,
+        "stop" : 1602743005144,
+        "duration" : 1169
+      }
+    } ]
+  },
+  "970a9d82f320274cceb2eb24ab9f9cf0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "4e13ae87a4c16b14",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/4e13ae87a4c16b14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743967682,
+        "stop" : 1602743974086,
+        "duration" : 6404
+      }
+    }, {
+      "uid" : "e628703b94ef6ff7",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/e628703b94ef6ff7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <li data-v-216ef566=\"\" role=\"menuitem\" tabindex=\"-1\" class=\"el-menu-item\" style=\"color: rgb(151, 151, 151); border-bottom-color: transparent;\">...</li> is not clickable at point (683, 72). Other element would receive the click: <div class=\"wl-panel-mask\"></div>\n  (Session info: chrome=85.0.4183.102)",
+      "time" : {
+        "start" : 1602743141450,
+        "stop" : 1602743142542,
+        "duration" : 1092
+      }
+    } ]
+  },
+  "b451cbe53701000b73d8dc554649f9ed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "dee3ff5fa89d4ee4",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/dee3ff5fa89d4ee4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743847724,
+        "stop" : 1602743849939,
+        "duration" : 2215
+      }
+    }, {
+      "uid" : "8ddc4921a2ff514c",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/8ddc4921a2ff514c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743024314,
+        "stop" : 1602743026520,
+        "duration" : 2206
+      }
+    } ]
+  },
+  "5b29a628b37e93008a7e711a7125f8c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "23a16520a819f172",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/23a16520a819f172",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743839517,
+        "stop" : 1602743842553,
+        "duration" : 3036
+      }
+    }, {
+      "uid" : "b387ffe4e760c77b",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/b387ffe4e760c77b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743015965,
+        "stop" : 1602743019030,
+        "duration" : 3065
+      }
+    } ]
+  },
+  "4f3d9092f82f556d8bd4e8332f6e365a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "5d2572242f85ecfd",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/5d2572242f85ecfd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743818603,
+        "stop" : 1602743820775,
+        "duration" : 2172
+      }
+    }, {
+      "uid" : "206b77ab1d6d4a7",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/206b77ab1d6d4a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602742995613,
+        "stop" : 1602742997512,
+        "duration" : 1899
+      }
+    } ]
+  },
+  "14b7a136f2f3203039391416243ff08c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "7a353db0201e777b",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/7a353db0201e777b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743830475,
+        "stop" : 1602743832095,
+        "duration" : 1620
+      }
+    }, {
+      "uid" : "4b164635322bda19",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/4b164635322bda19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743006991,
+        "stop" : 1602743008599,
+        "duration" : 1608
+      }
+    } ]
+  },
+  "ed9990a194a60f9ad0fcf18c6ecff138" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "5de728f568e5579e",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/5de728f568e5579e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743935584,
+        "stop" : 1602743938330,
+        "duration" : 2746
+      }
+    }, {
+      "uid" : "b346f2e0bff86e7b",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/b346f2e0bff86e7b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602743109716,
+        "stop" : 1602743111455,
+        "duration" : 1739
+      }
+    } ]
+  },
+  "564c5794f275d1c54e6f4cdda7a5a498" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "89d4518305cc73e4",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/89d4518305cc73e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743816324,
+        "stop" : 1602743818597,
+        "duration" : 2273
+      }
+    }, {
+      "uid" : "6ac56b65a8eaa81a",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/6ac56b65a8eaa81a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602742993254,
+        "stop" : 1602742995607,
+        "duration" : 2353
+      }
+    } ]
+  },
+  "bdd022bb907b923ab80105de26520885" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "19ccd5667dd1b714",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/19ccd5667dd1b714",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743974090,
+        "stop" : 1602743981507,
+        "duration" : 7417
+      }
+    }, {
+      "uid" : "d2f160dccce96586",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/d2f160dccce96586",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602743142625,
+        "stop" : 1602743143716,
+        "duration" : 1091
+      }
+    } ]
+  },
+  "4995dac3f8bf720df7408b7731711e6a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "e74ec92e98176fbd",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/e74ec92e98176fbd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602744005024,
+        "stop" : 1602744010057,
+        "duration" : 5033
+      }
+    }, {
+      "uid" : "38423187f0b97a4b",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/38423187f0b97a4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743181203,
+        "stop" : 1602743187004,
+        "duration" : 5801
+      }
+    } ]
+  },
+  "5006d6d17c210b18d2867d72988acaec" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "2a1a54f7123c921d",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/2a1a54f7123c921d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743989088,
+        "stop" : 1602743993462,
+        "duration" : 4374
+      }
+    }, {
+      "uid" : "cf4d91498d6978e2",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/cf4d91498d6978e2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602743165886,
+        "stop" : 1602743166975,
+        "duration" : 1089
+      }
+    } ]
+  },
+  "33e6f23f42cb649d057c4ef816ecb179" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d0b63099c41fbf23",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/d0b63099c41fbf23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743895491,
+        "stop" : 1602743897157,
+        "duration" : 1666
+      }
+    }, {
+      "uid" : "bbd5f5974073078a",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/bbd5f5974073078a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743071514,
+        "stop" : 1602743072832,
+        "duration" : 1318
+      }
+    } ]
+  },
+  "fb285431288853a7df56b25fe36fca31" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "444f833fe6e24296",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/444f833fe6e24296",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743849943,
+        "stop" : 1602743852441,
+        "duration" : 2498
+      }
+    }, {
+      "uid" : "db5728176a11b885",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/db5728176a11b885",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743026525,
+        "stop" : 1602743029256,
+        "duration" : 2731
+      }
+    } ]
+  },
+  "d9209d919d0b303098b90f3591ca195c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "e71b63b656298880",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/e71b63b656298880",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743824850,
+        "stop" : 1602743826160,
+        "duration" : 1310
+      }
+    }, {
+      "uid" : "a48c20f7c78b5314",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/a48c20f7c78b5314",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743001500,
+        "stop" : 1602743002686,
+        "duration" : 1186
+      }
+    } ]
+  },
+  "8ab120954bf2b46a2bc3ff71fd242d0d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a046de06e3258950",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/a046de06e3258950",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743811747,
+        "stop" : 1602743814006,
+        "duration" : 2259
+      }
+    }, {
+      "uid" : "1f9ec1c30ed8e664",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/1f9ec1c30ed8e664",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602742988736,
+        "stop" : 1602742990932,
+        "duration" : 2196
+      }
+    } ]
+  },
+  "e4bdd838bacc9839cc40ecc4a45b04c4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "3a05e9fa62536acc",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/3a05e9fa62536acc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743938337,
+        "stop" : 1602743956130,
+        "duration" : 17793
+      }
+    }, {
+      "uid" : "47795d15f39ad255",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/47795d15f39ad255",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602743111477,
+        "stop" : 1602743114634,
+        "duration" : 3157
+      }
+    } ]
+  },
+  "7563c2982ab6e2b6101dae0a1d0f1bd0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "48b1d40e116a44c4",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/48b1d40e116a44c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743814011,
+        "stop" : 1602743816320,
+        "duration" : 2309
+      }
+    }, {
+      "uid" : "c2f94ba4878cb9f1",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/c2f94ba4878cb9f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602742990936,
+        "stop" : 1602742993250,
+        "duration" : 2314
+      }
+    } ]
+  },
+  "73ec68d1cb6834909d0de7ce9ff648bb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "fb70559f71a25b7",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/fb70559f71a25b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743828638,
+        "stop" : 1602743830470,
+        "duration" : 1832
+      }
+    }, {
+      "uid" : "1d101f0531d7ec53",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/1d101f0531d7ec53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743005147,
+        "stop" : 1602743006986,
+        "duration" : 1839
+      }
+    } ]
+  },
+  "be120087837e799f9e9cf09f80a7be5f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "1819d1da8761d869",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/1819d1da8761d869",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743923177,
+        "stop" : 1602743929496,
+        "duration" : 6319
+      }
+    }, {
+      "uid" : "b1c2de341b3e228c",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/b1c2de341b3e228c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743097599,
+        "stop" : 1602743103813,
+        "duration" : 6214
+      }
+    } ]
+  },
+  "efaeca4b6bb0cf96c85c3684fe87c555" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "8f8d4385cad1ff97",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/8f8d4385cad1ff97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743826164,
+        "stop" : 1602743827480,
+        "duration" : 1316
+      }
+    }, {
+      "uid" : "857abc7c8435c157",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/857abc7c8435c157",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743002689,
+        "stop" : 1602743003972,
+        "duration" : 1283
+      }
+    } ]
+  },
+  "8ea061cddffa407fc6355a51f44b1d87" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "b194d79526f43d46",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/b194d79526f43d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743897161,
+        "stop" : 1602743897887,
+        "duration" : 726
+      }
+    }, {
+      "uid" : "da18b007f840dbf9",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/da18b007f840dbf9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743072854,
+        "stop" : 1602743073390,
+        "duration" : 536
+      }
+    } ]
+  },
+  "c261a9c441d0e7140f6e32c24137949f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d63c1a46be79766a",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/d63c1a46be79766a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743844882,
+        "stop" : 1602743847719,
+        "duration" : 2837
+      }
+    }, {
+      "uid" : "a9500aaa8cc5f4bd",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/a9500aaa8cc5f4bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743021353,
+        "stop" : 1602743024311,
+        "duration" : 2958
+      }
+    } ]
+  },
+  "25a101ade6a15ab176bbf931d37b166b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "3613a03268b4466e",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/3613a03268b4466e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1602743886108,
+        "stop" : 1602743886108,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "aac4a95ac1eb1c53",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/aac4a95ac1eb1c53",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1602743063034,
+        "stop" : 1602743063034,
+        "duration" : 0
+      }
+    } ]
+  },
+  "68c66bb6dbd1569993e65bbea89f8ec5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "e0f3583b86c5cddd",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/e0f3583b86c5cddd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743809600,
+        "stop" : 1602743811744,
+        "duration" : 2144
+      }
+    }, {
+      "uid" : "686210280f238fee",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/686210280f238fee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602742986537,
+        "stop" : 1602742988720,
+        "duration" : 2183
+      }
+    } ]
+  },
+  "2b194e275782b310086ae914d3876236" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "76de421826cbefb0",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/76de421826cbefb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602744010064,
+        "stop" : 1602744012892,
+        "duration" : 2828
+      }
+    }, {
+      "uid" : "7b8b6c3db1f86a7f",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/7b8b6c3db1f86a7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743187025,
+        "stop" : 1602743190015,
+        "duration" : 2990
+      }
+    } ]
+  },
+  "19b309215be6724c2bb96e9bbe7428c7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "df52e17c2c04e594",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/df52e17c2c04e594",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602744035246,
+        "stop" : 1602744036655,
+        "duration" : 1409
+      }
+    }, {
+      "uid" : "b01c49b3c5750a4a",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/b01c49b3c5750a4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743212560,
+        "stop" : 1602743213739,
+        "duration" : 1179
+      }
+    } ]
+  },
+  "f5aef3764cc547648f1e42bc0ffe9062" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "36188b247914ef8",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/36188b247914ef8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602744034512,
+        "stop" : 1602744035242,
+        "duration" : 730
+      }
+    }, {
+      "uid" : "6e6905ec6f951966",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/6e6905ec6f951966",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743211814,
+        "stop" : 1602743212556,
+        "duration" : 742
+      }
+    } ]
+  },
+  "0c7db919fd10405f04d051a65ee49c16" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "73219d64f8358417",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/73219d64f8358417",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743929502,
+        "stop" : 1602743933212,
+        "duration" : 3710
+      }
+    }, {
+      "uid" : "9081f2da4cc580be",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/9081f2da4cc580be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743103817,
+        "stop" : 1602743107017,
+        "duration" : 3200
+      }
+    } ]
+  },
+  "b643eb7ced0803e5ce320ed1829d1be9" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "5cb2a5686511acf9",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/5cb2a5686511acf9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743982839,
+        "stop" : 1602743985535,
+        "duration" : 2696
+      }
+    }, {
+      "uid" : "36e3597425c66672",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/36e3597425c66672",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602743154311,
+        "stop" : 1602743155431,
+        "duration" : 1120
+      }
+    } ]
+  },
+  "3e1b6362952cf9b9599fe194b35074bd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "6df868e0fd28cb2a",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/6df868e0fd28cb2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743893738,
+        "stop" : 1602743895486,
+        "duration" : 1748
+      }
+    }, {
+      "uid" : "f1507410898de735",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/f1507410898de735",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input type=\"text\" autocomplete=\"off\" placeholder=\"仓库名称\" class=\"el-input__inner\"> is not clickable at point (696, 110). Other element would receive the click: <div role=\"alert\" class=\"el-message el-message--success is-closable\" style=\"z-index: 2248;\">...</div>\n  (Session info: chrome=85.0.4183.102)",
+      "time" : {
+        "start" : 1602743070288,
+        "stop" : 1602743071458,
+        "duration" : 1170
+      }
+    } ]
+  },
+  "0d9e2a6b2a4c276d078bf43e4f9dd603" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d00809535660f7a9",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/d00809535660f7a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743864426,
+        "stop" : 1602743868955,
+        "duration" : 4529
+      }
+    }, {
+      "uid" : "5d686220298cdfd8",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/5d686220298cdfd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743041471,
+        "stop" : 1602743046045,
+        "duration" : 4574
+      }
+    } ]
+  },
+  "ff4e68c1276911caf34f62d29b4ad612" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a98f4acf258764fc",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/a98f4acf258764fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743890877,
+        "stop" : 1602743892664,
+        "duration" : 1787
+      }
+    }, {
+      "uid" : "de224f6416ecb83d",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/de224f6416ecb83d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743067455,
+        "stop" : 1602743068778,
+        "duration" : 1323
+      }
+    } ]
+  },
+  "b9968244fa9823bc3a5f467a7c1b5cb9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "86b223108b153d3b",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/86b223108b153d3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743868960,
+        "stop" : 1602743872430,
+        "duration" : 3470
+      }
+    }, {
+      "uid" : "b212b05d79b25ddd",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/b212b05d79b25ddd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743046050,
+        "stop" : 1602743049444,
+        "duration" : 3394
+      }
+    } ]
+  },
+  "ee70f678639627905222b71834461a2f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a22eb7af881329d6",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/a22eb7af881329d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743858411,
+        "stop" : 1602743861744,
+        "duration" : 3333
+      }
+    }, {
+      "uid" : "5c0839f33dede203",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/5c0839f33dede203",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743035470,
+        "stop" : 1602743038776,
+        "duration" : 3306
+      }
+    } ]
+  },
+  "60e35934bcdc4ce3d25492334e74047a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "54810a205fb0ac5a",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/54810a205fb0ac5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743852446,
+        "stop" : 1602743858111,
+        "duration" : 5665
+      }
+    }, {
+      "uid" : "70891db6e39773f7",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/70891db6e39773f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743029260,
+        "stop" : 1602743035039,
+        "duration" : 5779
+      }
+    } ]
+  },
+  "367cc768965b77b155aee225537004b5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "82822a2497635c54",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/82822a2497635c54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743897891,
+        "stop" : 1602743910488,
+        "duration" : 12597
+      }
+    }, {
+      "uid" : "d1c83618eed611c0",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/d1c83618eed611c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743073394,
+        "stop" : 1602743085698,
+        "duration" : 12304
+      }
+    } ]
+  },
+  "774a41ddb0bf9fa0c32f5b3d25bd1aaa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d58b118437090fb",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/d58b118437090fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743858117,
+        "stop" : 1602743858405,
+        "duration" : 288
+      }
+    }, {
+      "uid" : "99ce29abdfda2b4e",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/99ce29abdfda2b4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743035045,
+        "stop" : 1602743035465,
+        "duration" : 420
+      }
+    } ]
+  },
+  "b784cf21d1c697990760dc282c641d2a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "2ac7223763fe0559",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/2ac7223763fe0559",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743872434,
+        "stop" : 1602743875726,
+        "duration" : 3292
+      }
+    }, {
+      "uid" : "b2957636aa117462",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/b2957636aa117462",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743049449,
+        "stop" : 1602743052772,
+        "duration" : 3323
+      }
+    } ]
+  },
+  "a17ddd4ef0a5a8304a167a6ac8771c61" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "13cef945a800f96d",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/13cef945a800f96d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743802493,
+        "stop" : 1602743807295,
+        "duration" : 4802
+      }
+    }, {
+      "uid" : "67e4d956761e0189",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/67e4d956761e0189",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602742979682,
+        "stop" : 1602742985032,
+        "duration" : 5350
+      }
+    } ]
+  },
+  "b8e2ae8c208f0667d5c8f1a905fedbd2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "f4d2ac1856f97e08",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/f4d2ac1856f97e08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743878628,
+        "stop" : 1602743881954,
+        "duration" : 3326
+      }
+    }, {
+      "uid" : "8c6d235b6fbbb7ad",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/8c6d235b6fbbb7ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743055706,
+        "stop" : 1602743059013,
+        "duration" : 3307
+      }
+    } ]
+  },
+  "44b9bc5727e95f13834b0f08733b1115" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "b47b0f2981fd8826",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/b47b0f2981fd8826",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743910492,
+        "stop" : 1602743923172,
+        "duration" : 12680
+      }
+    }, {
+      "uid" : "4af6b5db99c066",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/4af6b5db99c066",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743085700,
+        "stop" : 1602743097595,
+        "duration" : 11895
+      }
+    } ]
+  },
+  "56fdee46bbcdefba00b38b31bd94a007" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "984589802dd9db15",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/984589802dd9db15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743807301,
+        "stop" : 1602743809596,
+        "duration" : 2295
+      }
+    }, {
+      "uid" : "78021ce081fe5f97",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/78021ce081fe5f97",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602742985036,
+        "stop" : 1602742986241,
+        "duration" : 1205
+      }
+    } ]
+  },
+  "a0a63a59e8851453913635eb83380038" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "9c7b19c60af72349",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/9c7b19c60af72349",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602744032357,
+        "stop" : 1602744034507,
+        "duration" : 2150
+      }
+    }, {
+      "uid" : "210dd9811d81c963",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/210dd9811d81c963",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743209557,
+        "stop" : 1602743211794,
+        "duration" : 2237
+      }
+    } ]
+  },
+  "a6204cd44c3ddfa82b87dee4958398e2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "6e3c4e33cae3b93c",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/6e3c4e33cae3b93c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743875730,
+        "stop" : 1602743878623,
+        "duration" : 2893
+      }
+    }, {
+      "uid" : "28317be178873920",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/28317be178873920",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743052776,
+        "stop" : 1602743055701,
+        "duration" : 2925
+      }
+    } ]
+  },
+  "6573f7f67b760b45da2c073f90d3e9a7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "f7c35dc58470e9c8",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/f7c35dc58470e9c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743861750,
+        "stop" : 1602743864422,
+        "duration" : 2672
+      }
+    }, {
+      "uid" : "74983b867d5753fc",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/74983b867d5753fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743038780,
+        "stop" : 1602743041464,
+        "duration" : 2684
+      }
+    } ]
+  },
+  "8527855a907515676449bf78a60843dd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "6ead1e708dde76ca",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/6ead1e708dde76ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743981512,
+        "stop" : 1602743982834,
+        "duration" : 1322
+      }
+    }, {
+      "uid" : "44b087bbbe30e075",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/44b087bbbe30e075",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1602743143729,
+        "stop" : 1602743154276,
+        "duration" : 10547
+      }
+    } ]
+  },
+  "013fe5a78d1f1effa526877dd66ff00d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "52b8c74ca6cd2561",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/52b8c74ca6cd2561",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743961230,
+        "stop" : 1602743964631,
+        "duration" : 3401
+      }
+    }, {
+      "uid" : "69baf0cbef396a5b",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/69baf0cbef396a5b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602743119825,
+        "stop" : 1602743140800,
+        "duration" : 20975
+      }
+    } ]
+  },
+  "55810965d68601f4b745b109f0b42eaf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "35683214923ef526",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/35683214923ef526",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743892673,
+        "stop" : 1602743893733,
+        "duration" : 1060
+      }
+    }, {
+      "uid" : "456b369483034f02",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/456b369483034f02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743068782,
+        "stop" : 1602743070284,
+        "duration" : 1502
+      }
+    } ]
+  },
+  "803ed4724e9bc311e7ee3c54b7a076ba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "4d651cc811c7548e",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/4d651cc811c7548e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743886113,
+        "stop" : 1602743890872,
+        "duration" : 4759
+      }
+    }, {
+      "uid" : "63a7825860f2907",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/63a7825860f2907",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743063040,
+        "stop" : 1602743067450,
+        "duration" : 4410
+      }
+    } ]
+  },
+  "e5a57bfd5a2970e0386a69be16209af6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "7f9523959e4c2f51",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/7f9523959e4c2f51",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1602743967676,
+        "stop" : 1602743967676,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6c73f6f9e7fb892e",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/6c73f6f9e7fb892e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 这是个问题！！",
+      "time" : {
+        "start" : 1602743141447,
+        "stop" : 1602743141447,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d7ba460789d68c85913013dae9c0a112" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "48d18fa21fa1ed9f",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/48d18fa21fa1ed9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743842557,
+        "stop" : 1602743844877,
+        "duration" : 2320
+      }
+    }, {
+      "uid" : "5ec1c0974a0bbe41",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/5ec1c0974a0bbe41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743019033,
+        "stop" : 1602743021347,
+        "duration" : 2314
+      }
+    } ]
+  },
+  "da20da0e46c01f8190adb1e5368ad81e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "dc7a79be895e7262",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/dc7a79be895e7262",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743933217,
+        "stop" : 1602743934214,
+        "duration" : 997
+      }
+    }, {
+      "uid" : "a66cf8799eeb46d4",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/a66cf8799eeb46d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743107022,
+        "stop" : 1602743108061,
+        "duration" : 1039
+      }
+    } ]
+  },
+  "d50d67c7ed9cc9c2bc66c475f758abe6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "16c27c2012fa4720",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/16c27c2012fa4720",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602744036658,
+        "stop" : 1602744037718,
+        "duration" : 1060
+      }
+    }, {
+      "uid" : "d460b4cef1a30aa4",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/d460b4cef1a30aa4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602743213742,
+        "stop" : 1602743215701,
+        "duration" : 1959
+      }
+    } ]
+  },
+  "99492818b3f1ddc4026b9adf1a8a5904" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "3067705766c9d66b",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/3067705766c9d66b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602744019926,
+        "stop" : 1602744024043,
+        "duration" : 4117
+      }
+    }, {
+      "uid" : "f9f5355bc6a1a66e",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/f9f5355bc6a1a66e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743197104,
+        "stop" : 1602743201138,
+        "duration" : 4034
+      }
+    } ]
+  },
+  "48c78b7c6c98d26a6e29f170fcccea04" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "63e3a1f84c57e51",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/63e3a1f84c57e51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602744012892,
+        "stop" : 1602744019922,
+        "duration" : 7030
+      }
+    }, {
+      "uid" : "8f2a4c96ba0493e2",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/8f2a4c96ba0493e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743190018,
+        "stop" : 1602743197100,
+        "duration" : 7082
+      }
+    } ]
+  },
+  "22d04d95e27e19d9bd91ffe2e2d8cf71" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "e89e42028a82afe7",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/e89e42028a82afe7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743820779,
+        "stop" : 1602743823608,
+        "duration" : 2829
+      }
+    }, {
+      "uid" : "2a6da3c6a58c8b6b",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/2a6da3c6a58c8b6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602742997515,
+        "stop" : 1602743000267,
+        "duration" : 2752
+      }
+    } ]
+  },
+  "3665b9680c4afdac458f2491111699ce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d38d5d00752f704d",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/d38d5d00752f704d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743956135,
+        "stop" : 1602743960588,
+        "duration" : 4453
+      }
+    }, {
+      "uid" : "7219319d785b0a0b",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/7219319d785b0a0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743114650,
+        "stop" : 1602743119248,
+        "duration" : 4598
+      }
+    } ]
+  },
+  "fceaa48d8e9ff91838198842f03cfac0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "1bafac55a143f11b",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/1bafac55a143f11b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743885450,
+        "stop" : 1602743886104,
+        "duration" : 654
+      }
+    }, {
+      "uid" : "4f92159dd0b0e048",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/4f92159dd0b0e048",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743062378,
+        "stop" : 1602743063032,
+        "duration" : 654
+      }
+    } ]
+  },
+  "d69a5fbfcbdc02a72336cbd0dd55f1a4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "8d4e951289fc5759",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/8d4e951289fc5759",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743985540,
+        "stop" : 1602743989083,
+        "duration" : 3543
+      }
+    }, {
+      "uid" : "92443a7cfeb0ee2c",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/92443a7cfeb0ee2c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602743155446,
+        "stop" : 1602743165873,
+        "duration" : 10427
+      }
+    } ]
+  },
+  "08b77450820260d2d2d5039108a1a740" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "4a061a515d4cdf66",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/4a061a515d4cdf66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743881958,
+        "stop" : 1602743883277,
+        "duration" : 1319
+      }
+    }, {
+      "uid" : "faa7e74e00452aa",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/faa7e74e00452aa",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input type=\"text\" autocomplete=\"off\" placeholder=\"供应商名称,联系人\" class=\"el-input__inner\"> is not clickable at point (696, 110). Other element would receive the click: <div role=\"alert\" class=\"el-message el-message--success is-closable\" style=\"z-index: 2218;\">...</div>\n  (Session info: chrome=85.0.4183.102)",
+      "time" : {
+        "start" : 1602743059017,
+        "stop" : 1602743060116,
+        "duration" : 1099
+      }
+    } ]
+  },
+  "3eea43a75ed618139a0d692d263b9fed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "aa98c071df7d7d6a",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/aa98c071df7d7d6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602744029964,
+        "stop" : 1602744032352,
+        "duration" : 2388
+      }
+    }, {
+      "uid" : "d8cf7d5e50f05933",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/d8cf7d5e50f05933",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743207068,
+        "stop" : 1602743209554,
+        "duration" : 2486
+      }
+    } ]
+  },
+  "afb5d68ad52489f90ddcab0ea8a00f0a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "5df510e82a3f5447",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure/#testresult/5df510e82a3f5447",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602744024043,
+        "stop" : 1602744029959,
+        "duration" : 5916
+      }
+    }, {
+      "uid" : "12784ea5b38aa456",
+      "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/12784ea5b38aa456",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743201162,
+        "stop" : 1602743207064,
+        "duration" : 5902
+      }
+    } ]
+  }
+}

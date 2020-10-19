@@ -1,0 +1,208 @@
+{
+  "uid" : "aa36f729b2b8887e",
+  "name" : "test_36[data0]",
+  "fullName" : "test_07.TestSystem#test_36",
+  "historyId" : "3b4fc542554e4829231389f3d5dd6d91",
+  "time" : {
+    "start" : 1602813946202,
+    "stop" : 1602813949446,
+    "duration" : 3244
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "dealer_session_login",
+    "time" : {
+      "start" : 1602813777942,
+      "stop" : 1602813790232,
+      "duration" : 12290
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "dealer_session_login::0",
+    "time" : {
+      "start" : 1602813989406,
+      "stop" : 1602813991678,
+      "duration" : 2272
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "申购"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_07"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "7772-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_07"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add_name': '申购商品', 'add_num': '2'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "396209eab4dad43b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"cell el-tooltip\" style=\"width: 79px;\">...</div> is not clickable at point (933, 404). Other element would receive the click: <div class=\"el-table__body-wrapper is-scrolling-none\" style=\"height: 268px;\">...</div>\n  (Session info: chrome=85.0.4183.102)",
+      "time" : {
+        "start" : 1602813608224,
+        "stop" : 1602813609897,
+        "duration" : 1673
+      }
+    }, {
+      "uid" : "7a26d072991683c2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602813371291,
+        "stop" : 1602813372995,
+        "duration" : 1704
+      }
+    }, {
+      "uid" : "7b9e1e32c3100db4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602813221875,
+        "stop" : 1602813224946,
+        "duration" : 3071
+      }
+    }, {
+      "uid" : "1de1ff1bd9b2e7f9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602812717953,
+        "stop" : 1602812738500,
+        "duration" : 20547
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 6,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "476edf59e9171564",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/24/allure/#testresult/476edf59e9171564",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False is True",
+        "time" : {
+          "start" : 1602813371291,
+          "stop" : 1602813372995,
+          "duration" : 1704
+        }
+      }, {
+        "uid" : "10dd4ff0ec076f9b",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/22/allure/#testresult/10dd4ff0ec076f9b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False is True",
+        "time" : {
+          "start" : 1602810160647,
+          "stop" : 1602810162292,
+          "duration" : 1645
+        }
+      }, {
+        "uid" : "7aee99cc774135c9",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/21/allure/#testresult/7aee99cc774135c9",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False is True",
+        "time" : {
+          "start" : 1602809977788,
+          "stop" : 1602809979353,
+          "duration" : 1565
+        }
+      }, {
+        "uid" : "1e824506feba573e",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/20/allure/#testresult/1e824506feba573e",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False is True",
+        "time" : {
+          "start" : 1602809430585,
+          "stop" : 1602809451094,
+          "duration" : 20509
+        }
+      }, {
+        "uid" : "aa9994f3cdeba250",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/19/allure/#testresult/aa9994f3cdeba250",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False is True",
+        "time" : {
+          "start" : 1602809430585,
+          "stop" : 1602809451094,
+          "duration" : 20509
+        }
+      }, {
+        "uid" : "aef3937659388483",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/18/allure/#testresult/aef3937659388483",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1602809169472,
+          "stop" : 1602809169472,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6d24112621e453c8",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/17/allure/#testresult/6d24112621e453c8",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False is True",
+        "time" : {
+          "start" : 1602764859404,
+          "stop" : 1602764879940,
+          "duration" : 20536
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "aa36f729b2b8887e.json",
+  "parameterValues" : [ "{'add_name': '申购商品', 'add_num': '2'}" ]
+}

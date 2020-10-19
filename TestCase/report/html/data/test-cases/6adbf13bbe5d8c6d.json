@@ -1,0 +1,150 @@
+{
+  "uid" : "6adbf13bbe5d8c6d",
+  "name" : "test_4",
+  "fullName" : "test_10.TestReagent#test_4",
+  "historyId" : "243738ac96cd84f5ee5585e7ee793b91",
+  "time" : {
+    "start" : 1602743934217,
+    "stop" : 1602743935580,
+    "duration" : 1363
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1602743789662,
+      "stop" : 1602743802491,
+      "duration" : 12829
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1602744037719,
+      "stop" : 1602744039942,
+      "duration" : 2223
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "申购流程"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_10"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReagent"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "11292-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_10"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5d0c0fca480df6ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743527981,
+        "stop" : 1602743529263,
+        "duration" : 1282
+      }
+    }, {
+      "uid" : "8c00411a44c38e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743108064,
+        "stop" : 1602743109712,
+        "duration" : 1648
+      }
+    }, {
+      "uid" : "d29c2dae27099abe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602725996967,
+        "stop" : 1602725998332,
+        "duration" : 1365
+      }
+    }, {
+      "uid" : "86befe88ff4f81aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602725064009,
+        "stop" : 1602725065313,
+        "duration" : 1304
+      }
+    }, {
+      "uid" : "9ff976554ecf6ef",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home",
+      "time" : {
+        "start" : 1602724688363,
+        "stop" : 1602724688363,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "1bc554154561eae8",
+        "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/1bc554154561eae8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602743108064,
+          "stop" : 1602743109712,
+          "duration" : 1648
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "6adbf13bbe5d8c6d.json",
+  "parameterValues" : [ ]
+}

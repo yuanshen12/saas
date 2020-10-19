@@ -1,0 +1,73 @@
+[ {
+  "buildOrder" : 13,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/13/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 51,
+    "Test defects" : 35
+  }
+}, {
+  "buildOrder" : 10,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/10/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 21,
+    "Test defects" : 18
+  }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/9/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 10,
+    "Test defects" : 10
+  }
+}, {
+  "buildOrder" : 8,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/8/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 10,
+    "Test defects" : 10
+  }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/7/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 10,
+    "Test defects" : 11
+  }
+}, {
+  "buildOrder" : 6,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/6/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 10,
+    "Test defects" : 10
+  }
+}, {
+  "buildOrder" : 5,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/5/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 10,
+    "Test defects" : 10
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 11,
+    "Test defects" : 10
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 11,
+    "Test defects" : 4
+  }
+} ]

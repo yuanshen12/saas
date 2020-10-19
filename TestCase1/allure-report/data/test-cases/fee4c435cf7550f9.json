@@ -1,0 +1,540 @@
+{
+  "uid" : "fee4c435cf7550f9",
+  "name" : "test_28[data0]",
+  "fullName" : "test_04.TestSystem#test_28",
+  "historyId" : "b784cf21d1c697990760dc282c641d2a",
+  "time" : {
+    "start" : 1602842334022,
+    "stop" : 1602842334022,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: the is bug!",
+  "statusTrace" : "('D:\\\\seleniumweb\\\\saas\\\\TestCase1\\\\test_04.py', 85, 'Skipped: the is bug!')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "dealer_session_login",
+    "time" : {
+      "start" : 1602842211176,
+      "stop" : 1602842224038,
+      "duration" : 12862
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "dealer_session_login::0",
+    "time" : {
+      "start" : 1602842520352,
+      "stop" : 1602842522699,
+      "duration" : 2347
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "商品基础信息"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip('the is bug!')"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_04"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSystem"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "17780-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_04"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add_name': '测试商品', 'add_num': '10', 'add_nums': '50', 'add_1': '一级', 'add_bq': '标签'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "71c3b1951026cc6c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: the is bug!",
+      "time" : {
+        "start" : 1602841589103,
+        "stop" : 1602841589103,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9ba5fdfaaa7e0242",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: the is bug!",
+      "time" : {
+        "start" : 1602841158931,
+        "stop" : 1602841158931,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fe4257b29cb154f1",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: the is bug!",
+      "time" : {
+        "start" : 1602840913225,
+        "stop" : 1602840913225,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "51d217e268e221e6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: the is bug!",
+      "time" : {
+        "start" : 1602840539766,
+        "stop" : 1602840539766,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "143338c11f43e1a3",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: the is bug!",
+      "time" : {
+        "start" : 1602839778490,
+        "stop" : 1602839778490,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c94d8d181eb17889",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: the is bug!",
+      "time" : {
+        "start" : 1602839009010,
+        "stop" : 1602839009010,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9bb20e3629ec54b9",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: the is bug!",
+      "time" : {
+        "start" : 1602828189886,
+        "stop" : 1602828189886,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a065848fa9a4ddd8",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: the is bug!",
+      "time" : {
+        "start" : 1602823654253,
+        "stop" : 1602823654253,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4e9cea25a353babb",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: the is bug!",
+      "time" : {
+        "start" : 1602814413419,
+        "stop" : 1602814413419,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2e723d90913c9a57",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: the is bug!",
+      "time" : {
+        "start" : 1602813929292,
+        "stop" : 1602813929292,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4762f8c19879a153",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: the is bug!",
+      "time" : {
+        "start" : 1602813206437,
+        "stop" : 1602813206437,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "76e8c79de7fbbe7b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: the is bug!",
+      "time" : {
+        "start" : 1602812685908,
+        "stop" : 1602812685908,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "60177e38fc637a8a",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: the is bug!",
+      "time" : {
+        "start" : 1602754072601,
+        "stop" : 1602754072601,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8d25d3b650939ed0",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: the is bug!",
+      "time" : {
+        "start" : 1602753600932,
+        "stop" : 1602753600932,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bd41a116599735",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: the is bug!",
+      "time" : {
+        "start" : 1602753504449,
+        "stop" : 1602753504449,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "33c01211c5e39273",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: the is bug!",
+      "time" : {
+        "start" : 1602753434497,
+        "stop" : 1602753434497,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "12ae888670d492d7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=85.0.4183.102)",
+      "time" : {
+        "start" : 1602752909300,
+        "stop" : 1602752929472,
+        "duration" : 20172
+      }
+    }, {
+      "uid" : "e97886d93050e455",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602752438818,
+        "stop" : 1602752458999,
+        "duration" : 20181
+      }
+    }, {
+      "uid" : "1d6f5f6bd7c3c70a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602752313363,
+        "stop" : 1602752335512,
+        "duration" : 22149
+      }
+    }, {
+      "uid" : "e1504521f88c2134",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602751490148,
+        "stop" : 1602751502651,
+        "duration" : 12503
+      }
+    }, {
+      "uid" : "6f24a4accfbdfd9a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602751408914,
+        "stop" : 1602751419380,
+        "duration" : 10466
+      }
+    }, {
+      "uid" : "ac8162dc0331af4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602750904540,
+        "stop" : 1602750906656,
+        "duration" : 2116
+      }
+    }, {
+      "uid" : "f9fb42055b8a4b7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602750734276,
+        "stop" : 1602750746773,
+        "duration" : 12497
+      }
+    }, {
+      "uid" : "7d9d399262d007ee",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602750607432,
+        "stop" : 1602750618006,
+        "duration" : 10574
+      }
+    }, {
+      "uid" : "c870c32758f6bfb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602750294646,
+        "stop" : 1602750305159,
+        "duration" : 10513
+      }
+    }, {
+      "uid" : "8fdeededa232ff95",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602749900347,
+        "stop" : 1602749910891,
+        "duration" : 10544
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 8,
+        "broken" : 1,
+        "skipped" : 15,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 25
+      },
+      "items" : [ {
+        "uid" : "ce3bd3101feff980",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/27/allure/#testresult/ce3bd3101feff980",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: the is bug!",
+        "time" : {
+          "start" : 1602840913225,
+          "stop" : 1602840913225,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e5978231bce302ca",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/26/allure/#testresult/e5978231bce302ca",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: the is bug!",
+        "time" : {
+          "start" : 1602828189886,
+          "stop" : 1602828189886,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "382de959a0260823",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/25/allure/#testresult/382de959a0260823",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: the is bug!",
+        "time" : {
+          "start" : 1602813206437,
+          "stop" : 1602813206437,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "30e928134457addf",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/24/allure/#testresult/30e928134457addf",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: the is bug!",
+        "time" : {
+          "start" : 1602813206437,
+          "stop" : 1602813206437,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "93b95931587ee44d",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/22/allure/#testresult/93b95931587ee44d",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: the is bug!",
+        "time" : {
+          "start" : 1602809397586,
+          "stop" : 1602809397586,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3d13234a61b790ea",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/21/allure/#testresult/3d13234a61b790ea",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: the is bug!",
+        "time" : {
+          "start" : 1602809397586,
+          "stop" : 1602809397586,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5562b430398caae",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/20/allure/#testresult/5562b430398caae",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: the is bug!",
+        "time" : {
+          "start" : 1602809397586,
+          "stop" : 1602809397586,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e46c56d9f20239b",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/19/allure/#testresult/e46c56d9f20239b",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: the is bug!",
+        "time" : {
+          "start" : 1602809397586,
+          "stop" : 1602809397586,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3302e9ce5f72a35b",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/18/allure/#testresult/3302e9ce5f72a35b",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: the is bug!",
+        "time" : {
+          "start" : 1602809169278,
+          "stop" : 1602809169278,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "81b3662e815ada54",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/17/allure/#testresult/81b3662e815ada54",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: the is bug!",
+        "time" : {
+          "start" : 1602764827434,
+          "stop" : 1602764827434,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f7525e83f527f824",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/16/allure/#testresult/f7525e83f527f824",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: the is bug!",
+        "time" : {
+          "start" : 1602754072601,
+          "stop" : 1602754072601,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "27c7583c8461b5e7",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/15/allure/#testresult/27c7583c8461b5e7",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: the is bug!",
+        "time" : {
+          "start" : 1602753600932,
+          "stop" : 1602753600932,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d95ba4710a3fe427",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/14/allure/#testresult/d95ba4710a3fe427",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: the is bug!",
+        "time" : {
+          "start" : 1602753504449,
+          "stop" : 1602753504449,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "84d11a3956e345ea",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/13/allure/#testresult/84d11a3956e345ea",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: the is bug!",
+        "time" : {
+          "start" : 1602753434497,
+          "stop" : 1602753434497,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "52b489befc2e1d63",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/12/allure/#testresult/52b489befc2e1d63",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=85.0.4183.102)",
+        "time" : {
+          "start" : 1602752909300,
+          "stop" : 1602752929472,
+          "duration" : 20172
+        }
+      }, {
+        "uid" : "351791fada631687",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/11/allure/#testresult/351791fada631687",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False is True",
+        "time" : {
+          "start" : 1602752438818,
+          "stop" : 1602752458999,
+          "duration" : 20181
+        }
+      }, {
+        "uid" : "a4efced3772c601f",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/10/allure/#testresult/a4efced3772c601f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False is True",
+        "time" : {
+          "start" : 1602752313363,
+          "stop" : 1602752335512,
+          "duration" : 22149
+        }
+      }, {
+        "uid" : "4ec36d5ab327ffd9",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/9/allure/#testresult/4ec36d5ab327ffd9",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False is True",
+        "time" : {
+          "start" : 1602751490148,
+          "stop" : 1602751502651,
+          "duration" : 12503
+        }
+      }, {
+        "uid" : "c8af2467216361db",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/8/allure/#testresult/c8af2467216361db",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False is True",
+        "time" : {
+          "start" : 1602751408914,
+          "stop" : 1602751419380,
+          "duration" : 10466
+        }
+      }, {
+        "uid" : "165ebc2382ba1d27",
+        "reportUrl" : "http://localhost:8080/job/JXS%20Allures%20Rport/7/allure/#testresult/165ebc2382ba1d27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602750904540,
+          "stop" : 1602750906656,
+          "duration" : 2116
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.skip('the is bug!')", "smoke" ]
+  },
+  "source" : "fee4c435cf7550f9.json",
+  "parameterValues" : [ "{'add_name': '测试商品', 'add_num': '10', 'add_nums': '50', 'add_1': '一级', 'add_bq': '标签'}" ]
+}

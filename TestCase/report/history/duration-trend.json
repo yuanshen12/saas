@@ -1,0 +1,64 @@
+[ {
+  "buildOrder" : 13,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/13/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 11564561
+  }
+}, {
+  "buildOrder" : 10,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/10/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 1722010
+  }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/9/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 1340986
+  }
+}, {
+  "buildOrder" : 8,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/8/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 1276371
+  }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/7/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 996193
+  }
+}, {
+  "buildOrder" : 6,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/6/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 499060
+  }
+}, {
+  "buildOrder" : 5,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/5/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 227094
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 242302
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 236019
+  }
+} ]

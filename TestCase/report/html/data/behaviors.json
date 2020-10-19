@@ -1,0 +1,979 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "成员管理",
+    "children" : [ {
+      "name" : "test_01[data0]",
+      "uid" : "13cef945a800f96d",
+      "parentUid" : "f7a655af40ad79b56b018580d56baa3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743802493,
+        "stop" : 1602743807295,
+        "duration" : 4802
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add_user': '1562662129@qq.com', 'add_name': '张三'}" ]
+    }, {
+      "name" : "test_02",
+      "uid" : "984589802dd9db15",
+      "parentUid" : "f7a655af40ad79b56b018580d56baa3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743807301,
+        "stop" : 1602743809596,
+        "duration" : 2295
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_03",
+      "uid" : "e0f3583b86c5cddd",
+      "parentUid" : "f7a655af40ad79b56b018580d56baa3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743809600,
+        "stop" : 1602743811744,
+        "duration" : 2144
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_04[data0]",
+      "uid" : "a046de06e3258950",
+      "parentUid" : "f7a655af40ad79b56b018580d56baa3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743811747,
+        "stop" : 1602743814006,
+        "duration" : 2259
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add_user': '1562662129@qq.com', 'add_name': '张三'}" ]
+    }, {
+      "name" : "test_05",
+      "uid" : "48b1d40e116a44c4",
+      "parentUid" : "f7a655af40ad79b56b018580d56baa3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743814011,
+        "stop" : 1602743816320,
+        "duration" : 2309
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_06",
+      "uid" : "89d4518305cc73e4",
+      "parentUid" : "f7a655af40ad79b56b018580d56baa3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743816324,
+        "stop" : 1602743818597,
+        "duration" : 2273
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f7a655af40ad79b56b018580d56baa3a"
+  }, {
+    "name" : "实验室管理",
+    "children" : [ {
+      "name" : "test_07",
+      "uid" : "5d2572242f85ecfd",
+      "parentUid" : "ea03906dd8ad637b15127b1ba83665ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743818603,
+        "stop" : 1602743820775,
+        "duration" : 2172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_08[data0]",
+      "uid" : "e89e42028a82afe7",
+      "parentUid" : "ea03906dd8ad637b15127b1ba83665ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743820779,
+        "stop" : 1602743823608,
+        "duration" : 2829
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add_name': '自动化测试项目', 'add_num': '10'}" ]
+    }, {
+      "name" : "test_09",
+      "uid" : "a16199e99e821da6",
+      "parentUid" : "ea03906dd8ad637b15127b1ba83665ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743823613,
+        "stop" : 1602743824846,
+        "duration" : 1233
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_10",
+      "uid" : "e71b63b656298880",
+      "parentUid" : "ea03906dd8ad637b15127b1ba83665ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743824850,
+        "stop" : 1602743826160,
+        "duration" : 1310
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_11",
+      "uid" : "8f8d4385cad1ff97",
+      "parentUid" : "ea03906dd8ad637b15127b1ba83665ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743826164,
+        "stop" : 1602743827480,
+        "duration" : 1316
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_12",
+      "uid" : "9b6f288495de8828",
+      "parentUid" : "ea03906dd8ad637b15127b1ba83665ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743827484,
+        "stop" : 1602743828634,
+        "duration" : 1150
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_13[data0]",
+      "uid" : "fb70559f71a25b7",
+      "parentUid" : "ea03906dd8ad637b15127b1ba83665ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743828638,
+        "stop" : 1602743830470,
+        "duration" : 1832
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add_name': '自动化测试项目', 'add_num': '10'}" ]
+    }, {
+      "name" : "test_14[data0]",
+      "uid" : "7a353db0201e777b",
+      "parentUid" : "ea03906dd8ad637b15127b1ba83665ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743830475,
+        "stop" : 1602743832095,
+        "duration" : 1620
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'alter_name': '修改测试项目'}" ]
+    }, {
+      "name" : "test_15",
+      "uid" : "69e6dcb1327bce5e",
+      "parentUid" : "ea03906dd8ad637b15127b1ba83665ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743832099,
+        "stop" : 1602743834246,
+        "duration" : 2147
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ea03906dd8ad637b15127b1ba83665ef"
+  }, {
+    "name" : "角色管理",
+    "children" : [ {
+      "name" : "test_16[data0]",
+      "uid" : "5d4ee547ee2dc899",
+      "parentUid" : "cec8a4b0a47bf19e40e312b53a0be942",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743834251,
+        "stop" : 1602743839512,
+        "duration" : 5261
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add': '角色', 'add_1': '角色01', 'add_2': '角色02', 'add_3': '角色03', 'add_4': '角色04'}" ]
+    }, {
+      "name" : "test_17",
+      "uid" : "23a16520a819f172",
+      "parentUid" : "cec8a4b0a47bf19e40e312b53a0be942",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743839517,
+        "stop" : 1602743842553,
+        "duration" : 3036
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_18[data0]",
+      "uid" : "48d18fa21fa1ed9f",
+      "parentUid" : "cec8a4b0a47bf19e40e312b53a0be942",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743842557,
+        "stop" : 1602743844877,
+        "duration" : 2320
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add': '角色', 'add_1': '角色01', 'add_2': '角色02', 'add_3': '角色03', 'add_4': '角色04'}" ]
+    }, {
+      "name" : "test_19",
+      "uid" : "d63c1a46be79766a",
+      "parentUid" : "cec8a4b0a47bf19e40e312b53a0be942",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743844882,
+        "stop" : 1602743847719,
+        "duration" : 2837
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_20[data0]",
+      "uid" : "dee3ff5fa89d4ee4",
+      "parentUid" : "cec8a4b0a47bf19e40e312b53a0be942",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743847724,
+        "stop" : 1602743849939,
+        "duration" : 2215
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add': '角色', 'add_1': '角色01', 'add_2': '角色02', 'add_3': '角色03', 'add_4': '角色04'}" ]
+    }, {
+      "name" : "test_21",
+      "uid" : "444f833fe6e24296",
+      "parentUid" : "cec8a4b0a47bf19e40e312b53a0be942",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743849943,
+        "stop" : 1602743852441,
+        "duration" : 2498
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cec8a4b0a47bf19e40e312b53a0be942"
+  }, {
+    "name" : "试剂耗材信息",
+    "children" : [ {
+      "name" : "test_22[data0]",
+      "uid" : "54810a205fb0ac5a",
+      "parentUid" : "c5bded15dc4ab3e70158f0f30cefcc21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743852446,
+        "stop" : 1602743858111,
+        "duration" : 5665
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add': '自动', 'add_num': '10', 'num_1': '100', 'add_1': '自动测试01', 'add_2': '自动测试02'}" ]
+    }, {
+      "name" : "test_23[data0]",
+      "uid" : "d58b118437090fb",
+      "parentUid" : "c5bded15dc4ab3e70158f0f30cefcc21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743858117,
+        "stop" : 1602743858405,
+        "duration" : 288
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add': '自动', 'add_num': '10', 'num_1': '100', 'add_1': '自动测试01', 'add_2': '自动测试02'}" ]
+    }, {
+      "name" : "test_24[data0]",
+      "uid" : "a22eb7af881329d6",
+      "parentUid" : "c5bded15dc4ab3e70158f0f30cefcc21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743858411,
+        "stop" : 1602743861744,
+        "duration" : 3333
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add_cas': '56-36-89-78'}" ]
+    }, {
+      "name" : "test_25",
+      "uid" : "f7c35dc58470e9c8",
+      "parentUid" : "c5bded15dc4ab3e70158f0f30cefcc21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743861750,
+        "stop" : 1602743864422,
+        "duration" : 2672
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_26[data0]",
+      "uid" : "d00809535660f7a9",
+      "parentUid" : "c5bded15dc4ab3e70158f0f30cefcc21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743864426,
+        "stop" : 1602743868955,
+        "duration" : 4529
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add': '自动', 'add_num': '10', 'num_1': '100', 'add_1': '自动测试01', 'add_2': '自动测试02'}" ]
+    }, {
+      "name" : "test_27[data0]",
+      "uid" : "86b223108b153d3b",
+      "parentUid" : "c5bded15dc4ab3e70158f0f30cefcc21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743868960,
+        "stop" : 1602743872430,
+        "duration" : 3470
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add': '自动', 'add_num': '10', 'num_1': '100', 'add_1': '自动测试01', 'add_2': '自动测试02'}" ]
+    }, {
+      "name" : "test_28[data0]",
+      "uid" : "2ac7223763fe0559",
+      "parentUid" : "c5bded15dc4ab3e70158f0f30cefcc21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743872434,
+        "stop" : 1602743875726,
+        "duration" : 3292
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add': '自动', 'add_num': '10', 'num_1': '100', 'add_1': '自动测试01', 'add_2': '自动测试02'}" ]
+    }, {
+      "name" : "test_29",
+      "uid" : "6e3c4e33cae3b93c",
+      "parentUid" : "c5bded15dc4ab3e70158f0f30cefcc21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743875730,
+        "stop" : 1602743878623,
+        "duration" : 2893
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c5bded15dc4ab3e70158f0f30cefcc21"
+  }, {
+    "name" : "供应商信息",
+    "children" : [ {
+      "name" : "test_19[data0]",
+      "uid" : "f4d2ac1856f97e08",
+      "parentUid" : "da0bd18a660f4e6a0236c5f7205453bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743878628,
+        "stop" : 1602743881954,
+        "duration" : 3326
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add_name': '测试供应商'}" ]
+    }, {
+      "name" : "test_20[data0]",
+      "uid" : "4a061a515d4cdf66",
+      "parentUid" : "da0bd18a660f4e6a0236c5f7205453bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743881958,
+        "stop" : 1602743883277,
+        "duration" : 1319
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add_name': '测试供应商'}" ]
+    }, {
+      "name" : "test_21[data0]",
+      "uid" : "1c0e134f4abbd9cb",
+      "parentUid" : "da0bd18a660f4e6a0236c5f7205453bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743883285,
+        "stop" : 1602743885445,
+        "duration" : 2160
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'alter_name': '修改测试项目'}" ]
+    }, {
+      "name" : "test_22",
+      "uid" : "1bafac55a143f11b",
+      "parentUid" : "da0bd18a660f4e6a0236c5f7205453bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743885450,
+        "stop" : 1602743886104,
+        "duration" : 654
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "da0bd18a660f4e6a0236c5f7205453bd"
+  }, {
+    "name" : "test_23[data0]",
+    "uid" : "3613a03268b4466e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1602743886108,
+      "stop" : 1602743886108,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'add_name': '测试房间'}" ]
+  }, {
+    "name" : "房间信息",
+    "children" : [ {
+      "name" : "test_24[data0]",
+      "uid" : "4d651cc811c7548e",
+      "parentUid" : "39b08fea3e733cd2a605ada395aa95ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743886113,
+        "stop" : 1602743890872,
+        "duration" : 4759
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add_name': '测试房间'}" ]
+    }, {
+      "name" : "test_25[data0]",
+      "uid" : "a98f4acf258764fc",
+      "parentUid" : "39b08fea3e733cd2a605ada395aa95ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743890877,
+        "stop" : 1602743892664,
+        "duration" : 1787
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'alter_name': '测试房间号'}" ]
+    } ],
+    "uid" : "39b08fea3e733cd2a605ada395aa95ce"
+  }, {
+    "name" : "仓库信息",
+    "children" : [ {
+      "name" : "test_26[data0]",
+      "uid" : "35683214923ef526",
+      "parentUid" : "ab8a15dd31a009b7e98deb6cbc2e563d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743892673,
+        "stop" : 1602743893733,
+        "duration" : 1060
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add_name': '测试仓库'}" ]
+    }, {
+      "name" : "test_27[data0]",
+      "uid" : "6df868e0fd28cb2a",
+      "parentUid" : "ab8a15dd31a009b7e98deb6cbc2e563d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743893738,
+        "stop" : 1602743895486,
+        "duration" : 1748
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add_name': '测试仓库'}" ]
+    }, {
+      "name" : "test_28[data0]",
+      "uid" : "d0b63099c41fbf23",
+      "parentUid" : "ab8a15dd31a009b7e98deb6cbc2e563d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743895491,
+        "stop" : 1602743897157,
+        "duration" : 1666
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'alter_name': '楼层位置'}" ]
+    }, {
+      "name" : "test_29",
+      "uid" : "b194d79526f43d46",
+      "parentUid" : "ab8a15dd31a009b7e98deb6cbc2e563d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743897161,
+        "stop" : 1602743897887,
+        "duration" : 726
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ab8a15dd31a009b7e98deb6cbc2e563d"
+  }, {
+    "name" : "审核流程",
+    "children" : [ {
+      "name" : "test_30",
+      "uid" : "82822a2497635c54",
+      "parentUid" : "834eef4be3295d928a769c306b785e90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743897891,
+        "stop" : 1602743910488,
+        "duration" : 12597
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_31",
+      "uid" : "b47b0f2981fd8826",
+      "parentUid" : "834eef4be3295d928a769c306b785e90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743910492,
+        "stop" : 1602743923172,
+        "duration" : 12680
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "834eef4be3295d928a769c306b785e90"
+  }, {
+    "name" : "申购流程",
+    "children" : [ {
+      "name" : "test_1[data0]",
+      "uid" : "1819d1da8761d869",
+      "parentUid" : "2289c963a28abc9c52c94b414597af97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743923177,
+        "stop" : 1602743929496,
+        "duration" : 6319
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add_name': '申购测试', 'add_sum': '1'}" ]
+    }, {
+      "name" : "test_2[data0]",
+      "uid" : "73219d64f8358417",
+      "parentUid" : "2289c963a28abc9c52c94b414597af97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743929502,
+        "stop" : 1602743933212,
+        "duration" : 3710
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add_name': '申购测试', 'add_sum': '1'}" ]
+    }, {
+      "name" : "test_3",
+      "uid" : "dc7a79be895e7262",
+      "parentUid" : "2289c963a28abc9c52c94b414597af97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743933217,
+        "stop" : 1602743934214,
+        "duration" : 997
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_4",
+      "uid" : "6adbf13bbe5d8c6d",
+      "parentUid" : "2289c963a28abc9c52c94b414597af97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743934217,
+        "stop" : 1602743935580,
+        "duration" : 1363
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_5",
+      "uid" : "5de728f568e5579e",
+      "parentUid" : "2289c963a28abc9c52c94b414597af97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743935584,
+        "stop" : 1602743938330,
+        "duration" : 2746
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2289c963a28abc9c52c94b414597af97"
+  }, {
+    "name" : "采购流程",
+    "children" : [ {
+      "name" : "test_6[data0]",
+      "uid" : "3a05e9fa62536acc",
+      "parentUid" : "0e1afedead62b93568f6abe2d545900e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743938337,
+        "stop" : 1602743956130,
+        "duration" : 17793
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'s_name': '测试商家', 'm_name': '采购商品', 'n_num': '1'}" ]
+    }, {
+      "name" : "test_7[data0]",
+      "uid" : "d38d5d00752f704d",
+      "parentUid" : "0e1afedead62b93568f6abe2d545900e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743956135,
+        "stop" : 1602743960588,
+        "duration" : 4453
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'s_name': '测试商家', 'm_name': '采购商品', 'n_num': '1'}" ]
+    }, {
+      "name" : "test_8",
+      "uid" : "fe9695a374b44972",
+      "parentUid" : "0e1afedead62b93568f6abe2d545900e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743960592,
+        "stop" : 1602743961226,
+        "duration" : 634
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_9",
+      "uid" : "52b8c74ca6cd2561",
+      "parentUid" : "0e1afedead62b93568f6abe2d545900e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743961230,
+        "stop" : 1602743964631,
+        "duration" : 3401
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_10",
+      "uid" : "bf5495dc5751c885",
+      "parentUid" : "0e1afedead62b93568f6abe2d545900e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743964635,
+        "stop" : 1602743967672,
+        "duration" : 3037
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_11[data0]",
+      "uid" : "7f9523959e4c2f51",
+      "parentUid" : "0e1afedead62b93568f6abe2d545900e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1602743967676,
+        "stop" : 1602743967676,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add_name': '申购测试', 'add_sum': '1'}" ]
+    } ],
+    "uid" : "0e1afedead62b93568f6abe2d545900e"
+  }, {
+    "name" : "验收入库",
+    "children" : [ {
+      "name" : "test_12",
+      "uid" : "4e13ae87a4c16b14",
+      "parentUid" : "bc6bb4d8a1de821430f278040fc8cd5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743967682,
+        "stop" : 1602743974086,
+        "duration" : 6404
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bc6bb4d8a1de821430f278040fc8cd5d"
+  }, {
+    "name" : "库存",
+    "children" : [ {
+      "name" : "test_13[data0]",
+      "uid" : "19ccd5667dd1b714",
+      "parentUid" : "e0c25665e6fd4e140c93207112581e58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743974090,
+        "stop" : 1602743981507,
+        "duration" : 7417
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add_name': '入库测试', 'add_sum': '5'}" ]
+    }, {
+      "name" : "test_14[data0]",
+      "uid" : "6ead1e708dde76ca",
+      "parentUid" : "e0c25665e6fd4e140c93207112581e58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743981512,
+        "stop" : 1602743982834,
+        "duration" : 1322
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add_name': '入库测试', 'add_sum': '5'}" ]
+    }, {
+      "name" : "test_15[data0]",
+      "uid" : "5cb2a5686511acf9",
+      "parentUid" : "e0c25665e6fd4e140c93207112581e58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743982839,
+        "stop" : 1602743985535,
+        "duration" : 2696
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add_name': '入库测试', 'add_sum': '5'}" ]
+    }, {
+      "name" : "test_16[data0]",
+      "uid" : "8d4e951289fc5759",
+      "parentUid" : "e0c25665e6fd4e140c93207112581e58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743985540,
+        "stop" : 1602743989083,
+        "duration" : 3543
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add_name': '是'}" ]
+    }, {
+      "name" : "test_17",
+      "uid" : "2a1a54f7123c921d",
+      "parentUid" : "e0c25665e6fd4e140c93207112581e58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743989088,
+        "stop" : 1602743993462,
+        "duration" : 4374
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_18[data0]",
+      "uid" : "6050a83d6054d27c",
+      "parentUid" : "e0c25665e6fd4e140c93207112581e58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743993467,
+        "stop" : 1602744005018,
+        "duration" : 11551
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add_name': '入库测试', 'add_sum': '5'}" ]
+    } ],
+    "uid" : "e0c25665e6fd4e140c93207112581e58"
+  }, {
+    "name" : "领用",
+    "children" : [ {
+      "name" : "test_19[data0]",
+      "uid" : "e74ec92e98176fbd",
+      "parentUid" : "6622167f0054f7a264d4f75d10111114",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602744005024,
+        "stop" : 1602744010057,
+        "duration" : 5033
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add_name': '入库测试', 'add_sum': '5'}" ]
+    }, {
+      "name" : "test_20",
+      "uid" : "76de421826cbefb0",
+      "parentUid" : "6622167f0054f7a264d4f75d10111114",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602744010064,
+        "stop" : 1602744012892,
+        "duration" : 2828
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_21",
+      "uid" : "63e3a1f84c57e51",
+      "parentUid" : "6622167f0054f7a264d4f75d10111114",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602744012892,
+        "stop" : 1602744019922,
+        "duration" : 7030
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6622167f0054f7a264d4f75d10111114"
+  }, {
+    "name" : "领用归还",
+    "children" : [ {
+      "name" : "test_22",
+      "uid" : "3067705766c9d66b",
+      "parentUid" : "14eaf0ff0bc2e4485c6631882e832249",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602744019926,
+        "stop" : 1602744024043,
+        "duration" : 4117
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "14eaf0ff0bc2e4485c6631882e832249"
+  }, {
+    "name" : "借用出库",
+    "children" : [ {
+      "name" : "test_23[data0]",
+      "uid" : "5df510e82a3f5447",
+      "parentUid" : "463f832fc846e52cf9b25e9974becc3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602744024043,
+        "stop" : 1602744029959,
+        "duration" : 5916
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'add_name': '张三', 'add_sys': 'A实验室', 'add_sp': '入库测试'}" ]
+    }, {
+      "name" : "test_24",
+      "uid" : "aa98c071df7d7d6a",
+      "parentUid" : "463f832fc846e52cf9b25e9974becc3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602744029964,
+        "stop" : 1602744032352,
+        "duration" : 2388
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "463f832fc846e52cf9b25e9974becc3f"
+  }, {
+    "name" : "盘点",
+    "children" : [ {
+      "name" : "test_25",
+      "uid" : "9c7b19c60af72349",
+      "parentUid" : "0cfbb02f066aac2f5d81446b12e7a20e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602744032357,
+        "stop" : 1602744034507,
+        "duration" : 2150
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_26",
+      "uid" : "36188b247914ef8",
+      "parentUid" : "0cfbb02f066aac2f5d81446b12e7a20e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602744034512,
+        "stop" : 1602744035242,
+        "duration" : 730
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_27",
+      "uid" : "df52e17c2c04e594",
+      "parentUid" : "0cfbb02f066aac2f5d81446b12e7a20e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602744035246,
+        "stop" : 1602744036655,
+        "duration" : 1409
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_28",
+      "uid" : "16c27c2012fa4720",
+      "parentUid" : "0cfbb02f066aac2f5d81446b12e7a20e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602744036658,
+        "stop" : 1602744037718,
+        "duration" : 1060
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0cfbb02f066aac2f5d81446b12e7a20e"
+  } ]
+}

@@ -1,0 +1,154 @@
+{
+  "uid" : "e74ec92e98176fbd",
+  "name" : "test_19[data0]",
+  "fullName" : "test_10.TestReagent#test_19",
+  "historyId" : "4995dac3f8bf720df7408b7731711e6a",
+  "time" : {
+    "start" : 1602744005024,
+    "stop" : 1602744010057,
+    "duration" : 5033
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_login",
+    "time" : {
+      "start" : 1602743789662,
+      "stop" : 1602743802491,
+      "duration" : 12829
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "session_login::0",
+    "time" : {
+      "start" : 1602744037719,
+      "stop" : 1602744039942,
+      "duration" : 2223
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "领用"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "suite",
+    "value" : "test_10"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReagent"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQG3M1K"
+  }, {
+    "name" : "thread",
+    "value" : "11292-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_10"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'add_name': '入库测试', 'add_sum': '5'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "505f0a71636e89bf",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False is True",
+      "time" : {
+        "start" : 1602743582660,
+        "stop" : 1602743583751,
+        "duration" : 1091
+      }
+    }, {
+      "uid" : "c3e11549711cb2bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602743181203,
+        "stop" : 1602743187004,
+        "duration" : 5801
+      }
+    }, {
+      "uid" : "ba7ce8c43def1a8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602726067334,
+        "stop" : 1602726072010,
+        "duration" : 4676
+      }
+    }, {
+      "uid" : "6b769e61d37eff0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602725133204,
+        "stop" : 1602725138119,
+        "duration" : 4915
+      }
+    }, {
+      "uid" : "2e33678a59feb7bf",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home",
+      "time" : {
+        "start" : 1602724689582,
+        "stop" : 1602724689582,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "38423187f0b97a4b",
+        "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure/#testresult/38423187f0b97a4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602743181203,
+          "stop" : 1602743187004,
+          "duration" : 5801
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "e74ec92e98176fbd.json",
+  "parameterValues" : [ "{'add_name': '入库测试', 'add_sum': '5'}" ]
+}

@@ -1,0 +1,134 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert False is True",
+      "children" : [ {
+        "name" : "test_07",
+        "uid" : "ad24f57237b087bf",
+        "parentUid" : "b753cc2371eaf4f8dcc68f5839b988a8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602813814897,
+          "stop" : 1602813816395,
+          "duration" : 1498
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_08[data0]",
+        "uid" : "7b6bfc8426aeaf55",
+        "parentUid" : "b753cc2371eaf4f8dcc68f5839b988a8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602813816798,
+          "stop" : 1602813817905,
+          "duration" : 1107
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ "{'add_name': '测试部', 'add_b': '这是备注'}" ]
+      }, {
+        "name" : "test_09[data0]",
+        "uid" : "d5309d4cd4398cd9",
+        "parentUid" : "b753cc2371eaf4f8dcc68f5839b988a8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602813817922,
+          "stop" : 1602813819053,
+          "duration" : 1131
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ "{'add_name': '测试部', 'add_b': '这是备注'}" ]
+      }, {
+        "name" : "test_10",
+        "uid" : "93ab92a5c59f96cd",
+        "parentUid" : "b753cc2371eaf4f8dcc68f5839b988a8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602813819072,
+          "stop" : 1602813820722,
+          "duration" : 1650
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_10[data0]",
+        "uid" : "d6b15a5c6c2f7c7b",
+        "parentUid" : "b753cc2371eaf4f8dcc68f5839b988a8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602813820731,
+          "stop" : 1602813832086,
+          "duration" : 11355
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ "{'add': '测试', 'add_1': '测试01', 'add_2': '测试02', 'add_3': '测试03'}" ]
+      }, {
+        "name" : "test_11",
+        "uid" : "530976e4e5ca6b37",
+        "parentUid" : "b753cc2371eaf4f8dcc68f5839b988a8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602813832112,
+          "stop" : 1602813852626,
+          "duration" : 20514
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_12[data0]",
+        "uid" : "43e77a755df0a4d2",
+        "parentUid" : "b753cc2371eaf4f8dcc68f5839b988a8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602813852644,
+          "stop" : 1602813863146,
+          "duration" : 10502
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ "{'add': '测试', 'add_1': '测试01', 'add_2': '测试02', 'add_3': '测试03'}" ]
+      }, {
+        "name" : "test_13",
+        "uid" : "a3f858a37f0aa1fa",
+        "parentUid" : "b753cc2371eaf4f8dcc68f5839b988a8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602813863165,
+          "stop" : 1602813883716,
+          "duration" : 20551
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b753cc2371eaf4f8dcc68f5839b988a8"
+    }, {
+      "name" : "AssertionError: assert None is True",
+      "children" : [ {
+        "name" : "test_48",
+        "uid" : "89f0d028e3c16879",
+        "parentUid" : "cd63ce95577f7b9e810ed3ec130e4cc2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602813988616,
+          "stop" : 1602813989400,
+          "duration" : 784
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd63ce95577f7b9e810ed3ec130e4cc2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,25 @@
+[ {
+  "buildOrder" : 4,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/4/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 2,
+    "passed" : 68,
+    "unknown" : 0,
+    "total" : 70
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:8080/job/SYX%20Allures%20Rport/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 11,
+    "broken" : 4,
+    "skipped" : 2,
+    "passed" : 53,
+    "unknown" : 0,
+    "total" : 70
+  }
+} ]
